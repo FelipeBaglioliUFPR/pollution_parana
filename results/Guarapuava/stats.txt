@@ -1,0 +1,140 @@
+Municipio:  Guarapuava 
+
+Sensores utilizados:  [112, 111]
+Data Inicial:  2023-11-25 00:00:00
+Data Final:  2024-03-06 00:00:00
+Dias totais:  102 days 00:00:00
+Dias validos:  102 days 00:00:00
+PM1.0:
+Valor máximo:  17.518495212038303 , em  2024-01-20 00:00:00
+Valor médio:  6.306902456526018
+Desvio padrão:  11.421756538001802
+Última medida:  4.169691943127962 ug/cm3, em  2024-03-06 00:00:00
+Dias acima da AQG (24h) ***:  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
+
+PM2.5:
+Valor máximo:  24.844829001367987 , em  2024-01-20 00:00:00
+Valor médio:  8.437172786522243
+Desvio padrão:  11.421756538001802
+Última medida:  5.822274881516588 ug/cm3, em  2024-03-06 00:00:00
+Dias acima da AQG (24h):  6
+Máximo de dias consecutivos acima da AQG (24h):  2 
+
+PM10:
+Valor máximo:  29.269589603283173 , em  2024-01-20 00:00:00
+Valor médio:  118.36921945954296
+Desvio padrao:  11.421756538001802
+Última medida:  6.573791469194313 ug/cm3, em  2024-03-06 00:00:00
+Dias acima da AQG (24h):  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
+
+VOC:
+Valor máximo:  139.9400636942675 , em  2024-01-02 00:00:00
+Valor médio:  118.36921945954296
+Desvio padrao:  11.421756538001802
+Municipio:  Guarapuava 
+
+Sensores utilizados:  [112, 111]
+Data Inicial:  2023-11-25 00:00:00
+Data Final:  2024-03-06 00:00:00
+Dias totais:  102 days 00:00:00
+Dias validos:  102 days 00:00:00
+PM1.0:
+Valor máximo:  17.518495212038303 , em  2024-01-20 00:00:00
+Valor médio:  6.306902456526018
+Desvio padrão:  11.421756538001802
+Última medida:  4.169691943127962 ug/cm3, em  2024-03-06 00:00:00
+Dias acima da AQG (24h) ***:  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
+
+PM2.5:
+Valor máximo:  24.844829001367987 , em  2024-01-20 00:00:00
+Valor médio:  8.437172786522243
+Desvio padrão:  11.421756538001802
+Última medida:  5.822274881516588 ug/cm3, em  2024-03-06 00:00:00
+Dias acima da AQG (24h):  6
+Máximo de dias consecutivos acima da AQG (24h):  2 
+
+PM10:
+Valor máximo:  29.269589603283173 , em  2024-01-20 00:00:00
+Valor médio:  118.36921945954296
+Desvio padrao:  11.421756538001802
+Última medida:  6.573791469194313 ug/cm3, em  2024-03-06 00:00:00
+Dias acima da AQG (24h):  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
+
+VOC:
+Valor máximo:  139.9400636942675 , em  2024-01-02 00:00:00
+Valor médio:  118.36921945954296
+Desvio padrao:  11.421756538001802
+Municipio:  Guarapuava 
+
+Sensores utilizados:  [112, 111]
+Data Inicial:  2023-11-25 00:00:00
+Data Final:  2024-03-06 00:00:00
+Dias totais:  102 days 00:00:00
+Dias validos:  102 days 00:00:00
+PM1.0:
+Valor máximo:  17.518495212038303 , em  2024-01-20 00:00:00
+Valor médio:  6.306902456526018
+Desvio padrão:  11.421756538001802
+Última medida:  4.169691943127962 ug/cm3, em  2024-03-06 00:00:00
+Dias acima da AQG (24h) ***:  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
+
+PM2.5:
+Valor máximo:  24.844829001367987 , em  2024-01-20 00:00:00
+Valor médio:  8.437172786522243
+Desvio padrão:  11.421756538001802
+Última medida:  2.05 ug/cm3, em  2024-03-05 14:27:52
+Dias acima da AQG (24h):  6
+Máximo de dias consecutivos acima da AQG (24h):  2 
+
+PM10:
+Valor máximo:  29.269589603283173 , em  2024-01-20 00:00:00
+Valor médio:  118.36921945954296
+Desvio padrao:  11.421756538001802
+Última medida:  6.573791469194313 ug/cm3, em  2024-03-06 00:00:00
+Dias acima da AQG (24h):  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
+
+VOC:
+Valor máximo:  139.9400636942675 , em  2024-01-02 00:00:00
+Valor médio:  118.36921945954296
+Desvio padrao:  11.421756538001802
+Municipio:  Guarapuava 
+
+Sensores utilizados:  [112, 111]
+Data Inicial:  2023-11-25 00:00:00
+Data Final:  2024-03-06 00:00:00
+Dias totais:  102 days 00:00:00
+Dias validos:  102 days 00:00:00
+PM1.0:
+Valor máximo:  17.518495212038303 , em  2024-01-20 00:00:00
+Valor médio:  6.306902456526018
+Desvio padrão:  11.421756538001802
+Última medida:  4.169691943127962 ug/cm3, em  2024-03-06 00:00:00
+Dias acima da AQG (24h) ***:  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
+
+PM2.5:
+Valor máximo:  24.844829001367987 , em  2024-01-20 00:00:00
+Valor médio:  8.437172786522243
+Desvio padrão:  11.421756538001802
+Última medida:  2.05 ug/cm3, em  2024-03-05 14:27:52
+Dias acima da AQG (24h):  6
+Máximo de dias consecutivos acima da AQG (24h):  2 
+
+PM10:
+Valor máximo:  29.269589603283173 , em  2024-01-20 00:00:00
+Valor médio:  118.36921945954296
+Desvio padrao:  11.421756538001802
+Última medida:  6.573791469194313 ug/cm3, em  2024-03-06 00:00:00
+Dias acima da AQG (24h):  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
+
+VOC:
+Valor máximo:  139.9400636942675 , em  2024-01-02 00:00:00
+Valor médio:  118.36921945954296
+Desvio padrao:  11.421756538001802
