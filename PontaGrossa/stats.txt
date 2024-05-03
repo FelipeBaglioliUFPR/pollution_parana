@@ -1,0 +1,70 @@
+Municipio:  Ponta Grossa 
+
+Sensores utilizados:  [187799]
+Data Inicial:  2024-03-29 00:00:00
+Data Final:  2024-05-02 00:00:00
+Dias totais:  34 days 00:00:00
+Dias validos:  34 days 00:00:00
+PM1.0:
+Valor máximo:  18.714 , em  2024-04-05 00:00:00
+Valor médio:  8.127685714285715
+Desvio padrão:  5.627429562031875
+Última medida:  6.888 ug/cm3, em  2024-05-02 00:00:00
+Dias acima da AQG (24h) ***:  2
+Máximo de dias consecutivos acima da AQG (24h):  2 
+
+PM2.5:
+Valor máximo:  24.8285 , em  2024-04-05 00:00:00
+Valor médio:  10.559085714285715
+Desvio padrão:  5.627429562031875
+Última medida:  2.63 ug/cm3, em  2024-05-03 08:21:57
+Dias acima da AQG (24h):  6
+Máximo de dias consecutivos acima da AQG (24h):  2 
+
+PM10:
+Valor máximo:  27.322000000000003 , em  2024-04-05 00:00:00
+Valor médio:  75.99522857142856
+Desvio padrao:  5.627429562031875
+Última medida:  10.072 ug/cm3, em  2024-05-02 00:00:00
+Dias acima da AQG (24h):  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
+
+VOC:
+Valor máximo:  86.187 , em  2024-04-12 00:00:00
+Valor médio:  75.99522857142856
+Desvio padrao:  5.627429562031875
+Municipio:  Ponta Grossa 
+
+Sensores utilizados:  [187799]
+Data Inicial:  2024-03-29 00:00:00
+Data Final:  2024-05-02 00:00:00
+Dias totais:  34 days 00:00:00
+Dias validos:  34 days 00:00:00
+PM1.0:
+Valor máximo:  18.714 , em  2024-04-05 00:00:00
+Valor médio:  8.127685714285715
+Desvio padrão:  5.627429562031875
+Última medida:  6.888 ug/cm3, em  2024-05-02 00:00:00
+Dias acima da AQG (24h) ***:  2
+Máximo de dias consecutivos acima da AQG (24h):  2 
+
+PM2.5:
+Valor máximo:  24.8285 , em  2024-04-05 00:00:00
+Valor médio:  10.559085714285715
+Desvio padrão:  5.627429562031875
+Última medida:  2.26 ug/cm3, em  2024-05-03 08:47:58
+Dias acima da AQG (24h):  6
+Máximo de dias consecutivos acima da AQG (24h):  2 
+
+PM10:
+Valor máximo:  27.322000000000003 , em  2024-04-05 00:00:00
+Valor médio:  75.99522857142856
+Desvio padrao:  5.627429562031875
+Última medida:  10.072 ug/cm3, em  2024-05-02 00:00:00
+Dias acima da AQG (24h):  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
+
+VOC:
+Valor máximo:  86.187 , em  2024-04-12 00:00:00
+Valor médio:  75.99522857142856
+Desvio padrao:  5.627429562031875
