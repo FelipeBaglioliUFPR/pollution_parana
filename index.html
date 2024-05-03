@@ -12,7 +12,7 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6c7c323b293e0b0accb1a121e07fc025 {
+                #map_cf691fbb9e8c37744efbdd7f3901619c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -59,7 +59,7 @@
             bottom: 20px; left: 20px; width: auto; height: auto;
             z-index: 1000; background-color: rgba(255, 255, 255, 1);
             padding: 5px; border-radius: 5px;">
-    <p style="font-size: 12px; margin: 0;">Last update: 03/05/24 15:15:04 © LabAir UFPR</p>
+    <p style="font-size: 12px; margin: 0;">Last update: 03/05/24 15:41:11 Â© LabAir UFPR</p>
 </div>
     
 <style>
@@ -139,18 +139,20 @@
 
 <div class="info-content" id="infoContent" style="left: -100%;">
     <div class="info-title">
-        <h2>Concentration of PM2.5 in Paraná-Brazil</h2>
+        <h2>Concentration of PM2.5 in ParanÃ¡-Brazil</h2>
     </div>
     <div class="info-content-inner">
         <!-- Add your content here -->
-        The map shows PM2.5 concentration for different cities in Paraná, Brazil. <br>
-        <br>The size of each circle represent the value of the last measurement, also shown in the number inside each circle (ug/m³). <br>
+        The map shows PM2.5 concentration for different cities in ParanÃ¡, Brazil. <br>
+        <br>The size of each circle represent the value of the last measurement, also shown in the number inside each circle (ug/mÂ³). <br>
         <br>Aditionally, the color of the circles are sorted according to the average concentration measured in each city, as shown on the legend.
         That means that the size of the circle represents the current state of the air quality. Meanwhile, the color represents the average state of the air quality. <br>
         <br>Aditional information can be obtained by clicking on each circle, including the number of days used for average calculation and the date of the last measurement. <br>
 
         <br>A file containing the processed data used in this map in a tabular format is available at <a href="https://github.com/FelipeBaglioliUFPR/pollution_parana/blob/main/results/general/processed_data.csv"> this link</a>.
         Full datasets cannot be provided due to copyright obligations. <br>
+
+        <br> If the updated page is not being correctly displayed, or values are too old, you might need to clear our browser's cache. <br>
         <br><br>Contact: <a href="felipebaglioli@ufpr.br">felipebaglioli@ufpr.br</a>
 
         <div class="image-container">
@@ -197,14 +199,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
     
-            <div class="folium-map" id="map_6c7c323b293e0b0accb1a121e07fc025" ></div>
+            <div class="folium-map" id="map_cf691fbb9e8c37744efbdd7f3901619c" ></div>
         
 </body>
 <script>
     
     
-            var map_6c7c323b293e0b0accb1a121e07fc025 = L.map(
-                "map_6c7c323b293e0b0accb1a121e07fc025",
+            var map_cf691fbb9e8c37744efbdd7f3901619c = L.map(
+                "map_cf691fbb9e8c37744efbdd7f3901619c",
                 {
                     center: [-25.00439409090909, -51.900808272727275],
                     crs: L.CRS.EPSG3857,
@@ -218,1019 +220,1022 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
     
-            var tile_layer_910ad8b92fa0040691c25fb55137998a = L.tileLayer(
-                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            var tile_layer_154714e605e45cd489a350986cd2e9da = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
         
     
-            var circle_marker_dcc3a59db27b25167a4e4f896e78e4ab = L.circleMarker(
+            tile_layer_154714e605e45cd489a350986cd2e9da.addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
+        
+    
+            var circle_marker_8fc1873d1b13ac9375cea3bfede7bc8b = L.circleMarker(
                 [-24.657222, -48.991111],
-                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.55, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.674999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_33f4ae193c9074b8c55bcf9c68a6618f = L.popup({"maxWidth": "100%"});
+        var popup_11f81e3141bc005417d55d4c7ab6c9de = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_03df4210379358b666c1fa6f3e6aa254 = $(`<div id="html_03df4210379358b666c1fa6f3e6aa254" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Adrianopolis<br><br>         <b>Last Measurement value (PM2.5):</b> 4.110 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:29<br><br>         <b>Average Concentration (PM2.5):</b> 5.202 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 17.003 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 1 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.657222, -48.991111</div>         <img src="results/Adrianopolis/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_33f4ae193c9074b8c55bcf9c68a6618f.setContent(html_03df4210379358b666c1fa6f3e6aa254);
+                var html_5b44eaae61f43ef418fd8d1f4a784927 = $(`<div id="html_5b44eaae61f43ef418fd8d1f4a784927" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Adrianopolis<br><br>         <b>Last Measurement value (PM2.5):</b> 3.135 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:37:29<br><br>         <b>Average Concentration (PM2.5):</b> 5.202 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 17.003 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 1 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.657222, -48.991111</div>         <img src="results/Adrianopolis/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_11f81e3141bc005417d55d4c7ab6c9de.setContent(html_5b44eaae61f43ef418fd8d1f4a784927);
             
         
 
-        circle_marker_dcc3a59db27b25167a4e4f896e78e4ab.bindPopup(popup_33f4ae193c9074b8c55bcf9c68a6618f)
+        circle_marker_8fc1873d1b13ac9375cea3bfede7bc8b.bindPopup(popup_11f81e3141bc005417d55d4c7ab6c9de)
         ;
 
         
     
     
-            var circle_42b8a023514a91d6bfe1c18131540512 = L.circle(
+            var circle_6f0358d4ff4d20abfee3364e0d1880ae = L.circle(
                 [-24.657222, -48.991111],
-                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 102.75, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 78.375, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_6d986007b0b64b7911cea050c5874456 = L.popup({"maxWidth": "100%"});
+        var popup_927fa3acd8a53bfb21e621de5050593d = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_284990e78ac9eb68f564f9b37e61d070 = $(`<div id="html_284990e78ac9eb68f564f9b37e61d070" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Adrianopolis<br><br>         <b>Last Measurement value (PM2.5):</b> 4.110 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:29<br><br>         <b>Average Concentration (PM2.5):</b> 5.202 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 17.003 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 1 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.657222, -48.991111</div>         <img src="results/Adrianopolis/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_6d986007b0b64b7911cea050c5874456.setContent(html_284990e78ac9eb68f564f9b37e61d070);
+                var html_e9ecc5bbc65520546392b6fbb7e81c7a = $(`<div id="html_e9ecc5bbc65520546392b6fbb7e81c7a" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Adrianopolis<br><br>         <b>Last Measurement value (PM2.5):</b> 3.135 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:37:29<br><br>         <b>Average Concentration (PM2.5):</b> 5.202 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 17.003 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 1 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.657222, -48.991111</div>         <img src="results/Adrianopolis/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_927fa3acd8a53bfb21e621de5050593d.setContent(html_e9ecc5bbc65520546392b6fbb7e81c7a);
             
         
 
-        circle_42b8a023514a91d6bfe1c18131540512.bindPopup(popup_6d986007b0b64b7911cea050c5874456)
+        circle_6f0358d4ff4d20abfee3364e0d1880ae.bindPopup(popup_927fa3acd8a53bfb21e621de5050593d)
         ;
 
         
     
     
-            var marker_256c48f0665bc3afa9efb374bc50e84a = L.marker(
-                [-24.657222, -48.991111],
-                {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
-        
-    
-            var div_icon_cf827d85a7e3b69881a6f87de93afc07 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               4.1\u003c/div\u003e\n    "});
-            marker_256c48f0665bc3afa9efb374bc50e84a.setIcon(div_icon_cf827d85a7e3b69881a6f87de93afc07);
-        
-    
-        var popup_a195397ab111d673a318a1fe6d30107a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_cf3538eafce11a64acd4d3509adff50e = $(`<div id="html_cf3538eafce11a64acd4d3509adff50e" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Adrianopolis<br><br>         <b>Last Measurement value (PM2.5):</b> 4.110 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:29<br><br>         <b>Average Concentration (PM2.5):</b> 5.202 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 17.003 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 1 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.657222, -48.991111</div>         <img src="results/Adrianopolis/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_a195397ab111d673a318a1fe6d30107a.setContent(html_cf3538eafce11a64acd4d3509adff50e);
-            
-        
-
-        marker_256c48f0665bc3afa9efb374bc50e84a.bindPopup(popup_a195397ab111d673a318a1fe6d30107a)
-        ;
-
-        
-    
-    
-            var marker_4d126e726ef7b0d4919627fb20bfd0db = L.marker(
+            var marker_8a501085bdae4fffae0991cbabcc032b = L.marker(
                 [-24.657222, -48.991111],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_f887df92c07a737bf3d835d0c924ff86 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -35.55px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Adrianopolis\u003c/div\u003e\n    "});
-            marker_4d126e726ef7b0d4919627fb20bfd0db.setIcon(div_icon_f887df92c07a737bf3d835d0c924ff86);
+            var div_icon_e38cbe89f31dd55a3b9fc92a92a328cc = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               3.1\u003c/div\u003e\n    "});
+            marker_8a501085bdae4fffae0991cbabcc032b.setIcon(div_icon_e38cbe89f31dd55a3b9fc92a92a328cc);
         
     
-        var popup_60fa9db5c8f470beaf6419b3cc6394b2 = L.popup({"maxWidth": "100%"});
+        var popup_68ed820faafb2539d62d830730df0ec0 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_9e0ea5d0cd1a0518f7385b5745354a8a = $(`<div id="html_9e0ea5d0cd1a0518f7385b5745354a8a" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Adrianopolis<br><br>         <b>Last Measurement value (PM2.5):</b> 4.110 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:29<br><br>         <b>Average Concentration (PM2.5):</b> 5.202 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 17.003 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 1 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.657222, -48.991111</div>         <img src="results/Adrianopolis/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_60fa9db5c8f470beaf6419b3cc6394b2.setContent(html_9e0ea5d0cd1a0518f7385b5745354a8a);
+                var html_30067b629fc9cf2424d3a33f00570e85 = $(`<div id="html_30067b629fc9cf2424d3a33f00570e85" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Adrianopolis<br><br>         <b>Last Measurement value (PM2.5):</b> 3.135 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:37:29<br><br>         <b>Average Concentration (PM2.5):</b> 5.202 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 17.003 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 1 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.657222, -48.991111</div>         <img src="results/Adrianopolis/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_68ed820faafb2539d62d830730df0ec0.setContent(html_30067b629fc9cf2424d3a33f00570e85);
             
         
 
-        marker_4d126e726ef7b0d4919627fb20bfd0db.bindPopup(popup_60fa9db5c8f470beaf6419b3cc6394b2)
+        marker_8a501085bdae4fffae0991cbabcc032b.bindPopup(popup_68ed820faafb2539d62d830730df0ec0)
         ;
 
         
     
     
-            var circle_marker_bc764cc78c711d81333b648350224967 = L.circleMarker(
+            var marker_7acf8a7d529edf3eedd25fd226ebbc4d = L.marker(
+                [-24.657222, -48.991111],
+                {}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
+        
+    
+            var div_icon_d39d724a4550224164d0258dde8bebfd = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -30.674999999999997px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Adrianopolis\u003c/div\u003e\n    "});
+            marker_7acf8a7d529edf3eedd25fd226ebbc4d.setIcon(div_icon_d39d724a4550224164d0258dde8bebfd);
+        
+    
+        var popup_c8b06548e814df4688afcf67ac444331 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be5a9885ad02790aed1a31ab88534b1b = $(`<div id="html_be5a9885ad02790aed1a31ab88534b1b" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Adrianopolis<br><br>         <b>Last Measurement value (PM2.5):</b> 3.135 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:37:29<br><br>         <b>Average Concentration (PM2.5):</b> 5.202 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 17.003 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 1 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.657222, -48.991111</div>         <img src="results/Adrianopolis/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_c8b06548e814df4688afcf67ac444331.setContent(html_be5a9885ad02790aed1a31ab88534b1b);
+            
+        
+
+        marker_7acf8a7d529edf3eedd25fd226ebbc4d.bindPopup(popup_c8b06548e814df4688afcf67ac444331)
+        ;
+
+        
+    
+    
+            var circle_marker_c2eadfe1edecae3c1349255a332910b1 = L.circleMarker(
                 [-24.045556, -52.383056],
-                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.9625, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.837500000000002, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_7bf138eb25934342cbd1ae1674814a20 = L.popup({"maxWidth": "100%"});
+        var popup_f633e2036a648965140f731c44878e24 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_5eb31f67c0d33791794e7561b49fb7f2 = $(`<div id="html_5eb31f67c0d33791794e7561b49fb7f2" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Campo Mourao<br><br>         <b>Last Measurement value (PM2.5):</b> 3.792 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:31<br><br>         <b>Average Concentration (PM2.5):</b> 6.156 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 17.570 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.045556, -52.383056</div>         <img src="results/CampoMourao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_7bf138eb25934342cbd1ae1674814a20.setContent(html_5eb31f67c0d33791794e7561b49fb7f2);
+                var html_fd4d868c0f71ddec38c1f0b7e6b52d23 = $(`<div id="html_fd4d868c0f71ddec38c1f0b7e6b52d23" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Campo Mourao<br><br>         <b>Last Measurement value (PM2.5):</b> 4.168 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:39:32<br><br>         <b>Average Concentration (PM2.5):</b> 6.156 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 17.570 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.045556, -52.383056</div>         <img src="results/CampoMourao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_f633e2036a648965140f731c44878e24.setContent(html_fd4d868c0f71ddec38c1f0b7e6b52d23);
             
         
 
-        circle_marker_bc764cc78c711d81333b648350224967.bindPopup(popup_7bf138eb25934342cbd1ae1674814a20)
+        circle_marker_c2eadfe1edecae3c1349255a332910b1.bindPopup(popup_f633e2036a648965140f731c44878e24)
         ;
 
         
     
     
-            var circle_106518ad33f1e37691d4e61ad48809fb = L.circle(
+            var circle_f92ad664aeef6341e13d54d7babd0989 = L.circle(
                 [-24.045556, -52.383056],
-                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 94.8125, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 104.18750000000001, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_2349f7517bee4ee22d5a004e0e1655b1 = L.popup({"maxWidth": "100%"});
+        var popup_0a7ce62e170febf518e5558ea589639e = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_ff440f80e65d3695e869b83293ada898 = $(`<div id="html_ff440f80e65d3695e869b83293ada898" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Campo Mourao<br><br>         <b>Last Measurement value (PM2.5):</b> 3.792 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:31<br><br>         <b>Average Concentration (PM2.5):</b> 6.156 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 17.570 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.045556, -52.383056</div>         <img src="results/CampoMourao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_2349f7517bee4ee22d5a004e0e1655b1.setContent(html_ff440f80e65d3695e869b83293ada898);
+                var html_d38ebc42e3c4a1aa509862652bc101a9 = $(`<div id="html_d38ebc42e3c4a1aa509862652bc101a9" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Campo Mourao<br><br>         <b>Last Measurement value (PM2.5):</b> 4.168 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:39:32<br><br>         <b>Average Concentration (PM2.5):</b> 6.156 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 17.570 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.045556, -52.383056</div>         <img src="results/CampoMourao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_0a7ce62e170febf518e5558ea589639e.setContent(html_d38ebc42e3c4a1aa509862652bc101a9);
             
         
 
-        circle_106518ad33f1e37691d4e61ad48809fb.bindPopup(popup_2349f7517bee4ee22d5a004e0e1655b1)
+        circle_f92ad664aeef6341e13d54d7babd0989.bindPopup(popup_0a7ce62e170febf518e5558ea589639e)
         ;
 
         
     
     
-            var marker_15a21c7ba18239c968d426d529627f8a = L.marker(
-                [-24.045556, -52.383056],
-                {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
-        
-    
-            var div_icon_3957ebe169a7f15c668a6d98c633f154 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               3.8\u003c/div\u003e\n    "});
-            marker_15a21c7ba18239c968d426d529627f8a.setIcon(div_icon_3957ebe169a7f15c668a6d98c633f154);
-        
-    
-        var popup_35fecbcbf36058072a4798eea0d563c8 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_76f26d979640b4d0112f7bc188fdb508 = $(`<div id="html_76f26d979640b4d0112f7bc188fdb508" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Campo Mourao<br><br>         <b>Last Measurement value (PM2.5):</b> 3.792 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:31<br><br>         <b>Average Concentration (PM2.5):</b> 6.156 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 17.570 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.045556, -52.383056</div>         <img src="results/CampoMourao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_35fecbcbf36058072a4798eea0d563c8.setContent(html_76f26d979640b4d0112f7bc188fdb508);
-            
-        
-
-        marker_15a21c7ba18239c968d426d529627f8a.bindPopup(popup_35fecbcbf36058072a4798eea0d563c8)
-        ;
-
-        
-    
-    
-            var marker_a18f89ffecde0dfcf321e57397e587c0 = L.marker(
+            var marker_5201649d1ca4ef51a844880fdfcc124a = L.marker(
                 [-24.045556, -52.383056],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_31d1d864f0d0a692c0691f76785dea8e = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -33.9625px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Campo Mourao\u003c/div\u003e\n    "});
-            marker_a18f89ffecde0dfcf321e57397e587c0.setIcon(div_icon_31d1d864f0d0a692c0691f76785dea8e);
+            var div_icon_66a3a4dfa8a804b0598cdfa02f1a7c81 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               4.2\u003c/div\u003e\n    "});
+            marker_5201649d1ca4ef51a844880fdfcc124a.setIcon(div_icon_66a3a4dfa8a804b0598cdfa02f1a7c81);
         
     
-        var popup_3279e2e4dce69a84158838f7263e2b9f = L.popup({"maxWidth": "100%"});
+        var popup_92bb53f4e15c60cea02519dedd0f2aa0 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_ccc578ad6e45ef6d237305c94a4b2a18 = $(`<div id="html_ccc578ad6e45ef6d237305c94a4b2a18" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Campo Mourao<br><br>         <b>Last Measurement value (PM2.5):</b> 3.792 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:31<br><br>         <b>Average Concentration (PM2.5):</b> 6.156 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 17.570 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.045556, -52.383056</div>         <img src="results/CampoMourao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_3279e2e4dce69a84158838f7263e2b9f.setContent(html_ccc578ad6e45ef6d237305c94a4b2a18);
+                var html_51f6364484f7ee143f78ad65516bf6d3 = $(`<div id="html_51f6364484f7ee143f78ad65516bf6d3" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Campo Mourao<br><br>         <b>Last Measurement value (PM2.5):</b> 4.168 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:39:32<br><br>         <b>Average Concentration (PM2.5):</b> 6.156 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 17.570 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.045556, -52.383056</div>         <img src="results/CampoMourao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_92bb53f4e15c60cea02519dedd0f2aa0.setContent(html_51f6364484f7ee143f78ad65516bf6d3);
             
         
 
-        marker_a18f89ffecde0dfcf321e57397e587c0.bindPopup(popup_3279e2e4dce69a84158838f7263e2b9f)
+        marker_5201649d1ca4ef51a844880fdfcc124a.bindPopup(popup_92bb53f4e15c60cea02519dedd0f2aa0)
         ;
 
         
     
     
-            var circle_marker_ad23c43d702a072c84212a24cb7a2167 = L.circleMarker(
+            var marker_d11d4a2ceada9118834d1b53eedb584c = L.marker(
+                [-24.045556, -52.383056],
+                {}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
+        
+    
+            var div_icon_ad58e1c7b545754a2e4c7031ea98a19d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -35.837500000000006px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Campo Mourao\u003c/div\u003e\n    "});
+            marker_d11d4a2ceada9118834d1b53eedb584c.setIcon(div_icon_ad58e1c7b545754a2e4c7031ea98a19d);
+        
+    
+        var popup_0e1c26f41136e71c0de6766d7aeb78e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61a0b2311538917c8149d9c1aa7b574f = $(`<div id="html_61a0b2311538917c8149d9c1aa7b574f" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Campo Mourao<br><br>         <b>Last Measurement value (PM2.5):</b> 4.168 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:39:32<br><br>         <b>Average Concentration (PM2.5):</b> 6.156 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 17.570 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.045556, -52.383056</div>         <img src="results/CampoMourao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_0e1c26f41136e71c0de6766d7aeb78e9.setContent(html_61a0b2311538917c8149d9c1aa7b574f);
+            
+        
+
+        marker_d11d4a2ceada9118834d1b53eedb584c.bindPopup(popup_0e1c26f41136e71c0de6766d7aeb78e9)
+        ;
+
+        
+    
+    
+            var circle_marker_24924aa8a1f440776870cdf9e29f8d7e = L.circleMarker(
                 [-25.427778, -49.273056],
-                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 41.89166666666666, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.24999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_aac73cc62dea9143e27614d477df4b43 = L.popup({"maxWidth": "100%"});
+        var popup_2268adb6cfb9e1cfde280a3cc4e96227 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_73ff682ffe6715049c91709165e4a8e0 = $(`<div id="html_73ff682ffe6715049c91709165e4a8e0" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Curitiba<br><br>         <b>Last Measurement value (PM2.5):</b> 8.378 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:17<br><br>         <b>Average Concentration (PM2.5):</b> 10.806 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 29.573 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.427778, -49.273056</div>         <img src="results/Curitiba/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_aac73cc62dea9143e27614d477df4b43.setContent(html_73ff682ffe6715049c91709165e4a8e0);
+                var html_71ce11ac0970374fcadbfe48d6a1fd5c = $(`<div id="html_71ce11ac0970374fcadbfe48d6a1fd5c" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Curitiba<br><br>         <b>Last Measurement value (PM2.5):</b> 8.050 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:37:17<br><br>         <b>Average Concentration (PM2.5):</b> 10.806 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 29.573 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.427778, -49.273056</div>         <img src="results/Curitiba/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_2268adb6cfb9e1cfde280a3cc4e96227.setContent(html_71ce11ac0970374fcadbfe48d6a1fd5c);
             
         
 
-        circle_marker_ad23c43d702a072c84212a24cb7a2167.bindPopup(popup_aac73cc62dea9143e27614d477df4b43)
+        circle_marker_24924aa8a1f440776870cdf9e29f8d7e.bindPopup(popup_2268adb6cfb9e1cfde280a3cc4e96227)
         ;
 
         
     
     
-            var circle_9f0ee5d2bc823060859cdd516612bc4a = L.circle(
+            var circle_4122685e3d3b749d1f478e79c50a485c = L.circle(
                 [-25.427778, -49.273056],
-                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 209.4583333333333, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 201.24999999999997, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_18ae7f83744e783b6cbc069ea65b6023 = L.popup({"maxWidth": "100%"});
+        var popup_fccbc6b1dd6a6bbc057de90ac720c489 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_6e30bd6de0cc2e2fcf09f88eda0e428b = $(`<div id="html_6e30bd6de0cc2e2fcf09f88eda0e428b" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Curitiba<br><br>         <b>Last Measurement value (PM2.5):</b> 8.378 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:17<br><br>         <b>Average Concentration (PM2.5):</b> 10.806 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 29.573 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.427778, -49.273056</div>         <img src="results/Curitiba/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_18ae7f83744e783b6cbc069ea65b6023.setContent(html_6e30bd6de0cc2e2fcf09f88eda0e428b);
+                var html_29b0e275cf963aa61a20ccb385d2f06c = $(`<div id="html_29b0e275cf963aa61a20ccb385d2f06c" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Curitiba<br><br>         <b>Last Measurement value (PM2.5):</b> 8.050 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:37:17<br><br>         <b>Average Concentration (PM2.5):</b> 10.806 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 29.573 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.427778, -49.273056</div>         <img src="results/Curitiba/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_fccbc6b1dd6a6bbc057de90ac720c489.setContent(html_29b0e275cf963aa61a20ccb385d2f06c);
             
         
 
-        circle_9f0ee5d2bc823060859cdd516612bc4a.bindPopup(popup_18ae7f83744e783b6cbc069ea65b6023)
+        circle_4122685e3d3b749d1f478e79c50a485c.bindPopup(popup_fccbc6b1dd6a6bbc057de90ac720c489)
         ;
 
         
     
     
-            var marker_54be89869b19bb2cb49be87fd2575a8c = L.marker(
-                [-25.427778, -49.273056],
-                {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
-        
-    
-            var div_icon_c3ba2c68327d461affcf44b30591ec0b = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               8.4\u003c/div\u003e\n    "});
-            marker_54be89869b19bb2cb49be87fd2575a8c.setIcon(div_icon_c3ba2c68327d461affcf44b30591ec0b);
-        
-    
-        var popup_0cab3faa53011676289d412d21bda722 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_1191e6cf6c1fce8bd449ed01a7df854d = $(`<div id="html_1191e6cf6c1fce8bd449ed01a7df854d" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Curitiba<br><br>         <b>Last Measurement value (PM2.5):</b> 8.378 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:17<br><br>         <b>Average Concentration (PM2.5):</b> 10.806 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 29.573 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.427778, -49.273056</div>         <img src="results/Curitiba/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_0cab3faa53011676289d412d21bda722.setContent(html_1191e6cf6c1fce8bd449ed01a7df854d);
-            
-        
-
-        marker_54be89869b19bb2cb49be87fd2575a8c.bindPopup(popup_0cab3faa53011676289d412d21bda722)
-        ;
-
-        
-    
-    
-            var marker_08b8c26beb94539e69995f3b39fec6e8 = L.marker(
+            var marker_8f753fcf517c47662f0464612b899f3b = L.marker(
                 [-25.427778, -49.273056],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_614245e33d2dfaaaada65fc28e400599 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -56.89166666666666px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Curitiba\u003c/div\u003e\n    "});
-            marker_08b8c26beb94539e69995f3b39fec6e8.setIcon(div_icon_614245e33d2dfaaaada65fc28e400599);
+            var div_icon_324bbe3f925790b0a14c0c848e55f824 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               8.0\u003c/div\u003e\n    "});
+            marker_8f753fcf517c47662f0464612b899f3b.setIcon(div_icon_324bbe3f925790b0a14c0c848e55f824);
         
     
-        var popup_bd5e6088a62653bdad5f980483563f43 = L.popup({"maxWidth": "100%"});
+        var popup_08aa979415c2c5994fcbf614fc78f86a = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_eae34ba0c13019e443d261bd4c0589b3 = $(`<div id="html_eae34ba0c13019e443d261bd4c0589b3" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Curitiba<br><br>         <b>Last Measurement value (PM2.5):</b> 8.378 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:17<br><br>         <b>Average Concentration (PM2.5):</b> 10.806 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 29.573 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.427778, -49.273056</div>         <img src="results/Curitiba/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_bd5e6088a62653bdad5f980483563f43.setContent(html_eae34ba0c13019e443d261bd4c0589b3);
+                var html_955dac1b9f93875bb10b01bcd3f014d5 = $(`<div id="html_955dac1b9f93875bb10b01bcd3f014d5" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Curitiba<br><br>         <b>Last Measurement value (PM2.5):</b> 8.050 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:37:17<br><br>         <b>Average Concentration (PM2.5):</b> 10.806 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 29.573 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.427778, -49.273056</div>         <img src="results/Curitiba/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_08aa979415c2c5994fcbf614fc78f86a.setContent(html_955dac1b9f93875bb10b01bcd3f014d5);
             
         
 
-        marker_08b8c26beb94539e69995f3b39fec6e8.bindPopup(popup_bd5e6088a62653bdad5f980483563f43)
+        marker_8f753fcf517c47662f0464612b899f3b.bindPopup(popup_08aa979415c2c5994fcbf614fc78f86a)
         ;
 
         
     
     
-            var circle_marker_136521d6542b95bba2ea48493ff54545 = L.circleMarker(
+            var marker_32fd0dcfe077475d835d691d30a800de = L.marker(
+                [-25.427778, -49.273056],
+                {}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
+        
+    
+            var div_icon_5ee1dd7a864429c22c9c9e9b60c3e307 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -55.24999999999999px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Curitiba\u003c/div\u003e\n    "});
+            marker_32fd0dcfe077475d835d691d30a800de.setIcon(div_icon_5ee1dd7a864429c22c9c9e9b60c3e307);
+        
+    
+        var popup_5eaa6036340814f8c11e7ebec7ea6a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_143f7046b9d500b30eb653d60ae086ae = $(`<div id="html_143f7046b9d500b30eb653d60ae086ae" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Curitiba<br><br>         <b>Last Measurement value (PM2.5):</b> 8.050 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:37:17<br><br>         <b>Average Concentration (PM2.5):</b> 10.806 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 29.573 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.427778, -49.273056</div>         <img src="results/Curitiba/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_5eaa6036340814f8c11e7ebec7ea6a3c.setContent(html_143f7046b9d500b30eb653d60ae086ae);
+            
+        
+
+        marker_32fd0dcfe077475d835d691d30a800de.bindPopup(popup_5eaa6036340814f8c11e7ebec7ea6a3c)
+        ;
+
+        
+    
+    
+            var circle_marker_5c0a0d75ba9941901eb479cd6ef2d609 = L.circleMarker(
                 [-25.547778, -54.588056],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7999999999999998, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.8500000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_6f7daadb2b003863aa43657c62291b94 = L.popup({"maxWidth": "100%"});
+        var popup_7f355d2d299cbb8ad9f1605188136668 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_eb0ee752ad6bdf14326b56954e8f423c = $(`<div id="html_eb0ee752ad6bdf14326b56954e8f423c" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Foz do Iguacu<br><br>         <b>Last Measurement value (PM2.5):</b> 0.360 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:15<br><br>         <b>Average Concentration (PM2.5):</b> 9.768 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.180 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 14 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.547778, -54.588056</div>         <img src="results/FozdoIguacu/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_6f7daadb2b003863aa43657c62291b94.setContent(html_eb0ee752ad6bdf14326b56954e8f423c);
+                var html_eb033984bb006e85a92a5cc61ec650d3 = $(`<div id="html_eb033984bb006e85a92a5cc61ec650d3" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Foz do Iguacu<br><br>         <b>Last Measurement value (PM2.5):</b> 0.170 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:15<br><br>         <b>Average Concentration (PM2.5):</b> 9.768 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.180 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 14 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.547778, -54.588056</div>         <img src="results/FozdoIguacu/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_7f355d2d299cbb8ad9f1605188136668.setContent(html_eb033984bb006e85a92a5cc61ec650d3);
             
         
 
-        circle_marker_136521d6542b95bba2ea48493ff54545.bindPopup(popup_6f7daadb2b003863aa43657c62291b94)
+        circle_marker_5c0a0d75ba9941901eb479cd6ef2d609.bindPopup(popup_7f355d2d299cbb8ad9f1605188136668)
         ;
 
         
     
     
-            var circle_a4b509787bd2777c83ff1fcb4623af50 = L.circle(
+            var circle_a2ee1f77366ec89163f4d0ad55221cca = L.circle(
                 [-25.547778, -54.588056],
-                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.25, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_5a31a59df6675e4e8b089128c0f9354a = L.popup({"maxWidth": "100%"});
+        var popup_2e0334ca3c0e0bdea8da20d005b25eea = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_da0ac1e6820daad338c589c1d7ecb07e = $(`<div id="html_da0ac1e6820daad338c589c1d7ecb07e" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Foz do Iguacu<br><br>         <b>Last Measurement value (PM2.5):</b> 0.360 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:15<br><br>         <b>Average Concentration (PM2.5):</b> 9.768 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.180 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 14 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.547778, -54.588056</div>         <img src="results/FozdoIguacu/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_5a31a59df6675e4e8b089128c0f9354a.setContent(html_da0ac1e6820daad338c589c1d7ecb07e);
+                var html_1db11ac7996d639f5ebca3bbd884a564 = $(`<div id="html_1db11ac7996d639f5ebca3bbd884a564" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Foz do Iguacu<br><br>         <b>Last Measurement value (PM2.5):</b> 0.170 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:15<br><br>         <b>Average Concentration (PM2.5):</b> 9.768 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.180 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 14 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.547778, -54.588056</div>         <img src="results/FozdoIguacu/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_2e0334ca3c0e0bdea8da20d005b25eea.setContent(html_1db11ac7996d639f5ebca3bbd884a564);
             
         
 
-        circle_a4b509787bd2777c83ff1fcb4623af50.bindPopup(popup_5a31a59df6675e4e8b089128c0f9354a)
+        circle_a2ee1f77366ec89163f4d0ad55221cca.bindPopup(popup_2e0334ca3c0e0bdea8da20d005b25eea)
         ;
 
         
     
     
-            var marker_9336c345bfddab639233cfc3f0bd7631 = L.marker(
+            var marker_e325f41ec6861ab80d3616073c2dc293 = L.marker(
                 [-25.547778, -54.588056],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_47f7ac7b7a99833e02c024f3439d85af = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               0.4\u003c/div\u003e\n    "});
-            marker_9336c345bfddab639233cfc3f0bd7631.setIcon(div_icon_47f7ac7b7a99833e02c024f3439d85af);
+            var div_icon_5b82ac4cd8ff9014f54042fc35cb32e2 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               0.2\u003c/div\u003e\n    "});
+            marker_e325f41ec6861ab80d3616073c2dc293.setIcon(div_icon_5b82ac4cd8ff9014f54042fc35cb32e2);
         
     
-        var popup_ea80818b3bce33f68d8fa558dae0ebb1 = L.popup({"maxWidth": "100%"});
+        var popup_681c8c6cb95c32399cfdf7caeace4ddd = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_c605db5c66c504de9aed4ff446d3bb8f = $(`<div id="html_c605db5c66c504de9aed4ff446d3bb8f" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Foz do Iguacu<br><br>         <b>Last Measurement value (PM2.5):</b> 0.360 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:15<br><br>         <b>Average Concentration (PM2.5):</b> 9.768 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.180 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 14 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.547778, -54.588056</div>         <img src="results/FozdoIguacu/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_ea80818b3bce33f68d8fa558dae0ebb1.setContent(html_c605db5c66c504de9aed4ff446d3bb8f);
+                var html_0b9b2039916a11ae4d39e421a700f16b = $(`<div id="html_0b9b2039916a11ae4d39e421a700f16b" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Foz do Iguacu<br><br>         <b>Last Measurement value (PM2.5):</b> 0.170 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:15<br><br>         <b>Average Concentration (PM2.5):</b> 9.768 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.180 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 14 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.547778, -54.588056</div>         <img src="results/FozdoIguacu/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_681c8c6cb95c32399cfdf7caeace4ddd.setContent(html_0b9b2039916a11ae4d39e421a700f16b);
             
         
 
-        marker_9336c345bfddab639233cfc3f0bd7631.bindPopup(popup_ea80818b3bce33f68d8fa558dae0ebb1)
+        marker_e325f41ec6861ab80d3616073c2dc293.bindPopup(popup_681c8c6cb95c32399cfdf7caeace4ddd)
         ;
 
         
     
     
-            var marker_b5fc88733a90647b4aaee334ef43ebca = L.marker(
+            var marker_b7310a749bb804b0d7d2c932caed4337 = L.marker(
                 [-25.547778, -54.588056],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_80f98e31d2d1a8bdda180b2dc1383b98 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -16.8px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Foz do Iguacu\u003c/div\u003e\n    "});
-            marker_b5fc88733a90647b4aaee334ef43ebca.setIcon(div_icon_80f98e31d2d1a8bdda180b2dc1383b98);
+            var div_icon_7b3e7c60e11de27d3af10ff1f1c670c0 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -15.85px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Foz do Iguacu\u003c/div\u003e\n    "});
+            marker_b7310a749bb804b0d7d2c932caed4337.setIcon(div_icon_7b3e7c60e11de27d3af10ff1f1c670c0);
         
     
-        var popup_f2ba87407160da41324dd618af6aab9b = L.popup({"maxWidth": "100%"});
+        var popup_15cf3e13a7e52b95d8a9012311ccb9c1 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_af95c8d54834caec50ae74c2666bb91b = $(`<div id="html_af95c8d54834caec50ae74c2666bb91b" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Foz do Iguacu<br><br>         <b>Last Measurement value (PM2.5):</b> 0.360 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:15<br><br>         <b>Average Concentration (PM2.5):</b> 9.768 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.180 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 14 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.547778, -54.588056</div>         <img src="results/FozdoIguacu/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_f2ba87407160da41324dd618af6aab9b.setContent(html_af95c8d54834caec50ae74c2666bb91b);
+                var html_9c929f8e748410e41aa87d3d3d9f89df = $(`<div id="html_9c929f8e748410e41aa87d3d3d9f89df" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Foz do Iguacu<br><br>         <b>Last Measurement value (PM2.5):</b> 0.170 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:15<br><br>         <b>Average Concentration (PM2.5):</b> 9.768 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.180 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 14 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.547778, -54.588056</div>         <img src="results/FozdoIguacu/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_15cf3e13a7e52b95d8a9012311ccb9c1.setContent(html_9c929f8e748410e41aa87d3d3d9f89df);
             
         
 
-        marker_b5fc88733a90647b4aaee334ef43ebca.bindPopup(popup_f2ba87407160da41324dd618af6aab9b)
+        marker_b7310a749bb804b0d7d2c932caed4337.bindPopup(popup_15cf3e13a7e52b95d8a9012311ccb9c1)
         ;
 
         
     
     
-            var circle_marker_fb22e99c48de89ac4805721c1d578391 = L.circleMarker(
+            var circle_marker_e0ed9b57f2e5382067f011bab4ee8a39 = L.circleMarker(
                 [-26.081111, -53.055],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.950000000000003, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.05, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_d20ad902d332647beb6bfc35ccefa0a1 = L.popup({"maxWidth": "100%"});
+        var popup_a77651aae8da636394f1681ba713e950 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_bdec4b052261ac4f5d3ece7796ba2716 = $(`<div id="html_bdec4b052261ac4f5d3ece7796ba2716" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Francisco Beltrao<br><br>         <b>Last Measurement value (PM2.5):</b> 6.190 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:02<br><br>         <b>Average Concentration (PM2.5):</b> 8.923 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.633 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 76 days<br>         <b>Location:</b> -26.081111, -53.055</div>         <img src="results/FranciscoBeltrao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_d20ad902d332647beb6bfc35ccefa0a1.setContent(html_bdec4b052261ac4f5d3ece7796ba2716);
+                var html_d22766ecb05cae1f9a9edda3db51e406 = $(`<div id="html_d22766ecb05cae1f9a9edda3db51e406" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Francisco Beltrao<br><br>         <b>Last Measurement value (PM2.5):</b> 1.610 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:59<br><br>         <b>Average Concentration (PM2.5):</b> 8.923 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.633 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 76 days<br>         <b>Location:</b> -26.081111, -53.055</div>         <img src="results/FranciscoBeltrao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_a77651aae8da636394f1681ba713e950.setContent(html_d22766ecb05cae1f9a9edda3db51e406);
             
         
 
-        circle_marker_fb22e99c48de89ac4805721c1d578391.bindPopup(popup_d20ad902d332647beb6bfc35ccefa0a1)
+        circle_marker_e0ed9b57f2e5382067f011bab4ee8a39.bindPopup(popup_a77651aae8da636394f1681ba713e950)
         ;
 
         
     
     
-            var circle_c7eba3d5ef1860342d220bc471eb446c = L.circle(
+            var circle_018c88caa545f9c724c91d1d669b6ee5 = L.circle(
                 [-26.081111, -53.055],
-                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 154.75, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.25, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_ad632aac26164546f7adbb437dd75bc9 = L.popup({"maxWidth": "100%"});
+        var popup_e557ca613dc2bb23c6fbd3982b83d556 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_90fbca89dedc1794b6349ac6254dca93 = $(`<div id="html_90fbca89dedc1794b6349ac6254dca93" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Francisco Beltrao<br><br>         <b>Last Measurement value (PM2.5):</b> 6.190 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:02<br><br>         <b>Average Concentration (PM2.5):</b> 8.923 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.633 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 76 days<br>         <b>Location:</b> -26.081111, -53.055</div>         <img src="results/FranciscoBeltrao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_ad632aac26164546f7adbb437dd75bc9.setContent(html_90fbca89dedc1794b6349ac6254dca93);
+                var html_f5541cddc26e64b1b2f9405a29a1b911 = $(`<div id="html_f5541cddc26e64b1b2f9405a29a1b911" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Francisco Beltrao<br><br>         <b>Last Measurement value (PM2.5):</b> 1.610 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:59<br><br>         <b>Average Concentration (PM2.5):</b> 8.923 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.633 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 76 days<br>         <b>Location:</b> -26.081111, -53.055</div>         <img src="results/FranciscoBeltrao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_e557ca613dc2bb23c6fbd3982b83d556.setContent(html_f5541cddc26e64b1b2f9405a29a1b911);
             
         
 
-        circle_c7eba3d5ef1860342d220bc471eb446c.bindPopup(popup_ad632aac26164546f7adbb437dd75bc9)
+        circle_018c88caa545f9c724c91d1d669b6ee5.bindPopup(popup_e557ca613dc2bb23c6fbd3982b83d556)
         ;
 
         
     
     
-            var marker_59f191372718f753adc381317d312da9 = L.marker(
-                [-26.081111, -53.055],
-                {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
-        
-    
-            var div_icon_2eee8335bf31656f12bbfd5acff60f86 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               6.2\u003c/div\u003e\n    "});
-            marker_59f191372718f753adc381317d312da9.setIcon(div_icon_2eee8335bf31656f12bbfd5acff60f86);
-        
-    
-        var popup_58474e93f3da49033eb1878b41936aba = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_84cf5aecc5c35254d01d1ff1cc955103 = $(`<div id="html_84cf5aecc5c35254d01d1ff1cc955103" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Francisco Beltrao<br><br>         <b>Last Measurement value (PM2.5):</b> 6.190 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:02<br><br>         <b>Average Concentration (PM2.5):</b> 8.923 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.633 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 76 days<br>         <b>Location:</b> -26.081111, -53.055</div>         <img src="results/FranciscoBeltrao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_58474e93f3da49033eb1878b41936aba.setContent(html_84cf5aecc5c35254d01d1ff1cc955103);
-            
-        
-
-        marker_59f191372718f753adc381317d312da9.bindPopup(popup_58474e93f3da49033eb1878b41936aba)
-        ;
-
-        
-    
-    
-            var marker_e0764acb61e7b318a51697e78451d2ad = L.marker(
+            var marker_3293db0c9494329ad261e26905074b7f = L.marker(
                 [-26.081111, -53.055],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_70e5234950904523ff830bc5eaf35b2c = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -45.95px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Francisco Beltrao\u003c/div\u003e\n    "});
-            marker_e0764acb61e7b318a51697e78451d2ad.setIcon(div_icon_70e5234950904523ff830bc5eaf35b2c);
+            var div_icon_eeee4315d6714f54d92b8e74659e2339 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               1.6\u003c/div\u003e\n    "});
+            marker_3293db0c9494329ad261e26905074b7f.setIcon(div_icon_eeee4315d6714f54d92b8e74659e2339);
         
     
-        var popup_f041912f1772396984ceb000aba1df09 = L.popup({"maxWidth": "100%"});
+        var popup_f8f7711dd4be7b598b982b096dbf4b2f = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_9fca701ae138f88ebe586f873779cbf5 = $(`<div id="html_9fca701ae138f88ebe586f873779cbf5" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Francisco Beltrao<br><br>         <b>Last Measurement value (PM2.5):</b> 6.190 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:11:02<br><br>         <b>Average Concentration (PM2.5):</b> 8.923 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.633 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 76 days<br>         <b>Location:</b> -26.081111, -53.055</div>         <img src="results/FranciscoBeltrao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_f041912f1772396984ceb000aba1df09.setContent(html_9fca701ae138f88ebe586f873779cbf5);
+                var html_193d00139cf4022acfef7a4f7c0fa15e = $(`<div id="html_193d00139cf4022acfef7a4f7c0fa15e" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Francisco Beltrao<br><br>         <b>Last Measurement value (PM2.5):</b> 1.610 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:59<br><br>         <b>Average Concentration (PM2.5):</b> 8.923 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.633 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 76 days<br>         <b>Location:</b> -26.081111, -53.055</div>         <img src="results/FranciscoBeltrao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_f8f7711dd4be7b598b982b096dbf4b2f.setContent(html_193d00139cf4022acfef7a4f7c0fa15e);
             
         
 
-        marker_e0764acb61e7b318a51697e78451d2ad.bindPopup(popup_f041912f1772396984ceb000aba1df09)
+        marker_3293db0c9494329ad261e26905074b7f.bindPopup(popup_f8f7711dd4be7b598b982b096dbf4b2f)
         ;
 
         
     
     
-            var circle_marker_f86ae6154022357b907437e6f86ea86f = L.circleMarker(
+            var marker_2b49f4bdb98a81dff0bddee1723947c0 = L.marker(
+                [-26.081111, -53.055],
+                {}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
+        
+    
+            var div_icon_9627aee348ef92a6ffd03bd2f32eaa33 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -23.05px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Francisco Beltrao\u003c/div\u003e\n    "});
+            marker_2b49f4bdb98a81dff0bddee1723947c0.setIcon(div_icon_9627aee348ef92a6ffd03bd2f32eaa33);
+        
+    
+        var popup_54d23ee56e543d5de0a6ad026aaa80c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69cafa6af06d5b6d2e3960ca077a2be8 = $(`<div id="html_69cafa6af06d5b6d2e3960ca077a2be8" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Francisco Beltrao<br><br>         <b>Last Measurement value (PM2.5):</b> 1.610 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:59<br><br>         <b>Average Concentration (PM2.5):</b> 8.923 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.633 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 76 days<br>         <b>Location:</b> -26.081111, -53.055</div>         <img src="results/FranciscoBeltrao/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_54d23ee56e543d5de0a6ad026aaa80c1.setContent(html_69cafa6af06d5b6d2e3960ca077a2be8);
+            
+        
+
+        marker_2b49f4bdb98a81dff0bddee1723947c0.bindPopup(popup_54d23ee56e543d5de0a6ad026aaa80c1)
+        ;
+
+        
+    
+    
+            var circle_marker_84736e35062d77b6c66622507951624a = L.circleMarker(
                 [-25.395278, -51.458056],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.25, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_4015425645c50004c00d95003581a881 = L.popup({"maxWidth": "100%"});
+        var popup_21aed7a9458724827f36bb71fe85955e = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_857bc1ddc940c78d4800166dd63e59f6 = $(`<div id="html_857bc1ddc940c78d4800166dd63e59f6" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Guarapuava<br><br>         <b>Last Measurement value (PM2.5):</b> 2.050 ug/m³<br>         <b>Last Measurement date:</b> 05/03/2024, 14:27:52<br><br>         <b>Average Concentration (PM2.5):</b> 8.437 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 24.845 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 102 days<br>         <b>Location:</b> -25.395278, -51.458056</div>         <img src="results/Guarapuava/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_4015425645c50004c00d95003581a881.setContent(html_857bc1ddc940c78d4800166dd63e59f6);
+                var html_f388496f170c82c83efcbe863a0e12c8 = $(`<div id="html_f388496f170c82c83efcbe863a0e12c8" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Guarapuava<br><br>         <b>Last Measurement value (PM2.5):</b> 2.050 ug/mÂ³<br>         <b>Last Measurement date:</b> 05/03/2024, 14:27:52<br><br>         <b>Average Concentration (PM2.5):</b> 8.437 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 24.845 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 102 days<br>         <b>Location:</b> -25.395278, -51.458056</div>         <img src="results/Guarapuava/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_21aed7a9458724827f36bb71fe85955e.setContent(html_f388496f170c82c83efcbe863a0e12c8);
             
         
 
-        circle_marker_f86ae6154022357b907437e6f86ea86f.bindPopup(popup_4015425645c50004c00d95003581a881)
+        circle_marker_84736e35062d77b6c66622507951624a.bindPopup(popup_21aed7a9458724827f36bb71fe85955e)
         ;
 
         
     
     
-            var circle_18b6a4c5e666c7e202f1b62f531fd387 = L.circle(
+            var circle_6bb003abb8f7df743c051837446f967c = L.circle(
                 [-25.395278, -51.458056],
                 {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 51.25, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_49cce9daff60d6d0742f8c5b6284154b = L.popup({"maxWidth": "100%"});
+        var popup_8607b0dd74c5662dcb40af3f0ef38c5b = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_05cab8214079ecc2827e7d5353e2b41a = $(`<div id="html_05cab8214079ecc2827e7d5353e2b41a" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Guarapuava<br><br>         <b>Last Measurement value (PM2.5):</b> 2.050 ug/m³<br>         <b>Last Measurement date:</b> 05/03/2024, 14:27:52<br><br>         <b>Average Concentration (PM2.5):</b> 8.437 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 24.845 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 102 days<br>         <b>Location:</b> -25.395278, -51.458056</div>         <img src="results/Guarapuava/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_49cce9daff60d6d0742f8c5b6284154b.setContent(html_05cab8214079ecc2827e7d5353e2b41a);
+                var html_8f5368d441862a00d1ae1acbdb43baae = $(`<div id="html_8f5368d441862a00d1ae1acbdb43baae" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Guarapuava<br><br>         <b>Last Measurement value (PM2.5):</b> 2.050 ug/mÂ³<br>         <b>Last Measurement date:</b> 05/03/2024, 14:27:52<br><br>         <b>Average Concentration (PM2.5):</b> 8.437 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 24.845 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 102 days<br>         <b>Location:</b> -25.395278, -51.458056</div>         <img src="results/Guarapuava/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_8607b0dd74c5662dcb40af3f0ef38c5b.setContent(html_8f5368d441862a00d1ae1acbdb43baae);
             
         
 
-        circle_18b6a4c5e666c7e202f1b62f531fd387.bindPopup(popup_49cce9daff60d6d0742f8c5b6284154b)
+        circle_6bb003abb8f7df743c051837446f967c.bindPopup(popup_8607b0dd74c5662dcb40af3f0ef38c5b)
         ;
 
         
     
     
-            var marker_02ddd538ebc6b80f4decd41913c0b28e = L.marker(
+            var marker_1af456f31f3f99fc0fdd2b5a2453124d = L.marker(
                 [-25.395278, -51.458056],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_fcd035c9278ed46c74aace8b802171e9 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               2.0\u003c/div\u003e\n    "});
-            marker_02ddd538ebc6b80f4decd41913c0b28e.setIcon(div_icon_fcd035c9278ed46c74aace8b802171e9);
+            var div_icon_5c2da4080b5a29fc74531629c6a1124c = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               2.0\u003c/div\u003e\n    "});
+            marker_1af456f31f3f99fc0fdd2b5a2453124d.setIcon(div_icon_5c2da4080b5a29fc74531629c6a1124c);
         
     
-        var popup_91731e174cbf1a94506e16801fee1845 = L.popup({"maxWidth": "100%"});
+        var popup_2865f90c2fbd404772c266b149bf2076 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_2566e6ec7554e0645ca04712b499661c = $(`<div id="html_2566e6ec7554e0645ca04712b499661c" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Guarapuava<br><br>         <b>Last Measurement value (PM2.5):</b> 2.050 ug/m³<br>         <b>Last Measurement date:</b> 05/03/2024, 14:27:52<br><br>         <b>Average Concentration (PM2.5):</b> 8.437 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 24.845 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 102 days<br>         <b>Location:</b> -25.395278, -51.458056</div>         <img src="results/Guarapuava/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_91731e174cbf1a94506e16801fee1845.setContent(html_2566e6ec7554e0645ca04712b499661c);
+                var html_1a5589c9b5fd26f7d37d9dd9025e809c = $(`<div id="html_1a5589c9b5fd26f7d37d9dd9025e809c" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Guarapuava<br><br>         <b>Last Measurement value (PM2.5):</b> 2.050 ug/mÂ³<br>         <b>Last Measurement date:</b> 05/03/2024, 14:27:52<br><br>         <b>Average Concentration (PM2.5):</b> 8.437 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 24.845 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 102 days<br>         <b>Location:</b> -25.395278, -51.458056</div>         <img src="results/Guarapuava/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_2865f90c2fbd404772c266b149bf2076.setContent(html_1a5589c9b5fd26f7d37d9dd9025e809c);
             
         
 
-        marker_02ddd538ebc6b80f4decd41913c0b28e.bindPopup(popup_91731e174cbf1a94506e16801fee1845)
+        marker_1af456f31f3f99fc0fdd2b5a2453124d.bindPopup(popup_2865f90c2fbd404772c266b149bf2076)
         ;
 
         
     
     
-            var marker_83a56520e32ffee84ae34aaeba6a7b93 = L.marker(
+            var marker_ec85fac1c93368d4b555ac9ff3017ecf = L.marker(
                 [-25.395278, -51.458056],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_e00de08ea8123361476b94ccaf940bab = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -25.25px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Guarapuava\u003c/div\u003e\n    "});
-            marker_83a56520e32ffee84ae34aaeba6a7b93.setIcon(div_icon_e00de08ea8123361476b94ccaf940bab);
+            var div_icon_bd4695aaf47c3418b4cbe90f14303651 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -25.25px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Guarapuava\u003c/div\u003e\n    "});
+            marker_ec85fac1c93368d4b555ac9ff3017ecf.setIcon(div_icon_bd4695aaf47c3418b4cbe90f14303651);
         
     
-        var popup_3dae956ca9047b16842ef88a705b679c = L.popup({"maxWidth": "100%"});
+        var popup_739a3833d0120978b7510cbcdd8331c7 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_7bd99f7e3bd3123f239d5e6ff2f9a16d = $(`<div id="html_7bd99f7e3bd3123f239d5e6ff2f9a16d" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Guarapuava<br><br>         <b>Last Measurement value (PM2.5):</b> 2.050 ug/m³<br>         <b>Last Measurement date:</b> 05/03/2024, 14:27:52<br><br>         <b>Average Concentration (PM2.5):</b> 8.437 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 24.845 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 102 days<br>         <b>Location:</b> -25.395278, -51.458056</div>         <img src="results/Guarapuava/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_3dae956ca9047b16842ef88a705b679c.setContent(html_7bd99f7e3bd3123f239d5e6ff2f9a16d);
+                var html_1d4fe210efad453513cef56da17bebb5 = $(`<div id="html_1d4fe210efad453513cef56da17bebb5" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Guarapuava<br><br>         <b>Last Measurement value (PM2.5):</b> 2.050 ug/mÂ³<br>         <b>Last Measurement date:</b> 05/03/2024, 14:27:52<br><br>         <b>Average Concentration (PM2.5):</b> 8.437 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 24.845 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 102 days<br>         <b>Location:</b> -25.395278, -51.458056</div>         <img src="results/Guarapuava/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_739a3833d0120978b7510cbcdd8331c7.setContent(html_1d4fe210efad453513cef56da17bebb5);
             
         
 
-        marker_83a56520e32ffee84ae34aaeba6a7b93.bindPopup(popup_3dae956ca9047b16842ef88a705b679c)
+        marker_ec85fac1c93368d4b555ac9ff3017ecf.bindPopup(popup_739a3833d0120978b7510cbcdd8331c7)
         ;
 
         
     
     
-            var circle_marker_7d27810859fc6f2f4fed4a06489a1c88 = L.circleMarker(
+            var circle_marker_db1262417b05c9d20471f10c695107fe = L.circleMarker(
                 [-24.556111, -54.056667],
-                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.925, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.95, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_e1403e78a60746475c50124098866e74 = L.popup({"maxWidth": "100%"});
+        var popup_7effb5c5bc565ce21be604bfbbec4fa8 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_fd10fe5e1daf6bc96170bb52f5877519 = $(`<div id="html_fd10fe5e1daf6bc96170bb52f5877519" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Marechal Candido Rondon<br><br>         <b>Last Measurement value (PM2.5):</b> 3.185 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:00:43<br><br>         <b>Average Concentration (PM2.5):</b> 6.072 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 13.893 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.556111, -54.056667</div>         <img src="results/MarechalCandidoRondon/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_e1403e78a60746475c50124098866e74.setContent(html_fd10fe5e1daf6bc96170bb52f5877519);
+                var html_4a365c3d95c8e7cbf8b4129e5118145b = $(`<div id="html_4a365c3d95c8e7cbf8b4129e5118145b" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Marechal Candido Rondon<br><br>         <b>Last Measurement value (PM2.5):</b> 3.790 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:14:44<br><br>         <b>Average Concentration (PM2.5):</b> 6.072 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 13.893 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.556111, -54.056667</div>         <img src="results/MarechalCandidoRondon/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_7effb5c5bc565ce21be604bfbbec4fa8.setContent(html_4a365c3d95c8e7cbf8b4129e5118145b);
             
         
 
-        circle_marker_7d27810859fc6f2f4fed4a06489a1c88.bindPopup(popup_e1403e78a60746475c50124098866e74)
+        circle_marker_db1262417b05c9d20471f10c695107fe.bindPopup(popup_7effb5c5bc565ce21be604bfbbec4fa8)
         ;
 
         
     
     
-            var circle_f464922cebb0a344d67f93b4d32d9f3c = L.circle(
+            var circle_be540b30b8606b2ecc83d57c9c3c5f3f = L.circle(
                 [-24.556111, -54.056667],
-                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 79.625, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 94.75, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_237b6f66423e8ffbf0987b835eabd4db = L.popup({"maxWidth": "100%"});
+        var popup_51ea3d12527d9bff5d7ddf1c54f4b77b = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_13df2bd4ab45193d39cbeeaecc6c5ace = $(`<div id="html_13df2bd4ab45193d39cbeeaecc6c5ace" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Marechal Candido Rondon<br><br>         <b>Last Measurement value (PM2.5):</b> 3.185 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:00:43<br><br>         <b>Average Concentration (PM2.5):</b> 6.072 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 13.893 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.556111, -54.056667</div>         <img src="results/MarechalCandidoRondon/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_237b6f66423e8ffbf0987b835eabd4db.setContent(html_13df2bd4ab45193d39cbeeaecc6c5ace);
+                var html_49b64caa35dfcbcc2fff1e2fc5c07dad = $(`<div id="html_49b64caa35dfcbcc2fff1e2fc5c07dad" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Marechal Candido Rondon<br><br>         <b>Last Measurement value (PM2.5):</b> 3.790 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:14:44<br><br>         <b>Average Concentration (PM2.5):</b> 6.072 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 13.893 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.556111, -54.056667</div>         <img src="results/MarechalCandidoRondon/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_51ea3d12527d9bff5d7ddf1c54f4b77b.setContent(html_49b64caa35dfcbcc2fff1e2fc5c07dad);
             
         
 
-        circle_f464922cebb0a344d67f93b4d32d9f3c.bindPopup(popup_237b6f66423e8ffbf0987b835eabd4db)
+        circle_be540b30b8606b2ecc83d57c9c3c5f3f.bindPopup(popup_51ea3d12527d9bff5d7ddf1c54f4b77b)
         ;
 
         
     
     
-            var marker_7b748e721a1a788b0978a508b46fe133 = L.marker(
-                [-24.556111, -54.056667],
-                {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
-        
-    
-            var div_icon_3d02ed0610af3e91e31c29327c557f6d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               3.2\u003c/div\u003e\n    "});
-            marker_7b748e721a1a788b0978a508b46fe133.setIcon(div_icon_3d02ed0610af3e91e31c29327c557f6d);
-        
-    
-        var popup_c531ca0615619b248a4e8fca552e7bc6 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_6033b2a03d31bac5cc12ec26c17b40bb = $(`<div id="html_6033b2a03d31bac5cc12ec26c17b40bb" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Marechal Candido Rondon<br><br>         <b>Last Measurement value (PM2.5):</b> 3.185 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:00:43<br><br>         <b>Average Concentration (PM2.5):</b> 6.072 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 13.893 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.556111, -54.056667</div>         <img src="results/MarechalCandidoRondon/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_c531ca0615619b248a4e8fca552e7bc6.setContent(html_6033b2a03d31bac5cc12ec26c17b40bb);
-            
-        
-
-        marker_7b748e721a1a788b0978a508b46fe133.bindPopup(popup_c531ca0615619b248a4e8fca552e7bc6)
-        ;
-
-        
-    
-    
-            var marker_3ea1b7ee17747e12fb5c7d2280783166 = L.marker(
+            var marker_1749dac0f78b28ce9c2da24f67609de6 = L.marker(
                 [-24.556111, -54.056667],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_b688f4b29ff6b883daa8c26842eb4346 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -30.925px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Marechal Candido Rondon\u003c/div\u003e\n    "});
-            marker_3ea1b7ee17747e12fb5c7d2280783166.setIcon(div_icon_b688f4b29ff6b883daa8c26842eb4346);
+            var div_icon_70fbb72a0940af53dd4bade0c604b9b3 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               3.8\u003c/div\u003e\n    "});
+            marker_1749dac0f78b28ce9c2da24f67609de6.setIcon(div_icon_70fbb72a0940af53dd4bade0c604b9b3);
         
     
-        var popup_44d25349654a1f956a182c4e25429d58 = L.popup({"maxWidth": "100%"});
+        var popup_7549d7ea314920292bb4c48323a1cf64 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_d2bc5d075d99ad6a6b24d2ae63671736 = $(`<div id="html_d2bc5d075d99ad6a6b24d2ae63671736" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Marechal Candido Rondon<br><br>         <b>Last Measurement value (PM2.5):</b> 3.185 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:00:43<br><br>         <b>Average Concentration (PM2.5):</b> 6.072 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 13.893 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.556111, -54.056667</div>         <img src="results/MarechalCandidoRondon/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_44d25349654a1f956a182c4e25429d58.setContent(html_d2bc5d075d99ad6a6b24d2ae63671736);
+                var html_d3e8d3da635a6386e19501a4b6c7a684 = $(`<div id="html_d3e8d3da635a6386e19501a4b6c7a684" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Marechal Candido Rondon<br><br>         <b>Last Measurement value (PM2.5):</b> 3.790 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:14:44<br><br>         <b>Average Concentration (PM2.5):</b> 6.072 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 13.893 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.556111, -54.056667</div>         <img src="results/MarechalCandidoRondon/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_7549d7ea314920292bb4c48323a1cf64.setContent(html_d3e8d3da635a6386e19501a4b6c7a684);
             
         
 
-        marker_3ea1b7ee17747e12fb5c7d2280783166.bindPopup(popup_44d25349654a1f956a182c4e25429d58)
+        marker_1749dac0f78b28ce9c2da24f67609de6.bindPopup(popup_7549d7ea314920292bb4c48323a1cf64)
         ;
 
         
     
     
-            var circle_marker_3c496aa4d152f69482a495196a4e96c8 = L.circleMarker(
+            var marker_7f498c3c11eb547bdc4a781fdaee2958 = L.marker(
+                [-24.556111, -54.056667],
+                {}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
+        
+    
+            var div_icon_9784b079541e8e18550dcce580a1a9ac = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -33.95px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Marechal Candido Rondon\u003c/div\u003e\n    "});
+            marker_7f498c3c11eb547bdc4a781fdaee2958.setIcon(div_icon_9784b079541e8e18550dcce580a1a9ac);
+        
+    
+        var popup_eb81cd74ae9ea7e37820eebfd06bec1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79dcf2620df7c245428fa08a31387a8c = $(`<div id="html_79dcf2620df7c245428fa08a31387a8c" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Marechal Candido Rondon<br><br>         <b>Last Measurement value (PM2.5):</b> 3.790 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:14:44<br><br>         <b>Average Concentration (PM2.5):</b> 6.072 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 13.893 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -24.556111, -54.056667</div>         <img src="results/MarechalCandidoRondon/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_eb81cd74ae9ea7e37820eebfd06bec1f.setContent(html_79dcf2620df7c245428fa08a31387a8c);
+            
+        
+
+        marker_7f498c3c11eb547bdc4a781fdaee2958.bindPopup(popup_eb81cd74ae9ea7e37820eebfd06bec1f)
+        ;
+
+        
+    
+    
+            var circle_marker_8778f4ce2669d9a6698f59461d87c221 = L.circleMarker(
                 [-25.295278, -54.093889],
                 {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 53.849999999999994, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_baf77a9373792c89ac93e4a5c90057e9 = L.popup({"maxWidth": "100%"});
+        var popup_0e2215f1ea1ea9c23b3f3993f15b283c = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_b72031f1b5c095d4c8684b0b27ca3859 = $(`<div id="html_b72031f1b5c095d4c8684b0b27ca3859" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Medianeira<br><br>         <b>Last Measurement value (PM2.5):</b> 10.770 ug/m³<br>         <b>Last Measurement date:</b> 07/04/2024, 10:07:12<br><br>         <b>Average Concentration (PM2.5):</b> 4.085 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 12.132 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 67 days<br>         <b>Location:</b> -25.295278, -54.093889</div>         <img src="results/Medianeira/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_baf77a9373792c89ac93e4a5c90057e9.setContent(html_b72031f1b5c095d4c8684b0b27ca3859);
+                var html_ec7e7815c7269806813108afb89d9961 = $(`<div id="html_ec7e7815c7269806813108afb89d9961" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Medianeira<br><br>         <b>Last Measurement value (PM2.5):</b> 10.770 ug/mÂ³<br>         <b>Last Measurement date:</b> 07/04/2024, 10:07:12<br><br>         <b>Average Concentration (PM2.5):</b> 4.085 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 12.132 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 67 days<br>         <b>Location:</b> -25.295278, -54.093889</div>         <img src="results/Medianeira/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_0e2215f1ea1ea9c23b3f3993f15b283c.setContent(html_ec7e7815c7269806813108afb89d9961);
             
         
 
-        circle_marker_3c496aa4d152f69482a495196a4e96c8.bindPopup(popup_baf77a9373792c89ac93e4a5c90057e9)
+        circle_marker_8778f4ce2669d9a6698f59461d87c221.bindPopup(popup_0e2215f1ea1ea9c23b3f3993f15b283c)
         ;
 
         
     
     
-            var circle_240cff3d016970e9a6ae101bcea8869d = L.circle(
+            var circle_a1dd24db571d3b885112b53cc6916048 = L.circle(
                 [-25.295278, -54.093889],
                 {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 269.25, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_57a2dac6b1a698ba3904dec1d683dfd9 = L.popup({"maxWidth": "100%"});
+        var popup_775687263e200864d47463ab46f51139 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_a6a6ba309abb86c3474995b49d2ac1a3 = $(`<div id="html_a6a6ba309abb86c3474995b49d2ac1a3" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Medianeira<br><br>         <b>Last Measurement value (PM2.5):</b> 10.770 ug/m³<br>         <b>Last Measurement date:</b> 07/04/2024, 10:07:12<br><br>         <b>Average Concentration (PM2.5):</b> 4.085 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 12.132 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 67 days<br>         <b>Location:</b> -25.295278, -54.093889</div>         <img src="results/Medianeira/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_57a2dac6b1a698ba3904dec1d683dfd9.setContent(html_a6a6ba309abb86c3474995b49d2ac1a3);
+                var html_d76f50e17761178ec46363673a28eec0 = $(`<div id="html_d76f50e17761178ec46363673a28eec0" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Medianeira<br><br>         <b>Last Measurement value (PM2.5):</b> 10.770 ug/mÂ³<br>         <b>Last Measurement date:</b> 07/04/2024, 10:07:12<br><br>         <b>Average Concentration (PM2.5):</b> 4.085 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 12.132 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 67 days<br>         <b>Location:</b> -25.295278, -54.093889</div>         <img src="results/Medianeira/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_775687263e200864d47463ab46f51139.setContent(html_d76f50e17761178ec46363673a28eec0);
             
         
 
-        circle_240cff3d016970e9a6ae101bcea8869d.bindPopup(popup_57a2dac6b1a698ba3904dec1d683dfd9)
+        circle_a1dd24db571d3b885112b53cc6916048.bindPopup(popup_775687263e200864d47463ab46f51139)
         ;
 
         
     
     
-            var marker_4cef17541bf7b71579282570bec2e91f = L.marker(
+            var marker_f8be31a355e549042fa6b35c7b4339ca = L.marker(
                 [-25.295278, -54.093889],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_2bd84ff6565258b18d3b6c3c1032a3eb = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               10.8\u003c/div\u003e\n    "});
-            marker_4cef17541bf7b71579282570bec2e91f.setIcon(div_icon_2bd84ff6565258b18d3b6c3c1032a3eb);
+            var div_icon_695714b21620ca1161040bc6a6d3ea4b = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               10.8\u003c/div\u003e\n    "});
+            marker_f8be31a355e549042fa6b35c7b4339ca.setIcon(div_icon_695714b21620ca1161040bc6a6d3ea4b);
         
     
-        var popup_1731a57601f8c9dbbf9973b2d7758d80 = L.popup({"maxWidth": "100%"});
+        var popup_f81af2c0d951927d29b118ec281b2b43 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_16275a6dc75a108ec6dca6cf61226b4c = $(`<div id="html_16275a6dc75a108ec6dca6cf61226b4c" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Medianeira<br><br>         <b>Last Measurement value (PM2.5):</b> 10.770 ug/m³<br>         <b>Last Measurement date:</b> 07/04/2024, 10:07:12<br><br>         <b>Average Concentration (PM2.5):</b> 4.085 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 12.132 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 67 days<br>         <b>Location:</b> -25.295278, -54.093889</div>         <img src="results/Medianeira/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_1731a57601f8c9dbbf9973b2d7758d80.setContent(html_16275a6dc75a108ec6dca6cf61226b4c);
+                var html_c0a7a9bb9256222274c4a289c151e279 = $(`<div id="html_c0a7a9bb9256222274c4a289c151e279" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Medianeira<br><br>         <b>Last Measurement value (PM2.5):</b> 10.770 ug/mÂ³<br>         <b>Last Measurement date:</b> 07/04/2024, 10:07:12<br><br>         <b>Average Concentration (PM2.5):</b> 4.085 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 12.132 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 67 days<br>         <b>Location:</b> -25.295278, -54.093889</div>         <img src="results/Medianeira/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_f81af2c0d951927d29b118ec281b2b43.setContent(html_c0a7a9bb9256222274c4a289c151e279);
             
         
 
-        marker_4cef17541bf7b71579282570bec2e91f.bindPopup(popup_1731a57601f8c9dbbf9973b2d7758d80)
+        marker_f8be31a355e549042fa6b35c7b4339ca.bindPopup(popup_f81af2c0d951927d29b118ec281b2b43)
         ;
 
         
     
     
-            var marker_6c5fbff125975ca7e78bd330b088b431 = L.marker(
+            var marker_2ea8949036f4b94adfd0f25ebd684585 = L.marker(
                 [-25.295278, -54.093889],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_3532c87bd371a516633c3ef0b95e208f = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -68.85px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Medianeira\u003c/div\u003e\n    "});
-            marker_6c5fbff125975ca7e78bd330b088b431.setIcon(div_icon_3532c87bd371a516633c3ef0b95e208f);
+            var div_icon_7ed0d6a0a019b02acab8c87c59461ee9 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -68.85px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Medianeira\u003c/div\u003e\n    "});
+            marker_2ea8949036f4b94adfd0f25ebd684585.setIcon(div_icon_7ed0d6a0a019b02acab8c87c59461ee9);
         
     
-        var popup_44510bfcd13ba81d0d21fff49cd3ca1a = L.popup({"maxWidth": "100%"});
+        var popup_df09af0b1b5a5cef09dfb669b56ef7cd = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_f7606e546222d107a534efe8074416f1 = $(`<div id="html_f7606e546222d107a534efe8074416f1" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Medianeira<br><br>         <b>Last Measurement value (PM2.5):</b> 10.770 ug/m³<br>         <b>Last Measurement date:</b> 07/04/2024, 10:07:12<br><br>         <b>Average Concentration (PM2.5):</b> 4.085 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 12.132 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 67 days<br>         <b>Location:</b> -25.295278, -54.093889</div>         <img src="results/Medianeira/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_44510bfcd13ba81d0d21fff49cd3ca1a.setContent(html_f7606e546222d107a534efe8074416f1);
+                var html_f5a425f43c9c22d54acc58f61c45575b = $(`<div id="html_f5a425f43c9c22d54acc58f61c45575b" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Medianeira<br><br>         <b>Last Measurement value (PM2.5):</b> 10.770 ug/mÂ³<br>         <b>Last Measurement date:</b> 07/04/2024, 10:07:12<br><br>         <b>Average Concentration (PM2.5):</b> 4.085 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 12.132 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 0 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 0 days<br><br>         <b>Base for Calculation:</b> 67 days<br>         <b>Location:</b> -25.295278, -54.093889</div>         <img src="results/Medianeira/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_df09af0b1b5a5cef09dfb669b56ef7cd.setContent(html_f5a425f43c9c22d54acc58f61c45575b);
             
         
 
-        marker_6c5fbff125975ca7e78bd330b088b431.bindPopup(popup_44510bfcd13ba81d0d21fff49cd3ca1a)
+        marker_2ea8949036f4b94adfd0f25ebd684585.bindPopup(popup_df09af0b1b5a5cef09dfb669b56ef7cd)
         ;
 
         
     
     
-            var circle_marker_0bd57d841cb64f6e6324be0df5785a5a = L.circleMarker(
+            var circle_marker_ecac7d416a40d039eeb5e44bf9bbf8f1 = L.circleMarker(
                 [-23.073056, -52.465278],
-                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.725, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.525, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_cdb0bac8a0190e447a26de1dfaec3937 = L.popup({"maxWidth": "100%"});
+        var popup_26678da28266fe63a87876fe61f03503 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_cbecd6cfda1d6a34921b288e6b1d154d = $(`<div id="html_cbecd6cfda1d6a34921b288e6b1d154d" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Paranavai<br><br>         <b>Last Measurement value (PM2.5):</b> 0.145 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:24<br><br>         <b>Average Concentration (PM2.5):</b> 5.865 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 20.910 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 84 days<br>         <b>Location:</b> -23.073056, -52.465278</div>         <img src="results/Paranavai/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_cdb0bac8a0190e447a26de1dfaec3937.setContent(html_cbecd6cfda1d6a34921b288e6b1d154d);
+                var html_bc8860dbd1171bf3eb462081fdc815a6 = $(`<div id="html_bc8860dbd1171bf3eb462081fdc815a6" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Paranavai<br><br>         <b>Last Measurement value (PM2.5):</b> 0.105 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:24<br><br>         <b>Average Concentration (PM2.5):</b> 5.865 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 20.910 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 84 days<br>         <b>Location:</b> -23.073056, -52.465278</div>         <img src="results/Paranavai/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_26678da28266fe63a87876fe61f03503.setContent(html_bc8860dbd1171bf3eb462081fdc815a6);
             
         
 
-        circle_marker_0bd57d841cb64f6e6324be0df5785a5a.bindPopup(popup_cdb0bac8a0190e447a26de1dfaec3937)
+        circle_marker_ecac7d416a40d039eeb5e44bf9bbf8f1.bindPopup(popup_26678da28266fe63a87876fe61f03503)
         ;
 
         
     
     
-            var circle_0377a1408150047653448864c8745c0c = L.circle(
+            var circle_d15ba4c9ba8d48f63671db5219bf38f1 = L.circle(
                 [-23.073056, -52.465278],
-                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.625, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.625, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_ad424deaa294b15af522ff60c84ebbc3 = L.popup({"maxWidth": "100%"});
+        var popup_fd740e91cb9670c6f9bdb66b13b4d780 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_2c6ffd73348845d67fc307cc43fb96c6 = $(`<div id="html_2c6ffd73348845d67fc307cc43fb96c6" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Paranavai<br><br>         <b>Last Measurement value (PM2.5):</b> 0.145 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:24<br><br>         <b>Average Concentration (PM2.5):</b> 5.865 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 20.910 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 84 days<br>         <b>Location:</b> -23.073056, -52.465278</div>         <img src="results/Paranavai/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_ad424deaa294b15af522ff60c84ebbc3.setContent(html_2c6ffd73348845d67fc307cc43fb96c6);
+                var html_a8b306527eb733bc2324e459b4482af8 = $(`<div id="html_a8b306527eb733bc2324e459b4482af8" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Paranavai<br><br>         <b>Last Measurement value (PM2.5):</b> 0.105 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:24<br><br>         <b>Average Concentration (PM2.5):</b> 5.865 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 20.910 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 84 days<br>         <b>Location:</b> -23.073056, -52.465278</div>         <img src="results/Paranavai/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_fd740e91cb9670c6f9bdb66b13b4d780.setContent(html_a8b306527eb733bc2324e459b4482af8);
             
         
 
-        circle_0377a1408150047653448864c8745c0c.bindPopup(popup_ad424deaa294b15af522ff60c84ebbc3)
+        circle_d15ba4c9ba8d48f63671db5219bf38f1.bindPopup(popup_fd740e91cb9670c6f9bdb66b13b4d780)
         ;
 
         
     
     
-            var marker_edb8e29f428c902c4696c218c6a70830 = L.marker(
-                [-23.073056, -52.465278],
-                {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
-        
-    
-            var div_icon_a7b716003e10532103f5e3fd65920dac = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               0.1\u003c/div\u003e\n    "});
-            marker_edb8e29f428c902c4696c218c6a70830.setIcon(div_icon_a7b716003e10532103f5e3fd65920dac);
-        
-    
-        var popup_c9bfd4f4f19ff11e5bbabed61ec1f530 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_eb226c200acadb78beb0061282a5eedd = $(`<div id="html_eb226c200acadb78beb0061282a5eedd" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Paranavai<br><br>         <b>Last Measurement value (PM2.5):</b> 0.145 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:24<br><br>         <b>Average Concentration (PM2.5):</b> 5.865 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 20.910 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 84 days<br>         <b>Location:</b> -23.073056, -52.465278</div>         <img src="results/Paranavai/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_c9bfd4f4f19ff11e5bbabed61ec1f530.setContent(html_eb226c200acadb78beb0061282a5eedd);
-            
-        
-
-        marker_edb8e29f428c902c4696c218c6a70830.bindPopup(popup_c9bfd4f4f19ff11e5bbabed61ec1f530)
-        ;
-
-        
-    
-    
-            var marker_2ab164eca380c8a566f473d09363eac9 = L.marker(
+            var marker_b3799f8d646bc9a68f204eebd2a87174 = L.marker(
                 [-23.073056, -52.465278],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_46ce7f6d3eaa30124c65ae435aa41534 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -15.725px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Paranavai\u003c/div\u003e\n    "});
-            marker_2ab164eca380c8a566f473d09363eac9.setIcon(div_icon_46ce7f6d3eaa30124c65ae435aa41534);
+            var div_icon_a486ac9b87710d604ec55f5f86bf3a27 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               0.1\u003c/div\u003e\n    "});
+            marker_b3799f8d646bc9a68f204eebd2a87174.setIcon(div_icon_a486ac9b87710d604ec55f5f86bf3a27);
         
     
-        var popup_9c56de4ca67febf5b05dc66e54efa011 = L.popup({"maxWidth": "100%"});
+        var popup_c48649c450e4773244ccd7c4749a099c = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_6668ea726bb50ba548ee3f4a98a0a254 = $(`<div id="html_6668ea726bb50ba548ee3f4a98a0a254" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Paranavai<br><br>         <b>Last Measurement value (PM2.5):</b> 0.145 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:24<br><br>         <b>Average Concentration (PM2.5):</b> 5.865 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 20.910 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 84 days<br>         <b>Location:</b> -23.073056, -52.465278</div>         <img src="results/Paranavai/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_9c56de4ca67febf5b05dc66e54efa011.setContent(html_6668ea726bb50ba548ee3f4a98a0a254);
+                var html_e2bdcea7824448dd2f3e2791397f278d = $(`<div id="html_e2bdcea7824448dd2f3e2791397f278d" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Paranavai<br><br>         <b>Last Measurement value (PM2.5):</b> 0.105 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:24<br><br>         <b>Average Concentration (PM2.5):</b> 5.865 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 20.910 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 84 days<br>         <b>Location:</b> -23.073056, -52.465278</div>         <img src="results/Paranavai/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_c48649c450e4773244ccd7c4749a099c.setContent(html_e2bdcea7824448dd2f3e2791397f278d);
             
         
 
-        marker_2ab164eca380c8a566f473d09363eac9.bindPopup(popup_9c56de4ca67febf5b05dc66e54efa011)
+        marker_b3799f8d646bc9a68f204eebd2a87174.bindPopup(popup_c48649c450e4773244ccd7c4749a099c)
         ;
 
         
     
     
-            var circle_marker_c73acfb9090124488e7a1acc428d00ad = L.circleMarker(
+            var marker_61519405297786c3fe2d453ff2553382 = L.marker(
+                [-23.073056, -52.465278],
+                {}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
+        
+    
+            var div_icon_77e7e007a216edb42fc376bf17aeac31 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -15.525px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Paranavai\u003c/div\u003e\n    "});
+            marker_61519405297786c3fe2d453ff2553382.setIcon(div_icon_77e7e007a216edb42fc376bf17aeac31);
+        
+    
+        var popup_16235a3d96311b783f04d3cbe9a8be6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f5a03ee80939d1b2c1467017aa04790 = $(`<div id="html_3f5a03ee80939d1b2c1467017aa04790" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Paranavai<br><br>         <b>Last Measurement value (PM2.5):</b> 0.105 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:24<br><br>         <b>Average Concentration (PM2.5):</b> 5.865 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 20.910 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 3 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 1 days<br><br>         <b>Base for Calculation:</b> 84 days<br>         <b>Location:</b> -23.073056, -52.465278</div>         <img src="results/Paranavai/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_16235a3d96311b783f04d3cbe9a8be6a.setContent(html_3f5a03ee80939d1b2c1467017aa04790);
+            
+        
+
+        marker_61519405297786c3fe2d453ff2553382.bindPopup(popup_16235a3d96311b783f04d3cbe9a8be6a)
+        ;
+
+        
+    
+    
+            var circle_marker_d3fba449f55d1928ab401b8fc47b3648 = L.circleMarker(
                 [-25.095, -50.161944],
-                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.1, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.1, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_ce47b0f848ff2801a48d75bdbca8e695 = L.popup({"maxWidth": "100%"});
+        var popup_23fff91a68fee66c96f2fa5beb30b5d0 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_4943801b7b0c999eadf6a6d614b68e67 = $(`<div id="html_4943801b7b0c999eadf6a6d614b68e67" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Ponta Grossa<br><br>         <b>Last Measurement value (PM2.5):</b> 3.020 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:01<br><br>         <b>Average Concentration (PM2.5):</b> 10.559 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 24.828 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 34 days<br>         <b>Location:</b> -25.095, -50.161944</div>         <img src="results/PontaGrossa/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_ce47b0f848ff2801a48d75bdbca8e695.setContent(html_4943801b7b0c999eadf6a6d614b68e67);
+                var html_38ef637c87b521040346a51282306ed8 = $(`<div id="html_38ef637c87b521040346a51282306ed8" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Ponta Grossa<br><br>         <b>Last Measurement value (PM2.5):</b> 2.420 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:40:02<br><br>         <b>Average Concentration (PM2.5):</b> 10.559 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 24.828 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 34 days<br>         <b>Location:</b> -25.095, -50.161944</div>         <img src="results/PontaGrossa/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_23fff91a68fee66c96f2fa5beb30b5d0.setContent(html_38ef637c87b521040346a51282306ed8);
             
         
 
-        circle_marker_c73acfb9090124488e7a1acc428d00ad.bindPopup(popup_ce47b0f848ff2801a48d75bdbca8e695)
+        circle_marker_d3fba449f55d1928ab401b8fc47b3648.bindPopup(popup_23fff91a68fee66c96f2fa5beb30b5d0)
         ;
 
         
     
     
-            var circle_658e55c56efc82557c19881611f13e83 = L.circle(
+            var circle_7a7740255a9246b06b87257c05aea519 = L.circle(
                 [-25.095, -50.161944],
-                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 75.5, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 60.5, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_6f9b94153b56678b32771cc9796e0adc = L.popup({"maxWidth": "100%"});
+        var popup_c98ebd2569e00f9629e3e59f63df3c0e = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_bd8191353b19877d79da743a978d1f41 = $(`<div id="html_bd8191353b19877d79da743a978d1f41" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Ponta Grossa<br><br>         <b>Last Measurement value (PM2.5):</b> 3.020 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:01<br><br>         <b>Average Concentration (PM2.5):</b> 10.559 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 24.828 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 34 days<br>         <b>Location:</b> -25.095, -50.161944</div>         <img src="results/PontaGrossa/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_6f9b94153b56678b32771cc9796e0adc.setContent(html_bd8191353b19877d79da743a978d1f41);
+                var html_7b33897ea54256efc50b56e2f94b0f1e = $(`<div id="html_7b33897ea54256efc50b56e2f94b0f1e" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Ponta Grossa<br><br>         <b>Last Measurement value (PM2.5):</b> 2.420 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:40:02<br><br>         <b>Average Concentration (PM2.5):</b> 10.559 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 24.828 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 34 days<br>         <b>Location:</b> -25.095, -50.161944</div>         <img src="results/PontaGrossa/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_c98ebd2569e00f9629e3e59f63df3c0e.setContent(html_7b33897ea54256efc50b56e2f94b0f1e);
             
         
 
-        circle_658e55c56efc82557c19881611f13e83.bindPopup(popup_6f9b94153b56678b32771cc9796e0adc)
+        circle_7a7740255a9246b06b87257c05aea519.bindPopup(popup_c98ebd2569e00f9629e3e59f63df3c0e)
         ;
 
         
     
     
-            var marker_8b172c55bfb0f0675e81eeafb13c9979 = L.marker(
+            var marker_49d0f722fdfcb8b7c036c555a38c26b1 = L.marker(
                 [-25.095, -50.161944],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_25a54d3ff5d33527203b06247fef45d9 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               3.0\u003c/div\u003e\n    "});
-            marker_8b172c55bfb0f0675e81eeafb13c9979.setIcon(div_icon_25a54d3ff5d33527203b06247fef45d9);
+            var div_icon_95a23a8008bf5566ff84a50d00b803a6 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               2.4\u003c/div\u003e\n    "});
+            marker_49d0f722fdfcb8b7c036c555a38c26b1.setIcon(div_icon_95a23a8008bf5566ff84a50d00b803a6);
         
     
-        var popup_1e560a28ebd63a2b94fb4349efc2423e = L.popup({"maxWidth": "100%"});
+        var popup_f2e25f0b3cee732da2645955ffeab5f8 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_c1439ff46971dccb3ea3062cb1316baf = $(`<div id="html_c1439ff46971dccb3ea3062cb1316baf" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Ponta Grossa<br><br>         <b>Last Measurement value (PM2.5):</b> 3.020 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:01<br><br>         <b>Average Concentration (PM2.5):</b> 10.559 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 24.828 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 34 days<br>         <b>Location:</b> -25.095, -50.161944</div>         <img src="results/PontaGrossa/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_1e560a28ebd63a2b94fb4349efc2423e.setContent(html_c1439ff46971dccb3ea3062cb1316baf);
+                var html_4d87cd38e571edee9402300bd67c0c32 = $(`<div id="html_4d87cd38e571edee9402300bd67c0c32" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Ponta Grossa<br><br>         <b>Last Measurement value (PM2.5):</b> 2.420 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:40:02<br><br>         <b>Average Concentration (PM2.5):</b> 10.559 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 24.828 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 34 days<br>         <b>Location:</b> -25.095, -50.161944</div>         <img src="results/PontaGrossa/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_f2e25f0b3cee732da2645955ffeab5f8.setContent(html_4d87cd38e571edee9402300bd67c0c32);
             
         
 
-        marker_8b172c55bfb0f0675e81eeafb13c9979.bindPopup(popup_1e560a28ebd63a2b94fb4349efc2423e)
+        marker_49d0f722fdfcb8b7c036c555a38c26b1.bindPopup(popup_f2e25f0b3cee732da2645955ffeab5f8)
         ;
 
         
     
     
-            var marker_4f0add82a22c676ffc2877fdd53a2779 = L.marker(
+            var marker_262f28210b8c4fee7509e2e1f317fb94 = L.marker(
                 [-25.095, -50.161944],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_a8986c242a929b52c36f62763d1c73fc = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -30.1px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Ponta Grossa\u003c/div\u003e\n    "});
-            marker_4f0add82a22c676ffc2877fdd53a2779.setIcon(div_icon_a8986c242a929b52c36f62763d1c73fc);
+            var div_icon_ef645ed0bfcdf7f91b0f9f6821f3e82f = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -27.1px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Ponta Grossa\u003c/div\u003e\n    "});
+            marker_262f28210b8c4fee7509e2e1f317fb94.setIcon(div_icon_ef645ed0bfcdf7f91b0f9f6821f3e82f);
         
     
-        var popup_bbed1a2ffd4855af544b2616363598d9 = L.popup({"maxWidth": "100%"});
+        var popup_6baa6efbf2210b667bac737d91a14581 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_6b57ac90c356dd2ff9a32d6813dc96fc = $(`<div id="html_6b57ac90c356dd2ff9a32d6813dc96fc" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Ponta Grossa<br><br>         <b>Last Measurement value (PM2.5):</b> 3.020 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:01<br><br>         <b>Average Concentration (PM2.5):</b> 10.559 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 24.828 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 34 days<br>         <b>Location:</b> -25.095, -50.161944</div>         <img src="results/PontaGrossa/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_bbed1a2ffd4855af544b2616363598d9.setContent(html_6b57ac90c356dd2ff9a32d6813dc96fc);
+                var html_9097d3cb3d083c8178b480716ec52442 = $(`<div id="html_9097d3cb3d083c8178b480716ec52442" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Ponta Grossa<br><br>         <b>Last Measurement value (PM2.5):</b> 2.420 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:40:02<br><br>         <b>Average Concentration (PM2.5):</b> 10.559 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 24.828 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 6 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 2 days<br><br>         <b>Base for Calculation:</b> 34 days<br>         <b>Location:</b> -25.095, -50.161944</div>         <img src="results/PontaGrossa/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_6baa6efbf2210b667bac737d91a14581.setContent(html_9097d3cb3d083c8178b480716ec52442);
             
         
 
-        marker_4f0add82a22c676ffc2877fdd53a2779.bindPopup(popup_bbed1a2ffd4855af544b2616363598d9)
+        marker_262f28210b8c4fee7509e2e1f317fb94.bindPopup(popup_6baa6efbf2210b667bac737d91a14581)
         ;
 
         
     
     
-            var circle_marker_4da4d165c3446e40da8c65e6438ce2de = L.circleMarker(
+            var circle_marker_f9f19e1caa9818ebc5cc57095acbe724 = L.circleMarker(
                 [-25.874167, -50.382778],
-                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.1875, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.025, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_9883699111be1de6d32557dbe484110d = L.popup({"maxWidth": "100%"});
+        var popup_8db27c1858ed9c522b83431304cecb06 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_bd67d7792a284ca18136facb193a7a3e = $(`<div id="html_bd67d7792a284ca18136facb193a7a3e" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Sao Mateus do Sul<br><br>         <b>Last Measurement value (PM2.5):</b> 3.438 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:01<br><br>         <b>Average Concentration (PM2.5):</b> 10.640 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.602 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.874167, -50.382778</div>         <img src="results/SaoMateusdoSul/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_9883699111be1de6d32557dbe484110d.setContent(html_bd67d7792a284ca18136facb193a7a3e);
+                var html_0ec9fd35231be99e2fb3c7968af40c06 = $(`<div id="html_0ec9fd35231be99e2fb3c7968af40c06" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Sao Mateus do Sul<br><br>         <b>Last Measurement value (PM2.5):</b> 3.405 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:00<br><br>         <b>Average Concentration (PM2.5):</b> 10.640 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.602 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.874167, -50.382778</div>         <img src="results/SaoMateusdoSul/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_8db27c1858ed9c522b83431304cecb06.setContent(html_0ec9fd35231be99e2fb3c7968af40c06);
             
         
 
-        circle_marker_4da4d165c3446e40da8c65e6438ce2de.bindPopup(popup_9883699111be1de6d32557dbe484110d)
+        circle_marker_f9f19e1caa9818ebc5cc57095acbe724.bindPopup(popup_8db27c1858ed9c522b83431304cecb06)
         ;
 
         
     
     
-            var circle_f7b25dc83595be555d66e035c7fb25b1 = L.circle(
+            var circle_fec292d9dd1a054ee8c1fb10b996f66d = L.circle(
                 [-25.874167, -50.382778],
-                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 85.9375, "stroke": true, "weight": 3}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": null, "fillOpacity": 0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 85.125, "stroke": true, "weight": 3}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-        var popup_3193ee0afe5bced149e39e2b40bd0f21 = L.popup({"maxWidth": "100%"});
+        var popup_0b4add87fec6c7c02a93a8a9ca711cdb = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_cbfdd6aa866cc77cc79afe75f7ac89fd = $(`<div id="html_cbfdd6aa866cc77cc79afe75f7ac89fd" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Sao Mateus do Sul<br><br>         <b>Last Measurement value (PM2.5):</b> 3.438 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:01<br><br>         <b>Average Concentration (PM2.5):</b> 10.640 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.602 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.874167, -50.382778</div>         <img src="results/SaoMateusdoSul/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_3193ee0afe5bced149e39e2b40bd0f21.setContent(html_cbfdd6aa866cc77cc79afe75f7ac89fd);
+                var html_6da87de7ab342cb7f5f855434ca08967 = $(`<div id="html_6da87de7ab342cb7f5f855434ca08967" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Sao Mateus do Sul<br><br>         <b>Last Measurement value (PM2.5):</b> 3.405 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:00<br><br>         <b>Average Concentration (PM2.5):</b> 10.640 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.602 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.874167, -50.382778</div>         <img src="results/SaoMateusdoSul/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_0b4add87fec6c7c02a93a8a9ca711cdb.setContent(html_6da87de7ab342cb7f5f855434ca08967);
             
         
 
-        circle_f7b25dc83595be555d66e035c7fb25b1.bindPopup(popup_3193ee0afe5bced149e39e2b40bd0f21)
+        circle_fec292d9dd1a054ee8c1fb10b996f66d.bindPopup(popup_0b4add87fec6c7c02a93a8a9ca711cdb)
         ;
 
         
     
     
-            var marker_84ae6a9d5dfca993b89706e907601100 = L.marker(
-                [-25.874167, -50.382778],
-                {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
-        
-    
-            var div_icon_85808e416296833f68b1b1a66fd3a94b = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               3.4\u003c/div\u003e\n    "});
-            marker_84ae6a9d5dfca993b89706e907601100.setIcon(div_icon_85808e416296833f68b1b1a66fd3a94b);
-        
-    
-        var popup_979b63e8b4e7edbc1778971f3b7b7a47 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_02cdb1a3c611a590b87583b7ecffd714 = $(`<div id="html_02cdb1a3c611a590b87583b7ecffd714" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Sao Mateus do Sul<br><br>         <b>Last Measurement value (PM2.5):</b> 3.438 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:01<br><br>         <b>Average Concentration (PM2.5):</b> 10.640 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.602 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.874167, -50.382778</div>         <img src="results/SaoMateusdoSul/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_979b63e8b4e7edbc1778971f3b7b7a47.setContent(html_02cdb1a3c611a590b87583b7ecffd714);
-            
-        
-
-        marker_84ae6a9d5dfca993b89706e907601100.bindPopup(popup_979b63e8b4e7edbc1778971f3b7b7a47)
-        ;
-
-        
-    
-    
-            var marker_ccb41c2fbb719b6b3945230745d44ba5 = L.marker(
+            var marker_253b8c08cff1031cf9f51f97c0f0e1b3 = L.marker(
                 [-25.874167, -50.382778],
                 {}
-            ).addTo(map_6c7c323b293e0b0accb1a121e07fc025);
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
         
     
-            var div_icon_405279930491b8a5896c690cadcc72c4 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -32.1875px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Sao Mateus do Sul\u003c/div\u003e\n    "});
-            marker_ccb41c2fbb719b6b3945230745d44ba5.setIcon(div_icon_405279930491b8a5896c690cadcc72c4);
+            var div_icon_8c6a1741c3c8f7252835bf55cc16ab97 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n               top: 50%; left: 50%; transform: translate(-50%, -50%);\n               text-align: center; color: black;\n               text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n               font-size: 20px; white-space: nowrap; font-family: monospace\"\u003e\n               3.4\u003c/div\u003e\n    "});
+            marker_253b8c08cff1031cf9f51f97c0f0e1b3.setIcon(div_icon_8c6a1741c3c8f7252835bf55cc16ab97);
         
     
-        var popup_b638e6c08b4421a842ae58a65e69572c = L.popup({"maxWidth": "100%"});
+        var popup_70f2ac5c42572c6c87f863e5a1cca8d6 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_677f9d21d309ea756f41940b3dab67a2 = $(`<div id="html_677f9d21d309ea756f41940b3dab67a2" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Sao Mateus do Sul<br><br>         <b>Last Measurement value (PM2.5):</b> 3.438 ug/m³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:12:01<br><br>         <b>Average Concentration (PM2.5):</b> 10.640 ug/m³<br>         <b>Maximum Concentration (PM2.5):</b> 25.602 ug/m³<br><br>         <b>Days Above WHO 24h AQI (15 ug/m³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.874167, -50.382778</div>         <img src="results/SaoMateusdoSul/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
-                popup_b638e6c08b4421a842ae58a65e69572c.setContent(html_677f9d21d309ea756f41940b3dab67a2);
+                var html_c5ced329fcf546a4fdce2b223c9b6d18 = $(`<div id="html_c5ced329fcf546a4fdce2b223c9b6d18" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Sao Mateus do Sul<br><br>         <b>Last Measurement value (PM2.5):</b> 3.405 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:00<br><br>         <b>Average Concentration (PM2.5):</b> 10.640 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.602 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.874167, -50.382778</div>         <img src="results/SaoMateusdoSul/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_70f2ac5c42572c6c87f863e5a1cca8d6.setContent(html_c5ced329fcf546a4fdce2b223c9b6d18);
             
         
 
-        marker_ccb41c2fbb719b6b3945230745d44ba5.bindPopup(popup_b638e6c08b4421a842ae58a65e69572c)
+        marker_253b8c08cff1031cf9f51f97c0f0e1b3.bindPopup(popup_70f2ac5c42572c6c87f863e5a1cca8d6)
+        ;
+
+        
+    
+    
+            var marker_740398115aee75a6873416591acf79a4 = L.marker(
+                [-25.874167, -50.382778],
+                {}
+            ).addTo(map_cf691fbb9e8c37744efbdd7f3901619c);
+        
+    
+            var div_icon_1f71c97d868b4e5dad947738d2e7cefb = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: absolute;\n    left: 50%; transform: translateX(-50%);\n    bottom: -32.025px; text-align: center; color: black;\n    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;\n    font-size: 16px; white-space: nowrap;\"\u003e\n    Sao Mateus do Sul\u003c/div\u003e\n    "});
+            marker_740398115aee75a6873416591acf79a4.setIcon(div_icon_1f71c97d868b4e5dad947738d2e7cefb);
+        
+    
+        var popup_4f7ba880f58426dcce46ebe8d05a1a20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be864a22d7eed34dede65b94f0ebb050 = $(`<div id="html_be864a22d7eed34dede65b94f0ebb050" style="width: 100.0%; height: 100.0%;">     <div style="width: 700px; font-size: 16px; z-index: 10000;">  <!-- Increase width and font size -->         <b>City:</b> Sao Mateus do Sul<br><br>         <b>Last Measurement value (PM2.5):</b> 3.405 ug/mÂ³<br>         <b>Last Measurement date:</b> 03/05/2024, 15:38:00<br><br>         <b>Average Concentration (PM2.5):</b> 10.640 ug/mÂ³<br>         <b>Maximum Concentration (PM2.5):</b> 25.602 ug/mÂ³<br><br>         <b>Days Above WHO 24h AQI (15 ug/mÂ³):</b> 22 days<br>         <b>Maximum Consecutive Days Above WHO 24h AQI:</b> 4 days<br><br>         <b>Base for Calculation:</b> 100 days<br>         <b>Location:</b> -25.874167, -50.382778</div>         <img src="results/SaoMateusdoSul/pm25.png" alt="Concentration timeseries" style="max-width: 90%; height: auto;text-align: center; ">     </div>`)[0];
+                popup_4f7ba880f58426dcce46ebe8d05a1a20.setContent(html_be864a22d7eed34dede65b94f0ebb050);
+            
+        
+
+        marker_740398115aee75a6873416591acf79a4.bindPopup(popup_4f7ba880f58426dcce46ebe8d05a1a20)
         ;
 
         
