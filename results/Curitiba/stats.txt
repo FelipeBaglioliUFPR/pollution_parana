@@ -17,7 +17,7 @@ PM2.5:
 Valor máximo:  29.5725 , em  2024-04-23 00:00:00
 Valor médio:  11.008337458745874
 Desvio padrão:  22.223638520554577
-Última medida:  12.271666666666667 ug/cm3, em  2024-05-05 10:55:59.333333248
+Última medida:  15.316666666666668 ug/cm3, em  2024-05-05 14:54:44.333333248
 Dias acima da AQG (24h):  22
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
