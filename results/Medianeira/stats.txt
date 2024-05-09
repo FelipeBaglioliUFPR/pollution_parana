@@ -1,35 +1,40 @@
 Municipio:  Medianeira 
 
 Sensores utilizados:  [187787]
-Data Inicial:  2024-01-28 00:00:00
-Data Final:  2024-04-07 00:00:00
-Dias totais:  70 days 00:00:00
-Dias validos:  62 days 00:00:00
+Data Inicial:  2024-01-28 21:00:00
+Data Final:  2024-04-06 21:00:00
+Dias totais:  69 days 00:00:00
+Dias validos:  61 days 00:00:00 
+
 PM1.0:
-Valor máximo:  10.143999999999998 , em  2024-04-06 00:00:00
-Valor médio:  3.427333333333334
-Desvio padrão:  6.522071748962712
-Última medida:  6.5635 ug/cm3, em  2024-04-07 00:00:00
+Valor máximo:  10.143999999999998 , em  2024-04-05 21:00:00
+Valor médio:  3.4604919354838715
+Desvio padrão:  1.8559575684361798
+Última medida:  6.5635 ug/cm3, em  2024-04-06 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 PM2.5:
-Valor máximo:  12.132 , em  2024-04-06 00:00:00
-Valor médio:  4.318746031746032
-Desvio padrão:  6.522071748962712
-Última medida:  10.77 ug/cm3, em  2024-04-07 10:07:12
-Dias acima da AQG (24h):  0
+Valor máximo:  12.132 , em  2024-04-05 21:00:00
+Valor médio:  4.356782258064517
+Desvio padrão:  2.23373601919532
+Última medida:  8.2685 ug/cm3, em  2024-04-06 21:00:00
+Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
-PM10:
-Valor máximo:  12.7815 , em  2024-04-06 00:00:00
-Valor médio:  81.24247619047618
-Desvio padrao:  6.522071748962712
-Última medida:  9.2045 ug/cm3, em  2024-04-07 00:00:00
-Dias acima da AQG (24h):  0
+PM10.0:
+Valor máximo:  12.7815 , em  2024-04-05 21:00:00
+Valor médio:  4.888475806451613
+Desvio padrão:  2.3429759597071698
+Última medida:  9.2045 ug/cm3, em  2024-04-06 21:00:00
+Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 VOC:
-Valor máximo:  101.436 , em  2024-04-06 00:00:00
-Valor médio:  81.24247619047618
-Desvio padrao:  6.522071748962712
+Valor máximo:  101.436 , em  2024-04-05 21:00:00
+Valor médio:  81.33746774193547
+Desvio padrão:  6.53122971053149
+Última medida:  88.596 ug/cm3, em  2024-04-06 21:00:00
+Dias acima da AQG (24h) ***:  -999.99
+Máximo de dias consecutivos acima da AQG (24h):  -999.99 
+
