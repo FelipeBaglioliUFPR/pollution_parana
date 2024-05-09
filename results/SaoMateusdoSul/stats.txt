@@ -1,35 +1,40 @@
 Municipio:  Sao Mateus do Sul 
 
 Sensores utilizados:  [187791, 187801]
-Data Inicial:  2024-01-28 00:00:00
-Data Final:  2024-05-07 00:00:00
+Data Inicial:  2024-01-28 21:00:00
+Data Final:  2024-05-07 21:00:00
 Dias totais:  100 days 00:00:00
-Dias validos:  100 days 00:00:00
+Dias validos:  100 days 00:00:00 
+
 PM1.0:
-Valor máximo:  18.901000000000003 , em  2024-04-05 00:00:00
-Valor médio:  8.31093811881188
-Desvio padrão:  5.756717025517338
-Última medida:  12.785499999999999 ug/cm3, em  2024-05-07 00:00:00
+Valor máximo:  18.901000000000003 , em  2024-04-04 21:00:00
+Valor médio:  8.344076732673267
+Desvio padrão:  3.963653714494774
+Última medida:  8.565750000000001 ug/cm3, em  2024-05-07 21:00:00
 Dias acima da AQG (24h) ***:  6
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM2.5:
-Valor máximo:  25.6025 , em  2024-04-05 00:00:00
-Valor médio:  11.10382178217822
-Desvio padrão:  5.756717025517338
-Última medida:  20.509999999999998 ug/cm3, em  2024-05-08 08:41:45.500000
-Dias acima da AQG (24h):  25
+Valor máximo:  25.6025 , em  2024-04-04 21:00:00
+Valor médio:  11.149002475247524
+Desvio padrão:  5.355093430965403
+Última medida:  11.47775 ug/cm3, em  2024-05-07 21:00:00
+Dias acima da AQG (24h) ***:  25
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
-PM10:
-Valor máximo:  29.13775 , em  2024-04-05 00:00:00
-Valor médio:  81.29802475247523
-Desvio padrao:  5.756717025517338
-Última medida:  19.535249999999998 ug/cm3, em  2024-05-07 00:00:00
-Dias acima da AQG (24h):  5
+PM10.0:
+Valor máximo:  29.13775 , em  2024-04-04 21:00:00
+Valor médio:  12.620351485148513
+Desvio padrão:  6.006446002335555
+Última medida:  13.416249999999998 ug/cm3, em  2024-05-07 21:00:00
+Dias acima da AQG (24h) ***:  5
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 VOC:
-Valor máximo:  98.7465 , em  2024-04-06 00:00:00
-Valor médio:  81.29802475247523
-Desvio padrao:  5.756717025517338
+Valor máximo:  98.7465 , em  2024-04-05 21:00:00
+Valor médio:  81.45106435643564
+Desvio padrão:  5.860233078838831
+Última medida:  92.993 ug/cm3, em  2024-05-07 21:00:00
+Dias acima da AQG (24h) ***:  -999.99
+Máximo de dias consecutivos acima da AQG (24h):  -999.99 
+
