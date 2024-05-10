@@ -1,40 +1,40 @@
 Municipio:  Curitiba 
 
 Sensores utilizados:  [175407, 90875, 92295]
-Data Inicial:  2024-01-28 21:00:00
-Data Final:  2024-05-07 21:00:00
+Data Inicial:  2024-01-29 21:00:00
+Data Final:  2024-05-08 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  25.860500000000002 , em  2024-05-06 21:00:00
-Valor médio:  8.752657590759076
-Desvio padrão:  5.105840027277874
-Última medida:  16.534666666666666 ug/cm3, em  2024-05-07 21:00:00
+Valor médio:  8.812693894389438
+Desvio padrão:  5.100197708165463
+Última medida:  11.339666666666666 ug/cm3, em  2024-05-08 21:00:00
 Dias acima da AQG (24h) ***:  16
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 PM2.5:
 Valor máximo:  34.1045 , em  2024-05-06 21:00:00
-Valor médio:  11.928131188118815
-Desvio padrão:  7.12877841993036
-Última medida:  22.977999999999998 ug/cm3, em  2024-05-07 21:00:00
-Dias acima da AQG (24h) ***:  26
-Máximo de dias consecutivos acima da AQG (24h):  4 
+Valor médio:  12.015522277227722
+Desvio padrão:  7.117929207279739
+Última medida:  15.509500000000001 ug/cm3, em  2024-05-08 21:00:00
+Dias acima da AQG (24h) ***:  27
+Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM10.0:
 Valor máximo:  39.7925 , em  2024-05-06 21:00:00
-Valor médio:  13.254477722772275
-Desvio padrão:  8.213417283517215
-Última medida:  26.838666666666665 ug/cm3, em  2024-05-07 21:00:00
+Valor médio:  13.356923267326728
+Desvio padrão:  8.20129503455673
+Última medida:  17.517333333333337 ug/cm3, em  2024-05-08 21:00:00
 Dias acima da AQG (24h) ***:  12
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 VOC:
 Valor máximo:  208.455 , em  2024-02-06 21:00:00
-Valor médio:  100.24825742574254
-Desvio padrão:  22.043633847736388
-Última medida:  89.952 ug/cm3, em  2024-05-07 21:00:00
+Valor médio:  100.24695049504948
+Desvio padrão:  22.04500194800456
+Última medida:  77.334 ug/cm3, em  2024-05-08 21:00:00
 Dias acima da AQG (24h) ***:  -999.99
 Máximo de dias consecutivos acima da AQG (24h):  -999.99 
 
