@@ -2,39 +2,39 @@ Municipio:  Guarapuava
 
 Sensores utilizados:  [187823, 112]
 Data Inicial:  2023-11-25 00:00:00
-Data Final:  2024-05-07 21:00:00
-Dias totais:  164 days 21:00:00
-Dias validos:  164 days 21:00:00 
+Data Final:  2024-05-08 21:00:00
+Dias totais:  165 days 21:00:00
+Dias validos:  165 days 21:00:00 
 
 PM1.0:
 Valor máximo:  17.518495212038303 , em  2024-01-20 00:00:00
-Valor médio:  6.449878993286356
-Desvio padrão:  3.213437255023516
-Última medida:  16.223 ug/cm3, em  2024-05-07 21:00:00
+Valor médio:  6.524756336207439
+Desvio padrão:  3.2887054504872713
+Última medida:  14.312 ug/cm3, em  2024-05-08 21:00:00
 Dias acima da AQG (24h) ***:  2
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM2.5:
 Valor máximo:  24.844829001367987 , em  2024-01-20 00:00:00
-Valor médio:  8.66216942953352
-Desvio padrão:  4.387922978478484
-Última medida:  23.643 ug/cm3, em  2024-05-07 21:00:00
-Dias acima da AQG (24h) ***:  9
+Valor médio:  8.765424958776059
+Desvio padrão:  4.493129607722385
+Última medida:  19.504 ug/cm3, em  2024-05-08 21:00:00
+Dias acima da AQG (24h) ***:  10
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM10.0:
 Valor máximo:  29.269589603283173 , em  2024-01-20 00:00:00
-Valor médio:  9.925900290610967
-Desvio padrão:  5.074453636369844
-Última medida:  28.743 ug/cm3, em  2024-05-07 21:00:00
+Valor médio:  10.042072668795624
+Desvio padrão:  5.188406792067716
+Última medida:  22.124 ug/cm3, em  2024-05-08 21:00:00
 Dias acima da AQG (24h) ***:  2
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 VOC:
 Valor máximo:  171.749 , em  2024-05-07 21:00:00
-Valor médio:  124.9628620742019
-Desvio padrão:  14.358512732732885
-Última medida:  171.749 ug/cm3, em  2024-05-07 21:00:00
+Valor médio:  124.71751100682853
+Desvio padrão:  14.508797825161308
+Última medida:  99.201 ug/cm3, em  2024-05-08 21:00:00
 Dias acima da AQG (24h) ***:  -999.99
 Máximo de dias consecutivos acima da AQG (24h):  -999.99 
 
