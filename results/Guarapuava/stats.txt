@@ -2,39 +2,39 @@ Municipio:  Guarapuava
 
 Sensores utilizados:  [187823, 112]
 Data Inicial:  2023-11-25 00:00:00
-Data Final:  2024-05-08 21:00:00
-Dias totais:  165 days 21:00:00
-Dias validos:  165 days 21:00:00 
+Data Final:  2024-05-09 21:00:00
+Dias totais:  166 days 21:00:00
+Dias validos:  166 days 21:00:00 
 
 PM1.0:
 Valor máximo:  17.518495212038303 , em  2024-01-20 00:00:00
-Valor médio:  6.524756336207439
-Desvio padrão:  3.2887054504872713
-Última medida:  14.312 ug/cm3, em  2024-05-08 21:00:00
-Dias acima da AQG (24h) ***:  2
+Valor médio:  6.611937880205481
+Desvio padrão:  3.39385383798593
+Última medida:  15.766000000000002 ug/cm3, em  2024-05-09 21:00:00
+Dias acima da AQG (24h) ***:  3
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM2.5:
 Valor máximo:  24.844829001367987 , em  2024-01-20 00:00:00
-Valor médio:  8.765424958776059
-Desvio padrão:  4.493129607722385
-Última medida:  19.504 ug/cm3, em  2024-05-08 21:00:00
-Dias acima da AQG (24h) ***:  10
-Máximo de dias consecutivos acima da AQG (24h):  2 
+Valor médio:  8.891255855391378
+Desvio padrão:  4.655565154921047
+Última medida:  22.1035 ug/cm3, em  2024-05-09 21:00:00
+Dias acima da AQG (24h) ***:  11
+Máximo de dias consecutivos acima da AQG (24h):  3 
 
 PM10.0:
 Valor máximo:  29.269589603283173 , em  2024-01-20 00:00:00
-Valor médio:  10.042072668795624
-Desvio padrão:  5.188406792067716
-Última medida:  22.124 ug/cm3, em  2024-05-08 21:00:00
-Dias acima da AQG (24h) ***:  2
+Valor médio:  10.185590851165477
+Desvio padrão:  5.370895633799729
+Última medida:  25.255 ug/cm3, em  2024-05-09 21:00:00
+Dias acima da AQG (24h) ***:  3
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 VOC:
 Valor máximo:  171.749 , em  2024-05-07 21:00:00
-Valor médio:  124.71751100682853
-Desvio padrão:  14.508797825161308
-Última medida:  99.201 ug/cm3, em  2024-05-08 21:00:00
+Valor médio:  124.27339297846223
+Desvio padrão:  15.14621834046578
+Última medida:  77.641 ug/cm3, em  2024-05-09 21:00:00
 Dias acima da AQG (24h) ***:  -999.99
 Máximo de dias consecutivos acima da AQG (24h):  -999.99 
 
