@@ -2,39 +2,39 @@ Municipio:  Francisco Beltrao
 
 Sensores utilizados:  [187807]
 Data Inicial:  2024-02-15 21:00:00
-Data Final:  2024-05-09 21:00:00
-Dias totais:  84 days 00:00:00
-Dias validos:  84 days 00:00:00 
+Data Final:  2024-05-10 21:00:00
+Dias totais:  85 days 00:00:00
+Dias validos:  85 days 00:00:00 
 
 PM1.0:
 Valor máximo:  24.903 , em  2024-05-07 21:00:00
-Valor médio:  7.459164705882353
-Desvio padrão:  4.178002108114136
-Última medida:  17.247 ug/cm3, em  2024-05-09 21:00:00
+Valor médio:  7.490232558139534
+Desvio padrão:  4.163333832892093
+Última medida:  10.131 ug/cm3, em  2024-05-10 21:00:00
 Dias acima da AQG (24h) ***:  4
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM2.5:
 Valor máximo:  40.3675 , em  2024-05-07 21:00:00
-Valor médio:  9.612141176470589
-Desvio padrão:  5.873299875897099
-Última medida:  23.586 ug/cm3, em  2024-05-09 21:00:00
+Valor médio:  9.649494186046512
+Desvio padrão:  5.848915413030806
+Última medida:  12.8245 ug/cm3, em  2024-05-10 21:00:00
 Dias acima da AQG (24h) ***:  8
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 PM10.0:
 Valor máximo:  43.7605 , em  2024-05-07 21:00:00
-Valor médio:  10.754188235294118
-Desvio padrão:  6.546522581537028
-Última medida:  29.269 ug/cm3, em  2024-05-09 21:00:00
+Valor médio:  10.795691860465116
+Desvio padrão:  6.519271261678312
+Última medida:  14.3235 ug/cm3, em  2024-05-10 21:00:00
 Dias acima da AQG (24h) ***:  3
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 VOC:
 Valor máximo:  185.55 , em  2024-04-14 21:00:00
-Valor médio:  106.82062352941178
-Desvio padrão:  28.854032680098662
-Última medida:  133.773 ug/cm3, em  2024-05-09 21:00:00
+Valor médio:  106.90930232558141
+Desvio padrão:  28.695587338605286
+Última medida:  114.447 ug/cm3, em  2024-05-10 21:00:00
 Dias acima da AQG (24h) ***:  -999.99
 Máximo de dias consecutivos acima da AQG (24h):  -999.99 
 
