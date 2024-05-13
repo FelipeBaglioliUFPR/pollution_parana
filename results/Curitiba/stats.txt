@@ -1,6 +1,6 @@
 Municipio:  Curitiba 
 
-Sensores utilizados:  [175407, 90875, 92295]
+Sensores utilizados:  ['175407', '90875', '92295']
 Data Inicial:  2024-02-01 21:00:00
 Data Final:  2024-05-11 21:00:00
 Dias totais:  100 days 00:00:00
