@@ -1,6 +1,6 @@
 Municipio:  Francisco Beltrao 
 
-Sensores utilizados:  [187807]
+Sensores utilizados:  ['187807']
 Data Inicial:  2024-02-15 21:00:00
 Data Final:  2024-05-11 21:00:00
 Dias totais:  86 days 00:00:00
