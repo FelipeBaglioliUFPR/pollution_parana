@@ -1,6 +1,6 @@
 Municipio:  Paranavai 
 
-Sensores utilizados:  [187795, 187815]
+Sensores utilizados:  ['187795', '187815']
 Data Inicial:  2024-02-01 21:00:00
 Data Final:  2024-05-10 21:00:00
 Dias totais:  99 days 00:00:00
