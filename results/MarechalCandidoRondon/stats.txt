@@ -1,6 +1,6 @@
 Municipio:  Marechal Candido Rondon 
 
-Sensores utilizados:  [187779, 187781]
+Sensores utilizados:  ['187779', '187781']
 Data Inicial:  2024-02-01 21:00:00
 Data Final:  2024-05-11 21:00:00
 Dias totais:  100 days 00:00:00
