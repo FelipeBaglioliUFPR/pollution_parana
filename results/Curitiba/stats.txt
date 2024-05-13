@@ -1,40 +1,40 @@
 Municipio:  Curitiba 
 
 Sensores utilizados:  [175407, 90875, 92295]
-Data Inicial:  2024-01-31 21:00:00
-Data Final:  2024-05-10 21:00:00
+Data Inicial:  2024-02-01 21:00:00
+Data Final:  2024-05-11 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  25.860500000000002 , em  2024-05-06 21:00:00
-Valor médio:  8.837388613861386
-Desvio padrão:  5.157955240710934
-Última medida:  16.2825 ug/cm3, em  2024-05-10 21:00:00
+Valor médio:  8.894002475247525
+Desvio padrão:  5.182802988991782
+Última medida:  13.9715 ug/cm3, em  2024-05-11 21:00:00
 Dias acima da AQG (24h) ***:  17
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 PM2.5:
 Valor máximo:  34.1045 , em  2024-05-06 21:00:00
-Valor médio:  12.073577557755774
-Desvio padrão:  7.203947599737103
-Última medida:  22.648833333333332 ug/cm3, em  2024-05-10 21:00:00
-Dias acima da AQG (24h) ***:  28
+Valor médio:  12.168357260726072
+Desvio padrão:  7.241451036484109
+Última medida:  19.737 ug/cm3, em  2024-05-11 21:00:00
+Dias acima da AQG (24h) ***:  29
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM10.0:
 Valor máximo:  39.7925 , em  2024-05-06 21:00:00
-Valor médio:  13.439708745874587
-Desvio padrão:  8.306420738012985
-Última medida:  25.997833333333332 ug/cm3, em  2024-05-10 21:00:00
+Valor médio:  13.553679867986798
+Desvio padrão:  8.348134029253456
+Última medida:  22.269833333333334 ug/cm3, em  2024-05-11 21:00:00
 Dias acima da AQG (24h) ***:  13
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 VOC:
 Valor máximo:  208.455 , em  2024-02-06 21:00:00
-Valor médio:  100.04244554455443
-Desvio padrão:  22.146153826104996
-Última medida:  101.103 ug/cm3, em  2024-05-10 21:00:00
+Valor médio:  99.94367326732672
+Desvio padrão:  22.16398970993666
+Última medida:  91.044 ug/cm3, em  2024-05-11 21:00:00
 Dias acima da AQG (24h) ***:  -999.99
 Máximo de dias consecutivos acima da AQG (24h):  -999.99 
 
