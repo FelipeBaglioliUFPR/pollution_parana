@@ -1,6 +1,6 @@
 Municipio:  Guarapuava 
 
-Sensores utilizados:  [187823, 112]
+Sensores utilizados:  ['187823', '112']
 Data Inicial:  2023-11-25 00:00:00
 Data Final:  2024-05-09 21:00:00
 Dias totais:  166 days 21:00:00
