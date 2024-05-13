@@ -1,6 +1,6 @@
 Municipio:  Medianeira 
 
-Sensores utilizados:  [187787]
+Sensores utilizados:  ['187787']
 Data Inicial:  2024-02-01 21:00:00
 Data Final:  2024-04-06 21:00:00
 Dias totais:  65 days 00:00:00
