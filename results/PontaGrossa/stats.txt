@@ -1,6 +1,6 @@
 Municipio:  Ponta Grossa 
 
-Sensores utilizados:  [187773, 187799]
+Sensores utilizados:  ['187773', '187799']
 Data Inicial:  2024-03-28 21:00:00
 Data Final:  2024-05-11 21:00:00
 Dias totais:  44 days 00:00:00
