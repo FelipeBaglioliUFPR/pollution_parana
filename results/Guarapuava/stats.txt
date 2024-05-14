@@ -35,6 +35,6 @@ Valor máximo:  171.749 , em  2024-05-07 21:00:00
 Valor médio:  124.27339297846223
 Desvio padrão:  15.14621834046578
 Última medida:  77.641 ug/cm3, em  2024-05-09 21:00:00
-Dias acima da AQG (24h) ***:  -999.99
-Máximo de dias consecutivos acima da AQG (24h):  -999.99 
+Dias acima da AQG (24h) ***:  nan
+Máximo de dias consecutivos acima da AQG (24h):  nan 
 
