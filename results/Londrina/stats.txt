@@ -1,0 +1,40 @@
+Municipio:  Londrina 
+
+Sensores utilizados:  ['187821']
+Data Inicial:  2024-05-14 21:00:00
+Data Final:  2024-05-14 21:00:00
+Dias totais:  0 days 00:00:00
+Dias validos:  0 days 00:00:00 
+
+PM1.0:
+Valor máximo:  6.852 , em  2024-05-14 21:00:00
+Valor médio:  6.852
+Desvio padrão:  nan
+Última medida:  6.852 ug/cm3, em  2024-05-14 21:00:00
+Dias acima da AQG (24h) ***:  0
+Máximo de dias consecutivos acima da AQG (24h):  0 
+
+PM2.5:
+Valor máximo:  9.539 , em  2024-05-14 21:00:00
+Valor médio:  9.539
+Desvio padrão:  nan
+Última medida:  9.539 ug/cm3, em  2024-05-14 21:00:00
+Dias acima da AQG (24h) ***:  0
+Máximo de dias consecutivos acima da AQG (24h):  0 
+
+PM10.0:
+Valor máximo:  10.4685 , em  2024-05-14 21:00:00
+Valor médio:  10.4685
+Desvio padrão:  nan
+Última medida:  10.4685 ug/cm3, em  2024-05-14 21:00:00
+Dias acima da AQG (24h) ***:  0
+Máximo de dias consecutivos acima da AQG (24h):  0 
+
+VOC:
+Valor máximo:  57.078 , em  2024-05-14 21:00:00
+Valor médio:  57.078
+Desvio padrão:  nan
+Última medida:  57.078 ug/cm3, em  2024-05-14 21:00:00
+Dias acima da AQG (24h) ***:  nan
+Máximo de dias consecutivos acima da AQG (24h):  nan 
+
