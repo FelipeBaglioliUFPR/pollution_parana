@@ -2,55 +2,55 @@ Municipio:  Cascavel
 
 Sensores utilizados:  ['1']
 Data Inicial:  2024-03-31 00:00:00
-Data Final:  2024-05-14 00:00:00
-Dias totais:  44 days 00:00:00
-Dias validos:  41 days 00:00:00 
+Data Final:  2024-05-15 00:00:00
+Dias totais:  45 days 00:00:00
+Dias validos:  42 days 00:00:00 
 
 PM2.5:
 Valor máximo:  4.105574912891986 , em  2024-04-26 00:00:00
-Valor médio:  2.099569027103919
-Desvio padrão:  0.9692853794448839
-Última medida:  0.4788043478260871 ug/cm3, em  2024-05-14 00:00:00
+Valor médio:  2.093982507493109
+Desvio padrão:  0.9527677497332598
+Última medida:  1.6704225352112676 ug/cm3, em  2024-05-15 00:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 PM10.0:
 Valor máximo:  27.093006993006984 , em  2024-05-10 00:00:00
-Valor médio:  12.325659171880309
-Desvio padrão:  5.8806048288064385
-Última medida:  4.124999999999997 ug/cm3, em  2024-05-14 00:00:00
+Valor médio:  12.242820587416954
+Desvio padrão:  5.8344627113249725
+Última medida:  8.707394366197178 ug/cm3, em  2024-05-15 00:00:00
 Dias acima da AQG (24h) ***:  1
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 NO2:
 Valor máximo:  26.19 , em  2024-05-08 00:00:00
-Valor médio:  17.618571014410193
-Desvio padrão:  3.086406805964289
-Última medida:  13.253423913043479 ug/cm3, em  2024-05-14 00:00:00
-Dias acima da AQG (24h) ***:  42
+Valor médio:  17.622085970705385
+Desvio padrão:  3.042712034597364
+Última medida:  17.567535211267614 ug/cm3, em  2024-05-15 00:00:00
+Dias acima da AQG (24h) ***:  43
 Máximo de dias consecutivos acima da AQG (24h):  35 
 
 O3:
 Valor máximo:  17.130347222222227 , em  2024-04-27 00:00:00
-Valor médio:  8.54922946826165
-Desvio padrão:  4.4745305930346495
-Última medida:  2.9524456521739135 ug/cm3, em  2024-05-14 00:00:00
+Valor médio:  8.404095964811535
+Desvio padrão:  4.525677299747744
+Última medida:  1.758239436619718 ug/cm3, em  2024-05-15 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 SO2:
 Valor máximo:  44.7952 , em  2024-05-09 00:00:00
-Valor médio:  25.920501161851295
-Desvio padrão:  11.697873104671572
-Última medida:  31.562119565217408 ug/cm3, em  2024-05-14 00:00:00
+Valor médio:  26.190635889003325
+Desvio padrão:  11.69850918804203
+Última medida:  37.97862676056339 ug/cm3, em  2024-05-15 00:00:00
 Dias acima da AQG (24h) ***:  3
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 CO:
 Valor máximo:  0.1 , em  2024-05-08 00:00:00
-Valor médio:  0.027573630611700414
-Desvio padrão:  0.03080751188821585
-Última medida:  0.0 ug/cm3, em  2024-05-14 00:00:00
+Valor médio:  0.027047024724562937
+Desvio padrão:  0.030633798246252893
+Última medida:  0.004929577464788733 ug/cm3, em  2024-05-15 00:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
