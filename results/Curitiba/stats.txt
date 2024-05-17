@@ -1,40 +1,40 @@
 Municipio:  Curitiba 
 
 Sensores utilizados:  ['175407', '90875', '92295']
-Data Inicial:  2024-02-04 21:00:00
-Data Final:  2024-05-14 21:00:00
+Data Inicial:  2024-02-05 21:00:00
+Data Final:  2024-05-15 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  25.860500000000002 , em  2024-05-06 21:00:00
-Valor médio:  8.882953795379539
-Desvio padrão:  5.204189053134066
-Última medida:  5.280666666666667 ug/cm3, em  2024-05-14 21:00:00
-Dias acima da AQG (24h) ***:  17
+Valor médio:  8.795745874587459
+Desvio padrão:  5.134420135486688
+Última medida:  8.53 ug/cm3, em  2024-05-15 21:00:00
+Dias acima da AQG (24h) ***:  16
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 PM2.5:
 Valor máximo:  34.1045 , em  2024-05-06 21:00:00
-Valor médio:  12.16684158415842
-Desvio padrão:  7.262543528732672
-Última medida:  7.4188333333333345 ug/cm3, em  2024-05-14 21:00:00
-Dias acima da AQG (24h) ***:  29
+Valor médio:  12.055032178217825
+Desvio padrão:  7.178724302437901
+Última medida:  11.823999999999998 ug/cm3, em  2024-05-15 21:00:00
+Dias acima da AQG (24h) ***:  28
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM10.0:
 Valor máximo:  39.7925 , em  2024-05-06 21:00:00
-Valor médio:  13.561729372937291
-Desvio padrão:  8.369172337964871
-Última medida:  8.078166666666666 ug/cm3, em  2024-05-14 21:00:00
-Dias acima da AQG (24h) ***:  13
+Valor médio:  13.435515676567656
+Desvio padrão:  8.278381878579834
+Última medida:  13.053166666666668 ug/cm3, em  2024-05-15 21:00:00
+Dias acima da AQG (24h) ***:  12
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 VOC:
 Valor máximo:  208.455 , em  2024-02-06 21:00:00
-Valor médio:  99.69537623762375
-Desvio padrão:  22.32401927021722
-Última medida:  82.337 ug/cm3, em  2024-05-14 21:00:00
+Valor médio:  99.4279207920792
+Desvio padrão:  22.236375088437043
+Última medida:  93.284 ug/cm3, em  2024-05-15 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
