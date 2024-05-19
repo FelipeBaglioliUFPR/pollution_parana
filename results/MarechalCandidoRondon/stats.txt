@@ -1,40 +1,40 @@
 Municipio:  Marechal Candido Rondon 
 
 Sensores utilizados:  ['187779', '187781']
-Data Inicial:  2024-02-05 21:00:00
-Data Final:  2024-05-15 21:00:00
+Data Inicial:  2024-02-07 21:00:00
+Data Final:  2024-05-17 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
-Valor máximo:  12.286999999999999 , em  2024-05-15 21:00:00
-Valor médio:  5.118693069306931
-Desvio padrão:  2.2827138617994778
-Última medida:  12.286999999999999 ug/cm3, em  2024-05-15 21:00:00
+Valor máximo:  13.01975 , em  2024-05-16 21:00:00
+Valor médio:  5.240970297029703
+Desvio padrão:  2.4286295022314355
+Última medida:  8.499500000000001 ug/cm3, em  2024-05-17 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 PM2.5:
-Valor máximo:  16.02825 , em  2024-05-15 21:00:00
-Valor médio:  6.551499999999998
-Desvio padrão:  2.87788066639324
-Última medida:  16.02825 ug/cm3, em  2024-05-15 21:00:00
-Dias acima da AQG (24h) ***:  1
-Máximo de dias consecutivos acima da AQG (24h):  1 
+Valor máximo:  16.80325 , em  2024-05-16 21:00:00
+Valor médio:  6.713574257425741
+Desvio padrão:  3.0831208143179687
+Última medida:  11.562249999999999 ug/cm3, em  2024-05-17 21:00:00
+Dias acima da AQG (24h) ***:  2
+Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM10.0:
-Valor máximo:  17.8315 , em  2024-05-15 21:00:00
-Valor médio:  7.371913366336634
-Desvio padrão:  3.129738150076545
-Última medida:  17.8315 ug/cm3, em  2024-05-15 21:00:00
+Valor máximo:  18.7845 , em  2024-05-16 21:00:00
+Valor médio:  7.544601485148514
+Desvio padrão:  3.357535681898671
+Última medida:  12.45575 ug/cm3, em  2024-05-17 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 VOC:
 Valor máximo:  120.947 , em  2024-05-10 21:00:00
-Valor médio:  76.41526237623762
-Desvio padrão:  9.266874190792185
-Última medida:  94.176 ug/cm3, em  2024-05-15 21:00:00
+Valor médio:  76.38861881188119
+Desvio padrão:  9.272934673054834
+Última medida:  72.89 ug/cm3, em  2024-05-17 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
