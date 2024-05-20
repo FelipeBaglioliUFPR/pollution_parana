@@ -1,31 +1,31 @@
 Municipio:  Adrianopolis 
 
 Sensores utilizados:  ['186339']
-Data Inicial:  2024-02-07 21:00:00
+Data Inicial:  2024-02-08 21:00:00
 Data Final:  2024-05-15 21:00:00
-Dias totais:  98 days 00:00:00
-Dias validos:  98 days 00:00:00 
+Dias totais:  97 days 00:00:00
+Dias validos:  97 days 00:00:00 
 
 PM1.0:
 Valor máximo:  13.441 , em  2024-05-05 21:00:00
-Valor médio:  4.152651515151515
-Desvio padrão:  3.448587199229048
+Valor médio:  4.115581632653061
+Desvio padrão:  3.446434886409012
 Última medida:  1.5845 ug/cm3, em  2024-05-15 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 PM2.5:
 Valor máximo:  17.973 , em  2024-05-05 21:00:00
-Valor médio:  5.814656565656565
-Desvio padrão:  4.458939123304904
+Valor médio:  5.76329081632653
+Desvio padrão:  4.452326378424866
 Última medida:  2.1655 ug/cm3, em  2024-05-15 21:00:00
 Dias acima da AQG (24h) ***:  3
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM10.0:
 Valor máximo:  21.3405 , em  2024-05-05 21:00:00
-Valor médio:  7.370777777777778
-Desvio padrão:  4.973569396002038
+Valor médio:  7.304316326530612
+Desvio padrão:  4.954755631509805
 Última medida:  2.5785 ug/cm3, em  2024-05-15 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
