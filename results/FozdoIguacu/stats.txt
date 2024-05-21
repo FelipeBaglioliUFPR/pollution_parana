@@ -1,40 +1,40 @@
 Municipio:  Foz do Iguacu 
 
 Sensores utilizados:  ['187805']
-Data Inicial:  2024-02-08 21:00:00
-Data Final:  2024-05-18 21:00:00
+Data Inicial:  2024-02-09 21:00:00
+Data Final:  2024-05-19 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  18.8925 , em  2024-04-04 21:00:00
-Valor médio:  7.69718316831683
-Desvio padrão:  3.7261256948221515
-Última medida:  6.9005 ug/cm3, em  2024-05-18 21:00:00
+Valor médio:  7.72698514851485
+Desvio padrão:  3.7188233390788046
+Última medida:  8.314 ug/cm3, em  2024-05-19 21:00:00
 Dias acima da AQG (24h) ***:  4
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM2.5:
 Valor máximo:  25.18 , em  2024-04-04 21:00:00
-Valor médio:  10.09879702970297
-Desvio padrão:  4.89693809751472
-Última medida:  8.64 ug/cm3, em  2024-05-18 21:00:00
+Valor médio:  10.139133663366337
+Desvio padrão:  4.887528327739435
+Última medida:  11.026 ug/cm3, em  2024-05-19 21:00:00
 Dias acima da AQG (24h) ***:  15
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 PM10.0:
 Valor máximo:  28.6805 , em  2024-04-04 21:00:00
-Valor médio:  11.406633663366339
-Desvio padrão:  5.517321182372424
-Última medida:  9.2 ug/cm3, em  2024-05-18 21:00:00
+Valor médio:  11.449876237623762
+Desvio padrão:  5.505787379842206
+Última medida:  12.1565 ug/cm3, em  2024-05-19 21:00:00
 Dias acima da AQG (24h) ***:  3
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 VOC:
 Valor máximo:  101.384 , em  2024-03-30 21:00:00
-Valor médio:  80.6500198019802
-Desvio padrão:  7.033045937543987
-Última medida:  67.742 ug/cm3, em  2024-05-18 21:00:00
+Valor médio:  80.75571287128713
+Desvio padrão:  6.995388334233681
+Última medida:  83.566 ug/cm3, em  2024-05-19 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
