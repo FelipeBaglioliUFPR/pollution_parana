@@ -1,40 +1,40 @@
 Municipio:  Curitiba 
 
 Sensores utilizados:  ['175407', '90875', '92295']
-Data Inicial:  2024-02-09 21:00:00
-Data Final:  2024-05-19 21:00:00
+Data Inicial:  2024-02-11 21:00:00
+Data Final:  2024-05-21 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  25.860500000000002 , em  2024-05-06 21:00:00
-Valor médio:  8.674407590759076
-Desvio padrão:  5.145730712740593
-Última medida:  7.637333333333333 ug/cm3, em  2024-05-19 21:00:00
-Dias acima da AQG (24h) ***:  16
+Valor médio:  8.782463696369637
+Desvio padrão:  5.178926992019569
+Última medida:  15.719333333333333 ug/cm3, em  2024-05-21 21:00:00
+Dias acima da AQG (24h) ***:  17
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 PM2.5:
 Valor máximo:  34.1045 , em  2024-05-06 21:00:00
-Valor médio:  11.925130363036304
-Desvio padrão:  7.20952636353087
-Última medida:  10.611166666666668 ug/cm3, em  2024-05-19 21:00:00
-Dias acima da AQG (24h) ***:  27
+Valor médio:  12.091943894389438
+Desvio padrão:  7.262510667434401
+Última medida:  22.491 ug/cm3, em  2024-05-21 21:00:00
+Dias acima da AQG (24h) ***:  28
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM10.0:
 Valor máximo:  39.7925 , em  2024-05-06 21:00:00
-Valor médio:  13.321787128712872
-Desvio padrão:  8.32832118313832
-Última medida:  11.663833333333335 ug/cm3, em  2024-05-19 21:00:00
-Dias acima da AQG (24h) ***:  12
+Valor médio:  13.516656765676569
+Desvio padrão:  8.392300682431811
+Última medida:  25.735166666666668 ug/cm3, em  2024-05-21 21:00:00
+Dias acima da AQG (24h) ***:  13
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 VOC:
 Valor máximo:  198.469 , em  2024-03-25 21:00:00
-Valor médio:  97.30616831683169
-Desvio padrão:  18.9274665684921
-Última medida:  89.431 ug/cm3, em  2024-05-19 21:00:00
+Valor médio:  97.47620792079209
+Desvio padrão:  18.837173613000882
+Última medida:  89.969 ug/cm3, em  2024-05-21 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
