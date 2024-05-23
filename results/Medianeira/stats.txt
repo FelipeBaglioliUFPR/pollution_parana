@@ -1,39 +1,39 @@
 Municipio:  Medianeira 
 
 Sensores utilizados:  ['187787']
-Data Inicial:  2024-02-09 21:00:00
+Data Inicial:  2024-02-11 21:00:00
 Data Final:  2024-04-06 21:00:00
-Dias totais:  57 days 00:00:00
-Dias validos:  49 days 00:00:00 
+Dias totais:  55 days 00:00:00
+Dias validos:  47 days 00:00:00 
 
 PM1.0:
 Valor máximo:  10.143999999999998 , em  2024-04-05 21:00:00
-Valor médio:  3.3200100000000003
-Desvio padrão:  1.7647671104085072
+Valor médio:  3.2676354166666663
+Desvio padrão:  1.7819691705776461
 Última medida:  6.5635 ug/cm3, em  2024-04-06 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 PM2.5:
 Valor máximo:  12.132 , em  2024-04-05 21:00:00
-Valor médio:  4.17426
-Desvio padrão:  2.1294316340473656
+Valor médio:  4.11253125
+Desvio padrão:  2.151095088272458
 Última medida:  8.2685 ug/cm3, em  2024-04-06 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 PM10.0:
 Valor máximo:  12.7815 , em  2024-04-05 21:00:00
-Valor médio:  4.684819999999999
-Desvio padrão:  2.238525498115732
+Valor médio:  4.618375
+Desvio padrão:  2.2601527356127664
 Última medida:  9.2045 ug/cm3, em  2024-04-06 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 VOC:
 Valor máximo:  101.436 , em  2024-04-05 21:00:00
-Valor médio:  80.94834
-Desvio padrão:  7.008899996986339
+Valor médio:  81.15627083333334
+Desvio padrão:  7.07873650445874
 Última medida:  88.596 ug/cm3, em  2024-04-06 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
