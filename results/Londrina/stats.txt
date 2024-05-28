@@ -2,39 +2,39 @@ Municipio:  Londrina
 
 Sensores utilizados:  ['187821']
 Data Inicial:  2024-05-14 21:00:00
-Data Final:  2024-05-25 21:00:00
-Dias totais:  11 days 00:00:00
-Dias validos:  11 days 00:00:00 
+Data Final:  2024-05-26 21:00:00
+Dias totais:  12 days 00:00:00
+Dias validos:  12 days 00:00:00 
 
 PM1.0:
 Valor máximo:  18.183 , em  2024-05-16 21:00:00
-Valor médio:  9.867583333333334
-Desvio padrão:  5.2442456812349585
-Última medida:  1.11 ug/cm3, em  2024-05-25 21:00:00
+Valor médio:  9.26823076923077
+Desvio padrão:  5.466283566157268
+Última medida:  2.0765 ug/cm3, em  2024-05-26 21:00:00
 Dias acima da AQG (24h) ***:  2
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM2.5:
 Valor máximo:  25.3885 , em  2024-05-16 21:00:00
-Valor médio:  13.361041666666667
-Desvio padrão:  7.212417629774906
-Última medida:  1.461 ug/cm3, em  2024-05-25 21:00:00
+Valor médio:  12.550500000000001
+Desvio padrão:  7.498317502946911
+Última medida:  2.824 ug/cm3, em  2024-05-26 21:00:00
 Dias acima da AQG (24h) ***:  5
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM10.0:
 Valor máximo:  29.0225 , em  2024-05-16 21:00:00
-Valor médio:  14.618583333333333
-Desvio padrão:  8.0468287791847
-Última medida:  1.633 ug/cm3, em  2024-05-25 21:00:00
+Valor médio:  13.729615384615386
+Desvio padrão:  8.344395192667367
+Última medida:  3.0620000000000003 ug/cm3, em  2024-05-26 21:00:00
 Dias acima da AQG (24h) ***:  1
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 VOC:
 Valor máximo:  74.361 , em  2024-05-16 21:00:00
-Valor médio:  69.29083333333334
-Desvio padrão:  4.744598954856378
-Última medida:  73.734 ug/cm3, em  2024-05-25 21:00:00
+Valor médio:  69.44384615384615
+Desvio padrão:  4.575986484649217
+Última medida:  71.28 ug/cm3, em  2024-05-26 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
