@@ -1,40 +1,40 @@
 Municipio:  Campo Mourao 
 
 Sensores utilizados:  ['187777', '187803']
-Data Inicial:  2024-02-16 21:00:00
-Data Final:  2024-05-26 21:00:00
+Data Inicial:  2024-02-22 21:00:00
+Data Final:  2024-06-01 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  16.87575 , em  2024-03-02 21:00:00
-Valor médio:  5.861995049504951
-Desvio padrão:  3.252223076985225
-Última medida:  1.07225 ug/cm3, em  2024-05-26 21:00:00
+Valor médio:  5.916992574257427
+Desvio padrão:  3.2523707261887145
+Última medida:  8.86 ug/cm3, em  2024-06-01 21:00:00
 Dias acima da AQG (24h) ***:  1
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM2.5:
 Valor máximo:  17.5695 , em  2024-03-02 21:00:00
-Valor médio:  7.036806930693068
-Desvio padrão:  3.7718241647578807
-Última medida:  1.36525 ug/cm3, em  2024-05-26 21:00:00
+Valor médio:  7.121440594059407
+Desvio padrão:  3.762905047657414
+Última medida:  10.83625 ug/cm3, em  2024-06-01 21:00:00
 Dias acima da AQG (24h) ***:  4
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM10.0:
 Valor máximo:  19.4585 , em  2024-03-02 21:00:00
-Valor médio:  8.268611386138614
-Desvio padrão:  4.06342665085074
-Última medida:  1.6045 ug/cm3, em  2024-05-26 21:00:00
+Valor médio:  8.322730198019803
+Desvio padrão:  4.068243777369291
+Última medida:  11.98675 ug/cm3, em  2024-06-01 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 VOC:
 Valor máximo:  119.363 , em  2024-05-23 21:00:00
-Valor médio:  84.64533168316832
-Desvio padrão:  8.594905207527662
-Última medida:  96.4875 ug/cm3, em  2024-05-26 21:00:00
+Valor médio:  84.50244059405938
+Desvio padrão:  8.722432147138528
+Última medida:  77.1335 ug/cm3, em  2024-06-01 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
