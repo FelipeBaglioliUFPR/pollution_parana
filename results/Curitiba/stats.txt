@@ -1,40 +1,40 @@
 Municipio:  Curitiba 
 
 Sensores utilizados:  ['175407', '90875', '92295']
-Data Inicial:  2024-02-16 21:00:00
-Data Final:  2024-05-26 21:00:00
+Data Inicial:  2024-02-22 21:00:00
+Data Final:  2024-06-01 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  25.860500000000002 , em  2024-05-06 21:00:00
-Valor médio:  8.98722607260726
-Desvio padrão:  5.359412657682234
-Última medida:  4.1626666666666665 ug/cm3, em  2024-05-26 21:00:00
-Dias acima da AQG (24h) ***:  18
+Valor médio:  9.358194719471948
+Desvio padrão:  5.3652572353196275
+Última medida:  13.242999999999999 ug/cm3, em  2024-06-01 21:00:00
+Dias acima da AQG (24h) ***:  19
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 PM2.5:
 Valor máximo:  34.1045 , em  2024-05-06 21:00:00
-Valor médio:  12.402648514851483
-Desvio padrão:  7.5581920631377395
-Última medida:  5.769666666666667 ug/cm3, em  2024-05-26 21:00:00
-Dias acima da AQG (24h) ***:  30
+Valor médio:  12.94229290429043
+Desvio padrão:  7.585596836243651
+Última medida:  18.19375 ug/cm3, em  2024-06-01 21:00:00
+Dias acima da AQG (24h) ***:  32
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM10.0:
 Valor máximo:  39.7925 , em  2024-05-06 21:00:00
-Valor médio:  13.880660066006602
-Desvio padrão:  8.763562613931011
-Última medida:  6.372666666666667 ug/cm3, em  2024-05-26 21:00:00
-Dias acima da AQG (24h) ***:  14
+Valor médio:  14.513715346534655
+Desvio padrão:  8.826040636388212
+Última medida:  20.59875 ug/cm3, em  2024-06-01 21:00:00
+Dias acima da AQG (24h) ***:  15
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 VOC:
 Valor máximo:  198.469 , em  2024-03-25 21:00:00
-Valor médio:  97.92323762376238
-Desvio padrão:  18.664578408926637
-Última medida:  83.844 ug/cm3, em  2024-05-26 21:00:00
+Valor médio:  97.9321386138614
+Desvio padrão:  18.6921015731403
+Última medida:  98.552 ug/cm3, em  2024-06-01 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
