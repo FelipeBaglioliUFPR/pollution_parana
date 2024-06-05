@@ -1,40 +1,40 @@
 Municipio:  Foz do Iguacu 
 
 Sensores utilizados:  ['187805']
-Data Inicial:  2024-02-23 21:00:00
-Data Final:  2024-06-02 21:00:00
+Data Inicial:  2024-02-24 21:00:00
+Data Final:  2024-06-03 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  21.8395 , em  2024-05-22 21:00:00
-Valor médio:  8.31398514851485
-Desvio padrão:  4.357588817485792
-Última medida:  19.5175 ug/cm3, em  2024-06-02 21:00:00
-Dias acima da AQG (24h) ***:  8
-Máximo de dias consecutivos acima da AQG (24h):  2 
+Valor médio:  8.40579702970297
+Desvio padrão:  4.487764355543981
+Última medida:  19.205 ug/cm3, em  2024-06-03 21:00:00
+Dias acima da AQG (24h) ***:  9
+Máximo de dias consecutivos acima da AQG (24h):  3 
 
 PM2.5:
 Valor máximo:  29.326 , em  2024-05-22 21:00:00
-Valor médio:  10.92040594059406
-Desvio padrão:  5.760638173289862
-Última medida:  26.059 ug/cm3, em  2024-06-02 21:00:00
-Dias acima da AQG (24h) ***:  22
-Máximo de dias consecutivos acima da AQG (24h):  6 
+Valor médio:  11.054133663366335
+Desvio padrão:  5.9572321974601135
+Última medida:  26.268500000000003 ug/cm3, em  2024-06-03 21:00:00
+Dias acima da AQG (24h) ***:  23
+Máximo de dias consecutivos acima da AQG (24h):  7 
 
 PM10.0:
 Valor máximo:  33.508 , em  2024-05-22 21:00:00
-Valor médio:  12.341178217821781
-Desvio padrão:  6.540194827214308
-Última medida:  29.7375 ug/cm3, em  2024-06-02 21:00:00
-Dias acima da AQG (24h) ***:  6
-Máximo de dias consecutivos acima da AQG (24h):  2 
+Valor médio:  12.502242574257426
+Desvio padrão:  6.780351402255587
+Última medida:  30.388 ug/cm3, em  2024-06-03 21:00:00
+Dias acima da AQG (24h) ***:  7
+Máximo de dias consecutivos acima da AQG (24h):  3 
 
 VOC:
 Valor máximo:  101.384 , em  2024-03-30 21:00:00
-Valor médio:  81.28623762376237
-Desvio padrão:  7.516757525886431
-Última medida:  94.159 ug/cm3, em  2024-06-02 21:00:00
+Valor médio:  81.36069306930692
+Desvio padrão:  7.611595740372152
+Última medida:  94.623 ug/cm3, em  2024-06-03 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
