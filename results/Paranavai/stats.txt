@@ -2,39 +2,39 @@ Municipio:  Paranavai
 
 Sensores utilizados:  ['187795', '187815']
 Data Inicial:  2024-02-26 21:00:00
-Data Final:  2024-06-02 21:00:00
-Dias totais:  97 days 00:00:00
-Dias validos:  77 days 00:00:00 
+Data Final:  2024-06-03 21:00:00
+Dias totais:  98 days 00:00:00
+Dias validos:  78 days 00:00:00 
 
 PM1.0:
 Valor máximo:  16.8525 , em  2024-04-05 21:00:00
-Valor médio:  5.246759615384615
-Desvio padrão:  3.188268589903834
-Última medida:  7.054 ug/cm3, em  2024-06-02 21:00:00
+Valor médio:  5.2959588607594945
+Desvio padrão:  3.197805506402704
+Última medida:  9.133500000000002 ug/cm3, em  2024-06-03 21:00:00
 Dias acima da AQG (24h) ***:  1
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM2.5:
 Valor máximo:  20.91 , em  2024-04-05 21:00:00
-Valor médio:  6.751676282051281
-Desvio padrão:  3.992338367396643
-Última medida:  9.2605 ug/cm3, em  2024-06-02 21:00:00
+Valor médio:  6.814604430379745
+Desvio padrão:  4.00590298021197
+Última medida:  11.723 ug/cm3, em  2024-06-03 21:00:00
 Dias acima da AQG (24h) ***:  2
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM10.0:
 Valor máximo:  22.4595 , em  2024-04-05 21:00:00
-Valor médio:  7.818096153846152
-Desvio padrão:  4.336225219729573
-Última medida:  10.917 ug/cm3, em  2024-06-02 21:00:00
+Valor médio:  7.887069620253164
+Desvio padrão:  4.3517372133364205
+Última medida:  13.267 ug/cm3, em  2024-06-03 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
 VOC:
 Valor máximo:  246.503 , em  2024-05-17 21:00:00
-Valor médio:  122.76051282051279
-Desvio padrão:  33.22877799613938
-Última medida:  164.005 ug/cm3, em  2024-06-02 21:00:00
+Valor médio:  122.63024050632907
+Desvio padrão:  33.03538399122712
+Última medida:  112.469 ug/cm3, em  2024-06-03 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
