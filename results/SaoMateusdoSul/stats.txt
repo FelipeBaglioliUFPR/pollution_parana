@@ -1,40 +1,40 @@
 Municipio:  Sao Mateus do Sul 
 
 Sensores utilizados:  ['187791', '187801']
-Data Inicial:  2024-02-24 21:00:00
-Data Final:  2024-06-03 21:00:00
+Data Inicial:  2024-02-26 21:00:00
+Data Final:  2024-06-05 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  21.212249999999997 , em  2024-06-01 21:00:00
-Valor médio:  9.18130198019802
-Desvio padrão:  4.666739515753589
-Última medida:  15.42 ug/cm3, em  2024-06-03 21:00:00
-Dias acima da AQG (24h) ***:  12
+Valor médio:  9.33894801980198
+Desvio padrão:  4.774746070122059
+Última medida:  20.061500000000002 ug/cm3, em  2024-06-05 21:00:00
+Dias acima da AQG (24h) ***:  13
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 PM2.5:
 Valor máximo:  29.92775 , em  2024-06-01 21:00:00
-Valor médio:  12.391287128712872
-Desvio padrão:  6.4234432637786005
-Última medida:  21.2775 ug/cm3, em  2024-06-03 21:00:00
-Dias acima da AQG (24h) ***:  32
+Valor médio:  12.626492574257423
+Desvio padrão:  6.623249081687122
+Última medida:  29.610500000000002 ug/cm3, em  2024-06-05 21:00:00
+Dias acima da AQG (24h) ***:  33
 Máximo de dias consecutivos acima da AQG (24h):  6 
 
 PM10.0:
-Valor máximo:  35.21675 , em  2024-06-01 21:00:00
-Valor médio:  14.108509900990098
-Desvio padrão:  7.353492946545947
-Última medida:  24.08 ug/cm3, em  2024-06-03 21:00:00
-Dias acima da AQG (24h) ***:  11
+Valor máximo:  35.3185 , em  2024-06-05 21:00:00
+Valor médio:  14.396252475247525
+Desvio padrão:  7.6208431927260385
+Última medida:  35.3185 ug/cm3, em  2024-06-05 21:00:00
+Dias acima da AQG (24h) ***:  12
 Máximo de dias consecutivos acima da AQG (24h):  3 
 
 VOC:
 Valor máximo:  98.7465 , em  2024-04-05 21:00:00
-Valor médio:  81.60334653465345
-Desvio padrão:  6.567644762295908
-Última medida:  97.34 ug/cm3, em  2024-06-03 21:00:00
+Valor médio:  81.46096534653465
+Desvio padrão:  6.555374858563553
+Última medida:  79.613 ug/cm3, em  2024-06-05 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
