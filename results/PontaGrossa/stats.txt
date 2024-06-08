@@ -2,39 +2,39 @@ Municipio:  Ponta Grossa
 
 Sensores utilizados:  ['187773', '187799']
 Data Inicial:  2024-03-28 21:00:00
-Data Final:  2024-06-05 21:00:00
-Dias totais:  69 days 00:00:00
-Dias validos:  69 days 00:00:00 
+Data Final:  2024-06-06 21:00:00
+Dias totais:  70 days 00:00:00
+Dias validos:  70 days 00:00:00 
 
 PM1.0:
 Valor máximo:  20.2885 , em  2024-05-04 21:00:00
-Valor médio:  7.953678571428572
-Desvio padrão:  4.280339028362422
-Última medida:  13.493 ug/cm3, em  2024-06-05 21:00:00
+Valor médio:  8.017570422535211
+Desvio padrão:  4.283620347611331
+Última medida:  12.49 ug/cm3, em  2024-06-06 21:00:00
 Dias acima da AQG (24h) ***:  4
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM2.5:
 Valor máximo:  28.76 , em  2024-05-04 21:00:00
-Valor médio:  10.575567857142858
-Desvio padrão:  5.815372707428729
-Última medida:  18.611 ug/cm3, em  2024-06-05 21:00:00
-Dias acima da AQG (24h) ***:  14
+Valor médio:  10.66118661971831
+Desvio padrão:  5.818582996946432
+Última medida:  16.6545 ug/cm3, em  2024-06-06 21:00:00
+Dias acima da AQG (24h) ***:  15
 Máximo de dias consecutivos acima da AQG (24h):  3 
 
 PM10.0:
 Valor máximo:  32.9045 , em  2024-05-04 21:00:00
-Valor médio:  11.668792857142856
-Desvio padrão:  6.447991122532087
-Última medida:  20.814 ug/cm3, em  2024-06-05 21:00:00
+Valor médio:  11.76438028169014
+Desvio padrão:  6.452236983743804
+Última medida:  18.4555 ug/cm3, em  2024-06-06 21:00:00
 Dias acima da AQG (24h) ***:  3
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 VOC:
-Valor máximo:  92.747 , em  2024-05-30 21:00:00
-Valor médio:  77.95744285714285
-Desvio padrão:  6.507222621849552
-Última medida:  88.934 ug/cm3, em  2024-06-05 21:00:00
+Valor máximo:  96.68 , em  2024-06-06 21:00:00
+Valor médio:  78.22114084507042
+Desvio padrão:  6.831993367962185
+Última medida:  96.68 ug/cm3, em  2024-06-06 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
