@@ -1,40 +1,40 @@
 Municipio:  Marechal Candido Rondon 
 
 Sensores utilizados:  ['187779', '187781']
-Data Inicial:  2024-02-29 21:00:00
-Data Final:  2024-06-08 21:00:00
+Data Inicial:  2024-03-01 21:00:00
+Data Final:  2024-06-09 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  28.213 , em  2024-05-22 21:00:00
-Valor médio:  6.055779702970298
-Desvio padrão:  3.503100860717389
-Última medida:  8.367750000000001 ug/cm3, em  2024-06-08 21:00:00
+Valor médio:  6.0838762376237625
+Desvio padrão:  3.488524117485746
+Última medida:  5.693 ug/cm3, em  2024-06-09 21:00:00
 Dias acima da AQG (24h) ***:  1
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM2.5:
 Valor máximo:  39.1265 , em  2024-05-22 21:00:00
-Valor médio:  7.81220297029703
-Desvio padrão:  4.6867613057570034
-Última medida:  10.9605 ug/cm3, em  2024-06-08 21:00:00
+Valor médio:  7.851388613861386
+Desvio padrão:  4.66870868930522
+Última medida:  7.677 ug/cm3, em  2024-06-09 21:00:00
 Dias acima da AQG (24h) ***:  5
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM10.0:
 Valor máximo:  43.1035 , em  2024-05-22 21:00:00
-Valor médio:  8.771777227722772
-Desvio padrão:  5.1579733345449
-Última medida:  12.518 ug/cm3, em  2024-06-08 21:00:00
+Valor médio:  8.820425742574258
+Desvio padrão:  5.138167834640154
+Última medida:  9.17775 ug/cm3, em  2024-06-09 21:00:00
 Dias acima da AQG (24h) ***:  1
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 VOC:
 Valor máximo:  120.947 , em  2024-05-10 21:00:00
-Valor médio:  78.82636633663365
-Desvio padrão:  9.765543730097953
-Última medida:  89.539 ug/cm3, em  2024-06-08 21:00:00
+Valor médio:  79.04070297029703
+Desvio padrão:  9.877009064534217
+Última medida:  94.81450000000001 ug/cm3, em  2024-06-09 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
