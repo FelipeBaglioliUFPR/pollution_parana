@@ -1,40 +1,40 @@
 Municipio:  Curitiba 
 
 Sensores utilizados:  ['175407', '90875', '92295']
-Data Inicial:  2024-03-01 21:00:00
-Data Final:  2024-06-09 21:00:00
+Data Inicial:  2024-03-04 21:00:00
+Data Final:  2024-06-12 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  36.8545 , em  2024-06-07 21:00:00
-Valor médio:  10.437591584158417
-Desvio padrão:  6.837324988411292
-Última medida:  16.69675 ug/cm3, em  2024-06-09 21:00:00
-Dias acima da AQG (24h) ***:  24
-Máximo de dias consecutivos acima da AQG (24h):  5 
+Valor médio:  11.083078382838284
+Desvio padrão:  7.476484871970823
+Última medida:  31.9165 ug/cm3, em  2024-06-12 21:00:00
+Dias acima da AQG (24h) ***:  27
+Máximo de dias consecutivos acima da AQG (24h):  8 
 
 PM2.5:
 Valor máximo:  51.34025 , em  2024-06-07 21:00:00
-Valor médio:  14.441998349834982
-Desvio padrão:  9.59479111792768
-Última medida:  22.45775 ug/cm3, em  2024-06-09 21:00:00
-Dias acima da AQG (24h) ***:  37
-Máximo de dias consecutivos acima da AQG (24h):  5 
+Valor médio:  15.344677392739273
+Desvio padrão:  10.467239739046558
+Última medida:  44.523 ug/cm3, em  2024-06-12 21:00:00
+Dias acima da AQG (24h) ***:  40
+Máximo de dias consecutivos acima da AQG (24h):  8 
 
 PM10.0:
 Valor máximo:  57.73425 , em  2024-06-07 21:00:00
-Valor médio:  16.25754785478548
-Desvio padrão:  11.10834141312126
-Última medida:  26.15325 ug/cm3, em  2024-06-09 21:00:00
-Dias acima da AQG (24h) ***:  21
-Máximo de dias consecutivos acima da AQG (24h):  5 
+Valor médio:  17.30689191419142
+Desvio padrão:  12.110931091279255
+Última medida:  50.441500000000005 ug/cm3, em  2024-06-12 21:00:00
+Dias acima da AQG (24h) ***:  24
+Máximo de dias consecutivos acima da AQG (24h):  8 
 
 VOC:
 Valor máximo:  198.469 , em  2024-03-25 21:00:00
-Valor médio:  98.72651485148515
-Desvio padrão:  18.785759680467468
-Última medida:  119.7 ug/cm3, em  2024-06-09 21:00:00
+Valor médio:  98.75481188118813
+Desvio padrão:  18.655839445445956
+Última medida:  117.4 ug/cm3, em  2024-06-12 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
