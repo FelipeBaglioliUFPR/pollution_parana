@@ -1,40 +1,40 @@
 Municipio:  Sao Mateus do Sul 
 
 Sensores utilizados:  ['187791', '187801']
-Data Inicial:  2024-03-01 21:00:00
-Data Final:  2024-06-09 21:00:00
+Data Inicial:  2024-03-04 21:00:00
+Data Final:  2024-06-12 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  26.44025 , em  2024-06-07 21:00:00
-Valor médio:  9.980841584158416
-Desvio padrão:  5.328167839032801
-Última medida:  12.6515 ug/cm3, em  2024-06-09 21:00:00
-Dias acima da AQG (24h) ***:  16
+Valor médio:  10.344509900990099
+Desvio padrão:  5.549087241939073
+Última medida:  22.22125 ug/cm3, em  2024-06-12 21:00:00
+Dias acima da AQG (24h) ***:  19
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 PM2.5:
 Valor máximo:  37.36875 , em  2024-06-07 21:00:00
-Valor médio:  13.508903465346537
-Desvio padrão:  7.44615858437845
-Última medida:  16.6065 ug/cm3, em  2024-06-09 21:00:00
-Dias acima da AQG (24h) ***:  37
-Máximo de dias consecutivos acima da AQG (24h):  6 
+Valor médio:  14.018918316831684
+Desvio padrão:  7.75510501501341
+Última medida:  30.6605 ug/cm3, em  2024-06-12 21:00:00
+Dias acima da AQG (24h) ***:  40
+Máximo de dias consecutivos acima da AQG (24h):  8 
 
 PM10.0:
 Valor máximo:  43.87925 , em  2024-06-07 21:00:00
-Valor médio:  15.42302722772277
-Desvio padrão:  8.658075861796675
-Última medida:  18.628999999999998 ug/cm3, em  2024-06-09 21:00:00
-Dias acima da AQG (24h) ***:  15
+Valor médio:  16.033386138613864
+Desvio padrão:  9.039792661098812
+Última medida:  36.03375 ug/cm3, em  2024-06-12 21:00:00
+Dias acima da AQG (24h) ***:  17
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 VOC:
 Valor máximo:  98.7465 , em  2024-04-05 21:00:00
-Valor médio:  81.79307425742574
-Desvio padrão:  6.724613431784068
-Última medida:  86.7325 ug/cm3, em  2024-06-09 21:00:00
+Valor médio:  82.07732178217823
+Desvio padrão:  6.732593654225747
+Última medida:  84.5655 ug/cm3, em  2024-06-12 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
