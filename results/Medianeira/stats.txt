@@ -1,40 +1,40 @@
 Municipio:  Medianeira 
 
 Sensores utilizados:  ['187787']
-Data Inicial:  2024-03-08 21:00:00
-Data Final:  2024-06-16 21:00:00
+Data Inicial:  2024-03-09 21:00:00
+Data Final:  2024-06-17 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  47 days 00:00:00 
 
 PM1.0:
 Valor máximo:  30.8435 , em  2024-05-22 21:00:00
-Valor médio:  5.505270833333333
-Desvio padrão:  4.784497680294998
-Última medida:  5.507 ug/cm3, em  2024-06-16 21:00:00
+Valor médio:  5.609541666666666
+Desvio padrão:  4.751400167468368
+Última medida:  6.577999999999999 ug/cm3, em  2024-06-17 21:00:00
 Dias acima da AQG (24h) ***:  1
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM2.5:
 Valor máximo:  41.915 , em  2024-05-22 21:00:00
-Valor médio:  7.115770833333333
-Desvio padrão:  6.390051536400516
-Última medida:  6.983 ug/cm3, em  2024-06-16 21:00:00
+Valor médio:  7.247177083333334
+Desvio padrão:  6.347365257123305
+Última medida:  8.3095 ug/cm3, em  2024-06-17 21:00:00
 Dias acima da AQG (24h) ***:  3
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM10.0:
 Valor máximo:  45.5525 , em  2024-05-22 21:00:00
-Valor médio:  8.001020833333333
-Desvio padrão:  6.937824636804111
-Última medida:  7.6045 ug/cm3, em  2024-06-16 21:00:00
+Valor médio:  8.148729166666666
+Desvio padrão:  6.890121675390384
+Última medida:  9.4335 ug/cm3, em  2024-06-17 21:00:00
 Dias acima da AQG (24h) ***:  1
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 VOC:
 Valor máximo:  133.442 , em  2024-06-09 21:00:00
-Valor médio:  87.30277083333334
-Desvio padrão:  14.403653998927958
-Última medida:  75.694 ug/cm3, em  2024-06-16 21:00:00
+Valor médio:  87.72325000000001
+Desvio padrão:  14.200486746976804
+Última medida:  90.838 ug/cm3, em  2024-06-17 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
