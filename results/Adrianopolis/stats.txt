@@ -1,32 +1,32 @@
 Municipio:  Adrianopolis 
 
 Sensores utilizados:  ['186339']
-Data Inicial:  2024-03-09 21:00:00
-Data Final:  2024-06-17 21:00:00
+Data Inicial:  2024-03-10 21:00:00
+Data Final:  2024-06-18 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  81 days 00:00:00 
 
 PM1.0:
 Valor máximo:  15.7165 , em  2024-06-08 21:00:00
-Valor médio:  5.747243902439023
-Desvio padrão:  4.069587094385562
-Última medida:  9.996 ug/cm3, em  2024-06-17 21:00:00
+Valor médio:  5.893628048780488
+Desvio padrão:  4.145434676765153
+Última medida:  13.9245 ug/cm3, em  2024-06-18 21:00:00
 Dias acima da AQG (24h) ***:  1
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM2.5:
 Valor máximo:  21.008 , em  2024-06-08 21:00:00
-Valor médio:  7.887932926829268
-Desvio padrão:  5.293642336210225
-Última medida:  13.52 ug/cm3, em  2024-06-17 21:00:00
-Dias acima da AQG (24h) ***:  7
+Valor médio:  8.083536585365852
+Desvio padrão:  5.401180128122258
+Última medida:  18.9095 ug/cm3, em  2024-06-18 21:00:00
+Dias acima da AQG (24h) ***:  8
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM10.0:
 Valor máximo:  24.011 , em  2024-06-12 21:00:00
-Valor médio:  9.56741463414634
-Desvio padrão:  5.8610169011938105
-Última medida:  16.0215 ug/cm3, em  2024-06-17 21:00:00
+Valor médio:  9.797993902439023
+Desvio padrão:  5.9978594100769635
+Última medida:  22.6125 ug/cm3, em  2024-06-18 21:00:00
 Dias acima da AQG (24h) ***:  0
 Máximo de dias consecutivos acima da AQG (24h):  0 
 
@@ -34,7 +34,7 @@ VOC:
 Valor máximo:  nan , em  N/A
 Valor médio:  nan
 Desvio padrão:  nan
-Última medida:  nan ug/cm3, em  2024-06-17 21:00:00
+Última medida:  nan ug/cm3, em  2024-06-18 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
