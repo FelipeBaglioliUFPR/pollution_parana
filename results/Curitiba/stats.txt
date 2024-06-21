@@ -1,40 +1,40 @@
 Municipio:  Curitiba 
 
 Sensores utilizados:  ['175407', '90875', '92295']
-Data Inicial:  2024-03-10 21:00:00
-Data Final:  2024-06-18 21:00:00
+Data Inicial:  2024-03-11 21:00:00
+Data Final:  2024-06-19 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  36.8545 , em  2024-06-07 21:00:00
-Valor médio:  11.859861386138613
-Desvio padrão:  7.495140362671644
-Última medida:  15.702750000000002 ug/cm3, em  2024-06-18 21:00:00
-Dias acima da AQG (24h) ***:  30
+Valor médio:  12.090115511551156
+Desvio padrão:  7.608700110025459
+Última medida:  27.2905 ug/cm3, em  2024-06-19 21:00:00
+Dias acima da AQG (24h) ***:  31
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 PM2.5:
 Valor máximo:  51.34025 , em  2024-06-07 21:00:00
-Valor médio:  16.399068481848186
-Desvio padrão:  10.478755443610632
-Última medida:  21.17825 ug/cm3, em  2024-06-18 21:00:00
-Dias acima da AQG (24h) ***:  45
-Máximo de dias consecutivos acima da AQG (24h):  14 
+Valor médio:  16.72157178217822
+Desvio padrão:  10.634704937354277
+Última medida:  37.900999999999996 ug/cm3, em  2024-06-19 21:00:00
+Dias acima da AQG (24h) ***:  46
+Máximo de dias consecutivos acima da AQG (24h):  15 
 
 PM10.0:
 Valor máximo:  57.73425 , em  2024-06-07 21:00:00
-Valor médio:  18.534602310231023
-Desvio padrão:  12.141047771866047
-Última medida:  24.50525 ug/cm3, em  2024-06-18 21:00:00
-Dias acima da AQG (24h) ***:  26
+Valor médio:  18.92993234323432
+Desvio padrão:  12.373135492916548
+Última medida:  45.821 ug/cm3, em  2024-06-19 21:00:00
+Dias acima da AQG (24h) ***:  27
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 VOC:
 Valor máximo:  198.469 , em  2024-03-25 21:00:00
-Valor médio:  98.65718811881189
-Desvio padrão:  18.689546023225326
-Última medida:  92.171 ug/cm3, em  2024-06-18 21:00:00
+Valor médio:  99.0691881188119
+Desvio padrão:  18.73821622658511
+Última medida:  121.858 ug/cm3, em  2024-06-19 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
