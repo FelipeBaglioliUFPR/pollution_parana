@@ -1,40 +1,40 @@
 Municipio:  Curitiba 
 
 Sensores utilizados:  ['175407', '90875', '92295']
-Data Inicial:  2024-03-12 21:00:00
-Data Final:  2024-06-20 21:00:00
+Data Inicial:  2024-03-13 21:00:00
+Data Final:  2024-06-21 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  36.8545 , em  2024-06-07 21:00:00
-Valor médio:  12.194003300330031
-Desvio padrão:  7.611004229402912
-Última medida:  17.555500000000002 ug/cm3, em  2024-06-20 21:00:00
-Dias acima da AQG (24h) ***:  32
+Valor médio:  12.30901402640264
+Desvio padrão:  7.643188303928878
+Última medida:  20.17275 ug/cm3, em  2024-06-21 21:00:00
+Dias acima da AQG (24h) ***:  33
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 PM2.5:
 Valor máximo:  51.34025 , em  2024-06-07 21:00:00
-Valor médio:  16.861462871287127
-Desvio padrão:  10.633973965945154
-Última medida:  23.801000000000002 ug/cm3, em  2024-06-20 21:00:00
-Dias acima da AQG (24h) ***:  47
-Máximo de dias consecutivos acima da AQG (24h):  16 
+Valor médio:  17.02149917491749
+Desvio padrão:  10.674286841221752
+Última medida:  27.680500000000002 ug/cm3, em  2024-06-21 21:00:00
+Dias acima da AQG (24h) ***:  48
+Máximo de dias consecutivos acima da AQG (24h):  17 
 
 PM10.0:
 Valor máximo:  57.73425 , em  2024-06-07 21:00:00
-Valor médio:  19.082298679867986
-Desvio padrão:  12.367778583234987
-Última medida:  26.27 ug/cm3, em  2024-06-20 21:00:00
-Dias acima da AQG (24h) ***:  28
+Valor médio:  19.274374587458745
+Desvio padrão:  12.418001358828416
+Última medida:  32.0865 ug/cm3, em  2024-06-21 21:00:00
+Dias acima da AQG (24h) ***:  29
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 VOC:
 Valor máximo:  198.469 , em  2024-03-25 21:00:00
-Valor médio:  99.18128712871288
-Desvio padrão:  18.722498485691826
-Última medida:  102.186 ug/cm3, em  2024-06-20 21:00:00
+Valor médio:  99.44769306930692
+Desvio padrão:  18.76103202478082
+Última medida:  115.452 ug/cm3, em  2024-06-21 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
