@@ -1,40 +1,40 @@
 Municipio:  Foz do Iguacu 
 
 Sensores utilizados:  ['187805']
-Data Inicial:  2024-03-13 21:00:00
-Data Final:  2024-06-21 21:00:00
+Data Inicial:  2024-03-14 21:00:00
+Data Final:  2024-06-22 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  21.8395 , em  2024-05-22 21:00:00
-Valor médio:  9.77919801980198
-Desvio padrão:  4.88799159731234
-Última medida:  10.9165 ug/cm3, em  2024-06-21 21:00:00
-Dias acima da AQG (24h) ***:  17
+Valor médio:  9.86569306930693
+Desvio padrão:  4.94387281489436
+Última medida:  17.335 ug/cm3, em  2024-06-22 21:00:00
+Dias acima da AQG (24h) ***:  18
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 PM2.5:
 Valor máximo:  29.326 , em  2024-05-22 21:00:00
-Valor médio:  12.880930693069306
-Desvio padrão:  6.509422095328318
-Última medida:  14.427 ug/cm3, em  2024-06-21 21:00:00
-Dias acima da AQG (24h) ***:  35
+Valor médio:  12.99310891089109
+Desvio padrão:  6.576694650659996
+Última medida:  22.487 ug/cm3, em  2024-06-22 21:00:00
+Dias acima da AQG (24h) ***:  36
 Máximo de dias consecutivos acima da AQG (24h):  16 
 
 PM10.0:
 Valor máximo:  33.508 , em  2024-05-22 21:00:00
-Valor médio:  14.667445544554454
-Desvio padrão:  7.535435981050131
-Última medida:  16.75 ug/cm3, em  2024-06-21 21:00:00
-Dias acima da AQG (24h) ***:  12
+Valor médio:  14.79819801980198
+Desvio padrão:  7.612697170871573
+Última medida:  25.767 ug/cm3, em  2024-06-22 21:00:00
+Dias acima da AQG (24h) ***:  13
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 VOC:
 Valor máximo:  109.327 , em  2024-06-04 21:00:00
-Valor médio:  82.68271287128712
-Desvio padrão:  8.79127598171805
-Última medida:  80.829 ug/cm3, em  2024-06-21 21:00:00
+Valor médio:  82.77115841584157
+Desvio padrão:  8.867505774153939
+Última medida:  94.728 ug/cm3, em  2024-06-22 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
