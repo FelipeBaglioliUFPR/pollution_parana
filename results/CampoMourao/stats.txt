@@ -1,40 +1,40 @@
 Municipio:  Campo Mourao 
 
 Sensores utilizados:  ['187777', '187803']
-Data Inicial:  2024-03-15 21:00:00
-Data Final:  2024-06-23 21:00:00
+Data Inicial:  2024-03-16 21:00:00
+Data Final:  2024-06-24 21:00:00
 Dias totais:  100 days 00:00:00
 Dias validos:  100 days 00:00:00 
 
 PM1.0:
-Valor máximo:  15.466000000000001 , em  2024-06-08 21:00:00
-Valor médio:  6.866091584158417
-Desvio padrão:  3.3245059010179943
-Última medida:  10.942 ug/cm3, em  2024-06-23 21:00:00
-Dias acima da AQG (24h) ***:  1
+Valor máximo:  23.15875 , em  2024-06-24 21:00:00
+Valor médio:  7.029866336633665
+Desvio padrão:  3.6985319113744906
+Última medida:  23.15875 ug/cm3, em  2024-06-24 21:00:00
+Dias acima da AQG (24h) ***:  2
 Máximo de dias consecutivos acima da AQG (24h):  1 
 
 PM2.5:
-Valor máximo:  18.997999999999998 , em  2024-06-08 21:00:00
-Valor médio:  8.392576732673268
-Desvio padrão:  4.03591253896541
-Última medida:  13.33775 ug/cm3, em  2024-06-23 21:00:00
-Dias acima da AQG (24h) ***:  6
+Valor máximo:  29.597250000000003 , em  2024-06-24 21:00:00
+Valor médio:  8.609128712871287
+Desvio padrão:  4.553367773913867
+Última medida:  29.597250000000003 ug/cm3, em  2024-06-24 21:00:00
+Dias acima da AQG (24h) ***:  7
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM10.0:
-Valor máximo:  21.08125 , em  2024-06-08 21:00:00
-Valor médio:  9.650631188118812
-Desvio padrão:  4.442056094816068
-Última medida:  15.45925 ug/cm3, em  2024-06-23 21:00:00
-Dias acima da AQG (24h) ***:  0
-Máximo de dias consecutivos acima da AQG (24h):  0 
+Valor máximo:  33.66275 , em  2024-06-24 21:00:00
+Valor médio:  9.883381188118813
+Desvio padrão:  5.043849985947498
+Última medida:  33.66275 ug/cm3, em  2024-06-24 21:00:00
+Dias acima da AQG (24h) ***:  1
+Máximo de dias consecutivos acima da AQG (24h):  1 
 
 VOC:
 Valor máximo:  119.363 , em  2024-05-23 21:00:00
-Valor médio:  86.6359405940594
-Desvio padrão:  9.584109294370325
-Última medida:  92.1905 ug/cm3, em  2024-06-23 21:00:00
+Valor médio:  86.626
+Desvio padrão:  9.586813176963446
+Última medida:  83.5475 ug/cm3, em  2024-06-24 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
