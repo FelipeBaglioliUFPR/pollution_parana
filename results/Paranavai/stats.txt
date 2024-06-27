@@ -2,39 +2,39 @@ Municipio:  Paranavai
 
 Sensores utilizados:  ['187795', '187815']
 Data Inicial:  2024-03-17 21:00:00
-Data Final:  2024-06-24 21:00:00
-Dias totais:  99 days 00:00:00
-Dias validos:  79 days 00:00:00 
+Data Final:  2024-06-25 21:00:00
+Dias totais:  100 days 00:00:00
+Dias validos:  80 days 00:00:00 
 
 PM1.0:
 Valor máximo:  27.007 , em  2024-06-24 21:00:00
-Valor médio:  6.061103125000001
-Desvio padrão:  3.9018543489314057
-Última medida:  27.007 ug/cm3, em  2024-06-24 21:00:00
-Dias acima da AQG (24h) ***:  2
-Máximo de dias consecutivos acima da AQG (24h):  1 
+Valor médio:  6.20550925925926
+Desvio padrão:  4.0894089033525916
+Última medida:  17.758 ug/cm3, em  2024-06-25 21:00:00
+Dias acima da AQG (24h) ***:  3
+Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM2.5:
 Valor máximo:  36.395 , em  2024-06-24 21:00:00
-Valor médio:  7.847034375
-Desvio padrão:  5.037366826261123
-Última medida:  36.395 ug/cm3, em  2024-06-24 21:00:00
-Dias acima da AQG (24h) ***:  3
-Máximo de dias consecutivos acima da AQG (24h):  1 
+Valor médio:  8.042206790123457
+Desvio padrão:  5.305030653744808
+Última medida:  23.656 ug/cm3, em  2024-06-25 21:00:00
+Dias acima da AQG (24h) ***:  4
+Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM10.0:
 Valor máximo:  43.696 , em  2024-06-24 21:00:00
-Valor médio:  9.074981249999999
-Desvio padrão:  5.717844073679327
-Última medida:  43.696 ug/cm3, em  2024-06-24 21:00:00
-Dias acima da AQG (24h) ***:  1
-Máximo de dias consecutivos acima da AQG (24h):  1 
+Valor médio:  9.292388888888887
+Desvio padrão:  6.009461014725031
+Última medida:  26.685 ug/cm3, em  2024-06-25 21:00:00
+Dias acima da AQG (24h) ***:  2
+Máximo de dias consecutivos acima da AQG (24h):  2 
 
 VOC:
 Valor máximo:  277.527 , em  2024-06-09 21:00:00
-Valor médio:  130.9223
-Desvio padrão:  36.22163019615612
-Última medida:  167.848 ug/cm3, em  2024-06-24 21:00:00
+Valor médio:  130.831987654321
+Desvio padrão:  36.00370918104961
+Última medida:  123.607 ug/cm3, em  2024-06-25 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
