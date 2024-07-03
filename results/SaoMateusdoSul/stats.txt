@@ -2,39 +2,39 @@ Municipio:  Sao Mateus do Sul
 
 Sensores utilizados:  ['187791', '187801']
 Data Inicial:  2024-03-22 21:00:00
-Data Final:  2024-06-30 21:00:00
-Dias totais:  100 days 00:00:00
-Dias validos:  100 days 00:00:00 
+Data Final:  2024-07-01 21:00:00
+Dias totais:  101 days 00:00:00
+Dias validos:  101 days 00:00:00 
 
 PM1.0:
 Valor máximo:  28.6735 , em  2024-06-30 21:00:00
-Valor médio:  11.764408415841585
-Desvio padrão:  5.858692967902778
-Última medida:  28.6735 ug/cm3, em  2024-06-30 21:00:00
-Dias acima da AQG (24h) ***:  27
+Valor médio:  11.888350490196078
+Desvio padrão:  5.962493266934759
+Última medida:  24.4065 ug/cm3, em  2024-07-01 21:00:00
+Dias acima da AQG (24h) ***:  28
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM2.5:
 Valor máximo:  41.7055 , em  2024-06-30 21:00:00
-Valor médio:  16.013747524752475
-Desvio padrão:  8.267935024576499
-Última medida:  41.7055 ug/cm3, em  2024-06-30 21:00:00
-Dias acima da AQG (24h) ***:  52
+Valor médio:  16.19810539215686
+Desvio padrão:  8.434968182623843
+Última medida:  34.81825 ug/cm3, em  2024-07-01 21:00:00
+Dias acima da AQG (24h) ***:  53
 Máximo de dias consecutivos acima da AQG (24h):  19 
 
 PM10.0:
 Valor máximo:  49.7525 , em  2024-06-30 21:00:00
-Valor médio:  18.419304455445545
-Desvio padrão:  9.776837885571949
-Última medida:  49.7525 ug/cm3, em  2024-06-30 21:00:00
-Dias acima da AQG (24h) ***:  23
+Valor médio:  18.641424019607843
+Desvio padrão:  9.983613661697165
+Última medida:  41.075500000000005 ug/cm3, em  2024-07-01 21:00:00
+Dias acima da AQG (24h) ***:  24
 Máximo de dias consecutivos acima da AQG (24h):  4 
 
 VOC:
 Valor máximo:  102.551 , em  2024-06-29 21:00:00
-Valor médio:  83.01746534653465
-Desvio padrão:  7.198076755376198
-Última medida:  83.679 ug/cm3, em  2024-06-30 21:00:00
+Valor médio:  83.07161764705882
+Desvio padrão:  7.183204572237671
+Última medida:  88.541 ug/cm3, em  2024-07-01 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
