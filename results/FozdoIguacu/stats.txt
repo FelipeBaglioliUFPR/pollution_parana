@@ -1,40 +1,40 @@
 Municipio:  Foz do Iguacu 
 
 Sensores utilizados:  ['187805']
-Data Inicial:  2024-03-22 21:00:00
-Data Final:  2024-07-01 21:00:00
-Dias totais:  101 days 00:00:00
-Dias validos:  101 days 00:00:00 
+Data Inicial:  2024-03-24 21:00:00
+Data Final:  2024-07-02 21:00:00
+Dias totais:  100 days 00:00:00
+Dias validos:  100 days 00:00:00 
 
 PM1.0:
 Valor máximo:  21.8395 , em  2024-05-22 21:00:00
-Valor médio:  10.285647058823532
-Desvio padrão:  4.947537799768666
-Última medida:  13.237 ug/cm3, em  2024-07-01 21:00:00
-Dias acima da AQG (24h) ***:  20
+Valor médio:  10.50991584158416
+Desvio padrão:  4.9618553692491405
+Última medida:  19.5055 ug/cm3, em  2024-07-02 21:00:00
+Dias acima da AQG (24h) ***:  21
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 PM2.5:
 Valor máximo:  29.326 , em  2024-05-22 21:00:00
-Valor médio:  13.571142156862747
-Desvio padrão:  6.590930192984846
-Última medida:  17.491500000000002 ug/cm3, em  2024-07-01 21:00:00
-Dias acima da AQG (24h) ***:  40
+Valor médio:  13.861955445544556
+Desvio padrão:  6.607145486932693
+Última medida:  25.4125 ug/cm3, em  2024-07-02 21:00:00
+Dias acima da AQG (24h) ***:  41
 Máximo de dias consecutivos acima da AQG (24h):  16 
 
 PM10.0:
 Valor máximo:  33.508 , em  2024-05-22 21:00:00
-Valor médio:  15.463044117647058
-Desvio padrão:  7.635847662847431
-Última medida:  19.744 ug/cm3, em  2024-07-01 21:00:00
-Dias acima da AQG (24h) ***:  15
+Valor médio:  15.792326732673269
+Desvio padrão:  7.657036048444477
+Última medida:  28.921 ug/cm3, em  2024-07-02 21:00:00
+Dias acima da AQG (24h) ***:  16
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 VOC:
 Valor máximo:  109.327 , em  2024-06-04 21:00:00
-Valor médio:  83.14153921568628
-Desvio padrão:  8.894015783984962
-Última medida:  93.992 ug/cm3, em  2024-07-01 21:00:00
+Valor médio:  83.53129702970297
+Desvio padrão:  9.206714002883498
+Última medida:  109.009 ug/cm3, em  2024-07-02 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
