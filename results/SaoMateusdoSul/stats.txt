@@ -2,63 +2,63 @@ Municipio:  Sao Mateus do Sul
 
 Sensores utilizados:  ['187791', '187801']
 Data Inicial:  2024-03-22 21:00:00
-Data Final:  2024-07-09 21:00:00
-Dias totais:  109 days 00:00:00
-Dias validos:  109 days 00:00:00 
+Data Final:  2024-07-10 21:00:00
+Dias totais:  110 days 00:00:00
+Dias validos:  110 days 00:00:00 
 
 PM1.0:
 Valor máximo:  28.6735 , em  2024-06-30 21:00:00
-Valor médio:  12.026315909090908
-Desvio padrão:  6.053676218151831
-Última medida:  9.4085 ug/cm3, em  2024-07-09 21:00:00
+Valor médio:  12.024804054054053
+Desvio padrão:  6.026117735382205
+Última medida:  11.858500000000001 ug/cm3, em  2024-07-10 21:00:00
 Dias acima da AQG (24h) ***:  31
 Máximo de dias consecutivos acima da AQG (24h):  6 
 
 PM2.5:
 Valor máximo:  41.7055 , em  2024-06-30 21:00:00
-Valor médio:  16.42163409090909
-Desvio padrão:  8.548822154483487
-Última medida:  13.289000000000001 ug/cm3, em  2024-07-09 21:00:00
-Dias acima da AQG (24h) ***:  58
+Valor médio:  16.418695945945945
+Desvio padrão:  8.50993145479054
+Última medida:  16.0955 ug/cm3, em  2024-07-10 21:00:00
+Dias acima da AQG (24h) ***:  59
 Máximo de dias consecutivos acima da AQG (24h):  19 
 
 PM10.0:
 Valor máximo:  49.7525 , em  2024-06-30 21:00:00
-Valor médio:  18.88573636363636
-Desvio padrão:  10.093756883363822
-Última medida:  14.789 ug/cm3, em  2024-07-09 21:00:00
+Valor médio:  18.878795045045038
+Desvio padrão:  10.048037553886637
+Última medida:  18.11525 ug/cm3, em  2024-07-10 21:00:00
 Dias acima da AQG (24h) ***:  27
 Máximo de dias consecutivos acima da AQG (24h):  6 
 
 VOC:
 Valor máximo:  102.551 , em  2024-06-29 21:00:00
-Valor médio:  82.77657272727272
-Desvio padrão:  7.1080694881151265
-Última medida:  73.59649999999999 ug/cm3, em  2024-07-09 21:00:00
+Valor médio:  82.68687387387386
+Desvio padrão:  7.138517352258313
+Última medida:  72.82 ug/cm3, em  2024-07-10 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
 Valor máximo:  86.8195 , em  2024-04-03 21:00:00
-Valor médio:  75.55852727272728
-Desvio padrão:  6.63419842639013
-Última medida:  64.7575 ug/cm3, em  2024-07-09 21:00:00
+Valor médio:  75.45713063063063
+Desvio padrão:  6.689820348081008
+Última medida:  64.3035 ug/cm3, em  2024-07-10 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
 Valor máximo:  69.511 , em  2024-04-13 21:00:00
-Valor médio:  53.98678636363635
-Desvio padrão:  5.12472463679985
-Última medida:  58.2225 ug/cm3, em  2024-07-09 21:00:00
+Valor médio:  54.05267117117116
+Desvio padrão:  5.148386108770351
+Última medida:  61.3 ug/cm3, em  2024-07-10 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Pressão:
 Valor máximo:  931.0145 , em  2024-07-05 21:00:00
-Valor médio:  928.8128750000001
-Desvio padrão:  1.4378749635187866
-Última medida:  926.815 ug/cm3, em  2024-07-09 21:00:00
+Valor médio:  928.8401666666666
+Desvio padrão:  1.3474985621513222
+Última medida:  929.0585 ug/cm3, em  2024-07-10 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
