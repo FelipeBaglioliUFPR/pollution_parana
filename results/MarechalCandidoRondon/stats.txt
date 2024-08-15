@@ -7,28 +7,28 @@ Dias totais:  144 days 00:00:00
 Dias validos:  144 days 00:00:00 
 
 PM1.0:
-Valor máximo:  678.58 , em  2024-07-27 21:00:00
-Valor médio:  45.730727586206896
-Desvio padrão:  102.70778171825722
+Valor máximo:  92.41 , em  2024-07-28 21:00:00
+Valor médio:  9.561562068965518
+Desvio padrão:  10.34191639524104
 Última medida:  8.620000000000001 ug/cm3, em  2024-08-13 21:00:00
-Dias acima da AQG (24h) ***:  31
-Máximo de dias consecutivos acima da AQG (24h):  25 
+Dias acima da AQG (24h) ***:  12
+Máximo de dias consecutivos acima da AQG (24h):  3 
 
 PM2.5:
-Valor máximo:  683.3877500000001 , em  2024-07-27 21:00:00
-Valor médio:  48.465693103448274
-Desvio padrão:  103.1206443227066
+Valor máximo:  102.21600000000001 , em  2024-07-28 21:00:00
+Valor médio:  12.358644827586208
+Desvio padrão:  12.127469651826082
 Última medida:  11.369250000000001 ug/cm3, em  2024-08-13 21:00:00
-Dias acima da AQG (24h) ***:  43
-Máximo de dias consecutivos acima da AQG (24h):  25 
+Dias acima da AQG (24h) ***:  31
+Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM10.0:
-Valor máximo:  685.4855 , em  2024-07-27 21:00:00
-Valor médio:  49.99620344827586
-Desvio padrão:  103.2943248148625
+Valor máximo:  108.05425 , em  2024-07-28 21:00:00
+Valor médio:  13.894563793103448
+Desvio padrão:  12.933673176369572
 Última medida:  12.95375 ug/cm3, em  2024-08-13 21:00:00
-Dias acima da AQG (24h) ***:  29
-Máximo de dias consecutivos acima da AQG (24h):  25 
+Dias acima da AQG (24h) ***:  8
+Máximo de dias consecutivos acima da AQG (24h):  3 
 
 VOC:
 Valor máximo:  120.947 , em  2024-05-10 21:00:00
