@@ -2,63 +2,63 @@ Municipio:  Foz do Iguacu
 
 Sensores utilizados:  ['187805']
 Data Inicial:  2024-03-22 21:00:00
-Data Final:  2024-08-17 21:00:00
-Dias totais:  148 days 00:00:00
-Dias validos:  148 days 00:00:00 
+Data Final:  2024-08-18 21:00:00
+Dias totais:  149 days 00:00:00
+Dias validos:  149 days 00:00:00 
 
 PM1.0:
 Valor máximo:  48.1245 , em  2024-08-17 21:00:00
-Valor médio:  12.581986577181206
-Desvio padrão:  7.124503301545837
-Última medida:  48.1245 ug/cm3, em  2024-08-17 21:00:00
-Dias acima da AQG (24h) ***:  49
+Valor médio:  12.764660000000001
+Desvio padrão:  7.444684198349475
+Última medida:  39.983 ug/cm3, em  2024-08-18 21:00:00
+Dias acima da AQG (24h) ***:  50
 Máximo de dias consecutivos acima da AQG (24h):  14 
 
 PM2.5:
 Valor máximo:  65.5 , em  2024-08-17 21:00:00
-Valor médio:  16.718580536912754
-Desvio padrão:  9.697867846793715
-Última medida:  65.5 ug/cm3, em  2024-08-17 21:00:00
-Dias acima da AQG (24h) ***:  76
+Valor médio:  16.973823333333335
+Desvio padrão:  10.158236786529288
+Última medida:  55.005 ug/cm3, em  2024-08-18 21:00:00
+Dias acima da AQG (24h) ***:  77
 Máximo de dias consecutivos acima da AQG (24h):  18 
 
 PM10.0:
 Valor máximo:  75.65549999999999 , em  2024-08-17 21:00:00
-Valor médio:  19.108718120805374
-Desvio padrão:  11.362166383964775
-Última medida:  75.65549999999999 ug/cm3, em  2024-08-17 21:00:00
-Dias acima da AQG (24h) ***:  40
+Valor médio:  19.419206666666668
+Desvio padrão:  11.945411689718693
+Última medida:  65.682 ug/cm3, em  2024-08-18 21:00:00
+Dias acima da AQG (24h) ***:  41
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 VOC:
 Valor máximo:  122.48 , em  2024-08-06 21:00:00
-Valor médio:  85.35127516778523
-Desvio padrão:  11.837759636045924
-Última medida:  116.591 ug/cm3, em  2024-08-17 21:00:00
+Valor médio:  85.56112
+Desvio padrão:  12.074655038867611
+Última medida:  116.828 ug/cm3, em  2024-08-18 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
 Valor máximo:  95.574 , em  2024-04-30 21:00:00
-Valor médio:  80.37232885906042
-Desvio padrão:  9.456773449414626
-Última medida:  87.278 ug/cm3, em  2024-08-17 21:00:00
+Valor médio:  80.41751333333333
+Desvio padrão:  9.441218377563414
+Última medida:  87.15 ug/cm3, em  2024-08-18 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
 Valor máximo:  63.374 , em  2024-05-08 21:00:00
-Valor médio:  50.75743624161074
-Desvio padrão:  6.699245730356866
-Última medida:  37.858 ug/cm3, em  2024-08-17 21:00:00
+Valor médio:  50.66336
+Desvio padrão:  6.77541414993115
+Última medida:  36.646 ug/cm3, em  2024-08-18 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Pressão:
 Valor máximo:  1008.058 , em  2024-07-11 21:00:00
-Valor médio:  998.4786808510637
-Desvio padrão:  4.227018818456089
-Última medida:  992.776 ug/cm3, em  2024-08-17 21:00:00
+Valor médio:  998.3581458333332
+Desvio padrão:  4.264375881548348
+Última medida:  992.693 ug/cm3, em  2024-08-18 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
