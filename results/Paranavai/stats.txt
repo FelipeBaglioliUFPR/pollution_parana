@@ -2,31 +2,31 @@ Municipio:  Paranavai
 
 Sensores utilizados:  ['187795', '187815']
 Data Inicial:  2024-03-22 21:00:00
-Data Final:  2024-09-13 21:00:00
-Dias totais:  175 days 00:00:00
-Dias validos:  109 days 00:00:00 
+Data Final:  2024-09-15 21:00:00
+Dias totais:  177 days 00:00:00
+Dias validos:  110 days 00:00:00 
 
 PM1.0:
 Valor máximo:  51.087 , em  2024-08-07 21:00:00
-Valor médio:  9.032263636363636
-Desvio padrão:  8.576908120132131
-Última medida:  45.245 ug/cm3, em  2024-09-13 21:00:00
+Valor médio:  8.982531531531531
+Desvio padrão:  8.553895573211413
+Última medida:  3.512 ug/cm3, em  2024-09-15 21:00:00
 Dias acima da AQG (24h) ***:  12
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM2.5:
 Valor máximo:  72.286 , em  2024-08-07 21:00:00
-Valor médio:  11.921927272727274
-Desvio padrão:  11.976633699412016
-Última medida:  59.07 ug/cm3, em  2024-09-13 21:00:00
+Valor médio:  11.852666666666668
+Desvio padrão:  11.944380582580044
+Última medida:  4.234 ug/cm3, em  2024-09-15 21:00:00
 Dias acima da AQG (24h) ***:  20
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM10.0:
 Valor máximo:  79.073 , em  2024-08-07 21:00:00
-Valor médio:  13.669554545454545
-Desvio padrão:  13.936996118895147
-Última medida:  71.311 ug/cm3, em  2024-09-13 21:00:00
+Valor médio:  13.58683783783784
+Desvio padrão:  13.900845724788597
+Última medida:  4.488 ug/cm3, em  2024-09-15 21:00:00
 Dias acima da AQG (24h) ***:  8
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
@@ -34,7 +34,7 @@ VOC:
 Valor máximo:  337.075 , em  2024-07-07 21:00:00
 Valor médio:  150.07963333333333
 Desvio padrão:  53.53335467703518
-Última medida:  nan ug/cm3, em  2024-09-13 21:00:00
+Última medida:  nan ug/cm3, em  2024-09-15 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
@@ -42,7 +42,7 @@ Temperatura:
 Valor máximo:  97.025 , em  2024-04-04 21:00:00
 Valor médio:  83.99937619047618
 Desvio padrão:  9.064763982666449
-Última medida:  nan ug/cm3, em  2024-09-13 21:00:00
+Última medida:  nan ug/cm3, em  2024-09-15 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
@@ -50,7 +50,7 @@ Umidade:
 Valor máximo:  77.139 , em  2024-07-12 21:00:00
 Valor médio:  46.52269523809524
 Desvio padrão:  11.342763035575903
-Última medida:  nan ug/cm3, em  2024-09-13 21:00:00
+Última medida:  nan ug/cm3, em  2024-09-15 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
@@ -58,7 +58,7 @@ Pressão:
 Valor máximo:  972.946 , em  2024-07-12 21:00:00
 Valor médio:  966.7955000000001
 Desvio padrão:  3.3270264711901567
-Última medida:  nan ug/cm3, em  2024-09-13 21:00:00
+Última medida:  nan ug/cm3, em  2024-09-15 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
