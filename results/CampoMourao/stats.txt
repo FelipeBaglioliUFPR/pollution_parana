@@ -2,63 +2,63 @@ Municipio:  Campo Mourao
 
 Sensores utilizados:  ['187777', '187803']
 Data Inicial:  2024-03-22 21:00:00
-Data Final:  2024-09-22 21:00:00
-Dias totais:  184 days 00:00:00
-Dias validos:  184 days 00:00:00 
+Data Final:  2024-09-23 21:00:00
+Dias totais:  185 days 00:00:00
+Dias validos:  185 days 00:00:00 
 
 PM1.0:
 Valor máximo:  101.07925 , em  2024-09-13 21:00:00
-Valor médio:  13.220590540540542
-Desvio padrão:  13.217985736524163
-Última medida:  55.57925 ug/cm3, em  2024-09-22 21:00:00
-Dias acima da AQG (24h) ***:  50
+Valor médio:  13.477181451612905
+Desvio padrão:  13.638796696237144
+Última medida:  60.9465 ug/cm3, em  2024-09-23 21:00:00
+Dias acima da AQG (24h) ***:  51
 Máximo de dias consecutivos acima da AQG (24h):  18 
 
 PM2.5:
 Valor máximo:  161.61725 , em  2024-09-13 21:00:00
-Valor médio:  17.462593243243244
-Desvio padrão:  19.385787963850476
-Última medida:  78.02225 ug/cm3, em  2024-09-22 21:00:00
-Dias acima da AQG (24h) ***:  62
+Valor médio:  17.85096370967742
+Desvio padrão:  20.045749109638717
+Última medida:  89.6995 ug/cm3, em  2024-09-23 21:00:00
+Dias acima da AQG (24h) ***:  63
 Máximo de dias consecutivos acima da AQG (24h):  18 
 
 PM10.0:
 Valor máximo:  184.58325000000002 , em  2024-09-13 21:00:00
-Valor médio:  20.384010810810814
-Desvio padrão:  22.884885830182338
-Última medida:  89.39125 ug/cm3, em  2024-09-22 21:00:00
-Dias acima da AQG (24h) ***:  40
+Valor médio:  20.82174865591398
+Desvio padrão:  23.590832407270064
+Última medida:  101.80324999999999 ug/cm3, em  2024-09-23 21:00:00
+Dias acima da AQG (24h) ***:  41
 Máximo de dias consecutivos acima da AQG (24h):  17 
 
 VOC:
 Valor máximo:  124.9165 , em  2024-08-22 21:00:00
-Valor médio:  88.09739189189189
-Desvio padrão:  11.11711356822411
-Última medida:  104.648 ug/cm3, em  2024-09-22 21:00:00
+Valor médio:  88.1805322580645
+Desvio padrão:  11.144857580433362
+Última medida:  103.5615 ug/cm3, em  2024-09-23 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
 Valor máximo:  93.326 , em  2024-09-22 21:00:00
-Valor médio:  78.73243783783784
-Desvio padrão:  7.666020947752923
-Última medida:  93.326 ug/cm3, em  2024-09-22 21:00:00
+Valor médio:  78.80114516129032
+Desvio padrão:  7.702484175999131
+Última medida:  91.512 ug/cm3, em  2024-09-23 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
 Valor máximo:  71.7895 , em  2024-04-13 21:00:00
-Valor médio:  45.066224324324324
-Desvio padrão:  10.68672032572805
-Última medida:  36.025 ug/cm3, em  2024-09-22 21:00:00
+Valor médio:  45.002690860215054
+Desvio padrão:  10.692962678088664
+Última medida:  33.249 ug/cm3, em  2024-09-23 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Pressão:
 Valor máximo:  956.462 , em  2024-08-24 21:00:00
-Valor médio:  950.1590783132531
-Desvio padrão:  3.2767254758984596
-Última medida:  945.0785 ug/cm3, em  2024-09-22 21:00:00
+Valor médio:  950.0968690476191
+Desvio padrão:  3.3064555997695275
+Última medida:  944.9335 ug/cm3, em  2024-09-23 21:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
