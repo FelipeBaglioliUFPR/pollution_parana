@@ -16,16 +16,16 @@ Máximo de dias consecutivos acima da AQG (24h):  10
 
 PM2.5:
 Valor máximo:  167.63350000000003 , em  2024-09-02 21:00:00
-Valor médio:  20.73766312056738
-Desvio padrão:  23.853938201546548
+Valor médio:  20.737666666666666
+Desvio padrão:  23.8539470484047
 Última medida:  54.356 ug/cm3, em  2024-10-01 21:00:00
 Dias acima da AQG (24h) ***:  60
 Máximo de dias consecutivos acima da AQG (24h):  13 
 
 PM10.0:
 Valor máximo:  174.83599999999998 , em  2024-09-02 21:00:00
-Valor médio:  23.455602836879436
-Desvio padrão:  26.245736098222952
+Valor médio:  23.455595744680853
+Desvio padrão:  26.245733181721647
 Última medida:  63.1735 ug/cm3, em  2024-10-01 21:00:00
 Dias acima da AQG (24h) ***:  37
 Máximo de dias consecutivos acima da AQG (24h):  10 
