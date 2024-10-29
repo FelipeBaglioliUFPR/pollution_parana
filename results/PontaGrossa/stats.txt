@@ -2,63 +2,63 @@ Municipio:  Ponta Grossa
 
 Sensores utilizados:  ['187773', '187799']
 Data Inicial:  2024-05-06 00:00:00
-Data Final:  2024-10-28 00:00:00
-Dias totais:  175 days 00:00:00
-Dias validos:  175 days 00:00:00 
+Data Final:  2024-10-29 00:00:00
+Dias totais:  176 days 00:00:00
+Dias validos:  176 days 00:00:00 
 
 PM1.0:
 Valor máximo:  59.55381944444444 , em  2024-08-20 00:00:00
-Valor médio:  14.410905190553324
-Desvio padrão:  11.722481473610317
-Última medida:  0.6032911392405063 ug/cm3, em  2024-10-28 00:00:00
+Valor médio:  14.374469759311552
+Desvio padrão:  11.69476129792873
+Última medida:  6.390666666666667 ug/cm3, em  2024-10-29 00:00:00
 Dias acima da AQG (24h) ***:  55
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 PM2.5:
 Valor máximo:  89.8429375 , em  2024-09-10 00:00:00
-Valor médio:  20.712706887369677
-Desvio padrão:  18.07926374675421
-Última medida:  0.9147046413502111 ug/cm3, em  2024-10-28 00:00:00
+Valor médio:  20.65263451369832
+Desvio padrão:  18.041159402166937
+Última medida:  8.1624 ug/cm3, em  2024-10-29 00:00:00
 Dias acima da AQG (24h) ***:  95
 Máximo de dias consecutivos acima da AQG (24h):  17 
 
 PM10.0:
 Valor máximo:  97.63466666666666 , em  2024-08-20 00:00:00
-Valor médio:  23.406492040757772
-Desvio padrão:  20.645640615188327
-Última medida:  1.1393881856540082 ug/cm3, em  2024-10-28 00:00:00
+Valor médio:  23.335502549522555
+Desvio padrão:  20.604138309746485
+Última medida:  8.729955555555554 ug/cm3, em  2024-10-29 00:00:00
 Dias acima da AQG (24h) ***:  45
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 VOC:
 Valor máximo:  123.66777468706537 , em  2024-10-12 00:00:00
-Valor médio:  82.69185148227047
-Desvio padrão:  10.754627941854025
-Última medida:  61.228945147679326 ug/cm3, em  2024-10-28 00:00:00
+Valor médio:  82.74835768461223
+Desvio padrão:  10.619378514983332
+Última medida:  75.86164444444444 ug/cm3, em  2024-10-29 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
 Valor máximo:  91.77916666666667 , em  2024-09-23 00:00:00
-Valor médio:  75.97036355764713
-Desvio padrão:  6.939722443429379
-Última medida:  66.11814345991561 ug/cm3, em  2024-10-28 00:00:00
+Valor médio:  76.02185504342361
+Desvio padrão:  6.897768235783263
+Última medida:  70.95111111111112 ug/cm3, em  2024-10-29 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
 Valor máximo:  73.87361111111112 , em  2024-10-11 00:00:00
-Valor médio:  49.6158079972607
-Desvio padrão:  10.326802507919998
-Última medida:  65.92405063291139 ug/cm3, em  2024-10-28 00:00:00
+Valor médio:  49.6189663603043
+Desvio padrão:  10.296477417980183
+Última medida:  65.80444444444444 ug/cm3, em  2024-10-29 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Pressão:
 Valor máximo:  921.0968055555555 , em  2024-07-16 00:00:00
-Valor médio:  914.491895973016
-Desvio padrão:  3.4160769138489844
-Última medida:  915.4002109704641 ug/cm3, em  2024-10-28 00:00:00
+Valor médio:  914.4811751863762
+Desvio padrão:  3.401480237171128
+Última medida:  913.7173333333334 ug/cm3, em  2024-10-29 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
