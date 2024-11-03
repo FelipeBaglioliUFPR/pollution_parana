@@ -8,25 +8,25 @@ Dias validos:  94 days 00:00:00
 
 PM1.0:
 Valor máximo:  52.55719191919193 , em  2024-10-02 00:00:00
-Valor médio:  13.228079755300323
-Desvio padrão:  11.75961015795121
-Última medida:  1.2093258426966291 ug/cm3, em  2024-11-01 00:00:00
+Valor médio:  13.24970366051346
+Desvio padrão:  11.739145540117752
+Última medida:  3.2635968379446636 ug/cm3, em  2024-11-01 00:00:00
 Dias acima da AQG (24h) ***:  30
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM2.5:
 Valor máximo:  73.17336693548387 , em  2024-10-08 00:00:00
-Valor médio:  18.254103685223395
-Desvio padrão:  17.40677671953928
-Última medida:  1.8326966292134832 ug/cm3, em  2024-11-01 00:00:00
+Valor médio:  18.280422501649813
+Desvio padrão:  17.383558346991308
+Última medida:  4.33298418972332 ug/cm3, em  2024-11-01 00:00:00
 Dias acima da AQG (24h) ***:  34
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM10.0:
 Valor máximo:  80.10118951612904 , em  2024-10-08 00:00:00
-Valor médio:  21.059309924082296
-Desvio padrão:  20.362430097061083
-Última medida:  2.5859550561797753 ug/cm3, em  2024-11-01 00:00:00
+Valor médio:  21.088117220557706
+Desvio padrão:  20.337938407249062
+Última medida:  5.322648221343874 ug/cm3, em  2024-11-01 00:00:00
 Dias acima da AQG (24h) ***:  24
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
