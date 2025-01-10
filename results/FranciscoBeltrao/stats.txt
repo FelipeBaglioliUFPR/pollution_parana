@@ -2,63 +2,63 @@ Municipio:  Francisco Beltrao
 
 Sensores utilizados:  ['187807']
 Data Inicial:  2024-05-06 00:00:00
-Data Final:  2025-01-04 00:00:00
-Dias totais:  243 days 00:00:00
-Dias validos:  243 days 00:00:00 
+Data Final:  2025-01-10 00:00:00
+Dias totais:  249 days 00:00:00
+Dias validos:  249 days 00:00:00 
 
 PM1.0:
 Valor máximo:  88.83217663421419 , em  2024-09-13 00:00:00
-Valor médio:  13.404693296888738
-Desvio padrão:  12.013306033852839
-Última medida:  2.4708457711442784 ug/cm3, em  2025-01-04 00:00:00
+Valor médio:  13.182507481945311
+Desvio padrão:  11.956083178443317
+Última medida:  1.4675806451612907 ug/cm3, em  2025-01-10 00:00:00
 Dias acima da AQG (24h) ***:  73
 Máximo de dias consecutivos acima da AQG (24h):  10 
 
 PM2.5:
 Valor máximo:  138.59897774687067 , em  2024-09-13 00:00:00
-Valor médio:  18.71570259949879
-Desvio padrão:  18.446378579036292
-Última medida:  3.1457462686567164 ug/cm3, em  2025-01-04 00:00:00
+Valor médio:  18.391781520646074
+Desvio padrão:  18.343293288840034
+Última medida:  2.156290322580645 ug/cm3, em  2025-01-10 00:00:00
 Dias acima da AQG (24h) ***:  111
 Máximo de dias consecutivos acima da AQG (24h):  18 
 
 PM10.0:
 Valor máximo:  149.8388942976356 , em  2024-09-13 00:00:00
-Valor médio:  21.18241599983695
-Desvio padrão:  20.926259013175883
-Última medida:  3.6975124378109454 ug/cm3, em  2025-01-04 00:00:00
+Valor médio:  20.816383254471546
+Desvio padrão:  20.807788838492176
+Última medida:  2.8575483870967737 ug/cm3, em  2025-01-10 00:00:00
 Dias acima da AQG (24h) ***:  64
 Máximo de dias consecutivos acima da AQG (24h):  10 
 
 VOC:
 Valor máximo:  233.0631523378582 , em  2024-09-20 00:00:00
-Valor médio:  132.4891903851933
-Desvio padrão:  31.210114315240812
-Última medida:  91.8958457711443 ug/cm3, em  2025-01-04 00:00:00
+Valor médio:  132.32382246396924
+Desvio padrão:  31.007022142547537
+Última medida:  163.57125806451612 ug/cm3, em  2025-01-10 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
 Valor máximo:  90.08926080892608 , em  2024-10-01 00:00:00
-Valor médio:  77.0014710433824
-Desvio padrão:  8.109062624854149
-Última medida:  84.45771144278606 ug/cm3, em  2025-01-04 00:00:00
+Valor médio:  77.19777064377753
+Desvio padrão:  8.11850584569389
+Última medida:  79.85161290322581 ug/cm3, em  2025-01-10 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
 Valor máximo:  77.40642458100558 , em  2024-12-07 00:00:00
-Valor médio:  54.500998987732046
-Desvio padrão:  8.28371563136117
-Última medida:  41.7636815920398 ug/cm3, em  2025-01-04 00:00:00
+Valor médio:  54.26783285562007
+Desvio padrão:  8.451309049274744
+Última medida:  62.56774193548387 ug/cm3, em  2025-01-10 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Pressão:
 Valor máximo:  954.3655076495132 , em  2024-08-25 00:00:00
-Valor médio:  943.5185434133962
-Desvio padrão:  4.0406016545448304
-Última medida:  939.4714676616915 ug/cm3, em  2025-01-04 00:00:00
+Valor médio:  943.3765083346793
+Desvio padrão:  4.0552996933675605
+Última medida:  939.4214838709678 ug/cm3, em  2025-01-10 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
