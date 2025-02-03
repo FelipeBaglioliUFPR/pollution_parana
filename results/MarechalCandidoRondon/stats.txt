@@ -2,63 +2,63 @@ Municipio:  Marechal Candido Rondon
 
 Sensores utilizados:  ['187779', '187781']
 Data Inicial:  2024-05-06 00:00:00
-Data Final:  2025-02-02 00:00:00
-Dias totais:  272 days 00:00:00
-Dias validos:  272 days 00:00:00 
+Data Final:  2025-02-03 00:00:00
+Dias totais:  273 days 00:00:00
+Dias validos:  273 days 00:00:00 
 
 PM1.0:
 Valor máximo:  1662.911715593434 , em  2025-01-25 00:00:00
-Valor médio:  58.64008995985027
-Desvio padrão:  261.66960584914074
-Última medida:  1635.8897730284286 ug/cm3, em  2025-02-02 00:00:00
+Valor médio:  58.439082365275546
+Desvio padrão:  261.21422603852255
+Última medida:  3.427881355932204 ug/cm3, em  2025-02-03 00:00:00
 Dias acima da AQG (24h) ***:  64
 Máximo de dias consecutivos acima da AQG (24h):  10 
 
 PM2.5:
 Valor máximo:  1663.3274589646464 , em  2025-01-25 00:00:00
-Valor médio:  62.64265786764308
-Desvio padrão:  261.34752490750657
-Última medida:  1636.183256801248 ug/cm3, em  2025-02-02 00:00:00
+Valor médio:  62.42966929695365
+Desvio padrão:  260.895532940824
+Última medida:  4.140520581113801 ug/cm3, em  2025-02-03 00:00:00
 Dias acima da AQG (24h) ***:  87
 Máximo de dias consecutivos acima da AQG (24h):  13 
 
 PM10.0:
 Valor máximo:  1663.6284210858585 , em  2025-01-25 00:00:00
-Valor médio:  64.8024793786926
-Desvio padrão:  261.20838487792577
-Última medida:  1636.4240478762988 ug/cm3, em  2025-02-02 00:00:00
+Valor médio:  64.58360514204905
+Desvio padrão:  260.75793716217913
+Última medida:  4.6902905569007265 ug/cm3, em  2025-02-03 00:00:00
 Dias acima da AQG (24h) ***:  57
 Máximo de dias consecutivos acima da AQG (24h):  10 
 
 VOC:
 Valor máximo:  165.33999999999997 , em  2024-09-23 00:00:00
-Valor médio:  84.09418240200661
-Desvio padrão:  13.59404976689613
-Última medida:  81.92177953662838 ug/cm3, em  2025-02-02 00:00:00
+Valor médio:  84.09590415679656
+Desvio padrão:  13.568845399455837
+Última medida:  82.47900726392253 ug/cm3, em  2025-02-03 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
 Valor máximo:  103.0 , em  2024-09-23 00:00:00
-Valor médio:  84.44366293334984
-Desvio padrão:  8.73288964950238
-Última medida:  91.00942338467183 ug/cm3, em  2025-02-02 00:00:00
+Valor médio:  84.45615317599766
+Desvio padrão:  8.719001431895766
+Última medida:  88.14043583535108 ug/cm3, em  2025-02-03 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
 Valor máximo:  71.8916083916084 , em  2024-10-11 00:00:00
-Valor médio:  43.66248894359347
-Desvio padrão:  11.766792576223684
-Última medida:  44.81775000764472 ug/cm3, em  2025-02-02 00:00:00
+Valor médio:  43.68986189780973
+Desvio padrão:  11.753138596673764
+Última medida:  50.71670702179177 ug/cm3, em  2025-02-03 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Pressão:
 Valor máximo:  979.6935294117646 , em  2024-08-25 00:00:00
-Valor médio:  965.9114780403121
-Desvio padrão:  4.26454219464275
-Última medida:  961.0349488823429 ug/cm3, em  2025-02-02 00:00:00
+Valor médio:  965.8903053905575
+Desvio padrão:  4.266080784466017
+Última medida:  961.5300968523001 ug/cm3, em  2025-02-03 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
