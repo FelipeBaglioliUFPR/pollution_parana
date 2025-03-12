@@ -7,26 +7,26 @@ Dias totais:  310 days 00:00:00
 Dias validos:  139 days 00:00:00 
 
 PM1.0:
-Valor máximo:  3332.080769230769 , em  2025-03-12 00:00:00
-Valor médio:  154.45914813255456
-Desvio padrão:  510.23977477415093
-Última medida:  3332.080769230769 ug/cm3, em  2025-03-12 00:00:00
+Valor máximo:  3331.96342519685 , em  2025-03-11 00:00:00
+Valor médio:  154.4572920327222
+Desvio padrão:  510.2281327160534
+Última medida:  3331.820915254237 ug/cm3, em  2025-03-12 00:00:00
 Dias acima da AQG (24h) ***:  46
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM2.5:
-Valor máximo:  3332.080769230769 , em  2025-03-12 00:00:00
-Valor médio:  158.04693481228784
-Desvio padrão:  509.4396734403462
-Última medida:  3332.080769230769 ug/cm3, em  2025-03-12 00:00:00
+Valor máximo:  3331.96342519685 , em  2025-03-11 00:00:00
+Valor médio:  158.04507871245548
+Desvio padrão:  509.42802626351295
+Última medida:  3331.820915254237 ug/cm3, em  2025-03-12 00:00:00
 Dias acima da AQG (24h) ***:  50
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM10.0:
-Valor máximo:  3332.080769230769 , em  2025-03-12 00:00:00
-Valor médio:  160.13217911574876
-Desvio padrão:  509.0786038807965
-Última medida:  3332.080769230769 ug/cm3, em  2025-03-12 00:00:00
+Valor máximo:  3331.96342519685 , em  2025-03-11 00:00:00
+Valor médio:  160.1303230159164
+Desvio padrão:  509.06695610055607
+Última medida:  3331.820915254237 ug/cm3, em  2025-03-12 00:00:00
 Dias acima da AQG (24h) ***:  38
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
