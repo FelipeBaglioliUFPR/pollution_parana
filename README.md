@@ -1,1 +1,1 @@
-Map of pollution in parana
+Map of pollution in parana, regarding mainly PM2.5
