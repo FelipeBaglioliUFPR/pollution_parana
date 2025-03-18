@@ -8,57 +8,57 @@ Dias validos:  316 days 00:00:00
 
 PM1.0:
 Valor máximo:  59.55381944444444 , em  2024-08-20 00:00:00
-Valor médio:  10.010684955299183
-Desvio padrão:  10.157801530583479
-Última medida:  6.373698347107438 ug/cm3, em  2025-03-18 00:00:00
+Valor médio:  10.013693376249826
+Desvio padrão:  10.156862140931324
+Última medida:  7.3273677884615385 ug/cm3, em  2025-03-18 00:00:00
 Dias acima da AQG (24h) ***:  55
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 PM2.5:
 Valor máximo:  89.8429375 , em  2024-09-10 00:00:00
-Valor médio:  14.048131299885736
-Desvio padrão:  15.524824031154171
-Última medida:  7.905082644628098 ug/cm3, em  2025-03-18 00:00:00
+Valor médio:  14.051532405653713
+Desvio padrão:  15.523592031185174
+Última medida:  8.983233173076922 ug/cm3, em  2025-03-18 00:00:00
 Dias acima da AQG (24h) ***:  95
 Máximo de dias consecutivos acima da AQG (24h):  17 
 
 PM10.0:
 Valor máximo:  97.63466666666666 , em  2024-08-20 00:00:00
-Valor médio:  15.809487333173124
-Desvio padrão:  17.70267783247341
-Última medida:  8.357685950413224 ug/cm3, em  2025-03-18 00:00:00
+Valor médio:  15.813336691980362
+Desvio padrão:  17.701184953128408
+Última medida:  9.577932692307693 ug/cm3, em  2025-03-18 00:00:00
 Dias acima da AQG (24h) ***:  45
 Máximo de dias consecutivos acima da AQG (24h):  8 
 
 VOC:
 Valor máximo:  127.96681944444444 , em  2024-11-27 00:00:00
-Valor médio:  86.54954002676676
-Desvio padrão:  11.96641289052196
-Última medida:  69.48876033057853 ug/cm3, em  2025-03-18 00:00:00
+Valor médio:  86.5592665471993
+Desvio padrão:  11.953748073477996
+Última medida:  72.57206730769231 ug/cm3, em  2025-03-18 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
 Valor máximo:  93.50555555555556 , em  2025-03-02 00:00:00
-Valor médio:  79.14354270200599
-Desvio padrão:  6.82592901738027
-Última medida:  73.57851239669421 ug/cm3, em  2025-03-18 00:00:00
+Valor médio:  79.16530121664879
+Desvio padrão:  6.8191234949648445
+Última medida:  80.47596153846153 ug/cm3, em  2025-03-18 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
 Valor máximo:  73.87361111111112 , em  2024-10-11 00:00:00
-Valor médio:  51.790234022985906
-Desvio padrão:  9.417244864356734
-Última medida:  66.7107438016529 ug/cm3, em  2025-03-18 00:00:00
+Valor médio:  51.75922918934808
+Desvio padrão:  9.384087014609857
+Última medida:  56.88221153846154 ug/cm3, em  2025-03-18 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Pressão:
 Valor máximo:  921.0968055555555 , em  2024-07-16 00:00:00
-Valor médio:  912.5671377238959
-Desvio padrão:  3.3849873753124817
-Última medida:  913.165826446281 ug/cm3, em  2025-03-18 00:00:00
+Valor médio:  912.5674605836223
+Desvio padrão:  3.385048686816273
+Última medida:  913.2494471153847 ug/cm3, em  2025-03-18 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
