@@ -2,63 +2,63 @@ Municipio:  Foz do Iguacu
 
 Sensores utilizados:  ['187805']
 Data Inicial:  2024-05-06 00:00:00
-Data Final:  2025-04-13 00:00:00
-Dias totais:  342 days 00:00:00
-Dias validos:  327 days 00:00:00 
+Data Final:  2025-04-14 00:00:00
+Dias totais:  343 days 00:00:00
+Dias validos:  328 days 00:00:00 
 
 PM1.0:
 Valor máximo:  56.19477746870653 , em  2024-10-01 00:00:00
-Valor médio:  10.64360760924581
-Desvio padrão:  8.926823529975229
-Última medida:  6.671060606060606 ug/cm3, em  2025-04-13 00:00:00
+Valor médio:  10.627114257583086
+Desvio padrão:  8.918062555400908
+Última medida:  5.709161073825503 ug/cm3, em  2025-04-14 00:00:00
 Dias acima da AQG (24h) ***:  71
 Máximo de dias consecutivos acima da AQG (24h):  15 
 
 PM2.5:
 Valor máximo:  77.60434631432545 , em  2024-10-01 00:00:00
-Valor médio:  14.130241137855096
-Desvio padrão:  12.530913608197453
-Última medida:  9.700639730639729 ug/cm3, em  2025-04-13 00:00:00
+Valor médio:  14.106166761012854
+Desvio padrão:  12.51886580941362
+Última medida:  7.06496644295302 ug/cm3, em  2025-04-14 00:00:00
 Dias acima da AQG (24h) ***:  103
 Máximo de dias consecutivos acima da AQG (24h):  18 
 
 PM10.0:
 Valor máximo:  83.47224617524338 , em  2024-10-01 00:00:00
-Valor médio:  16.257269484427813
-Desvio padrão:  14.558029853196755
-Última medida:  11.354797979797977 ug/cm3, em  2025-04-13 00:00:00
+Valor médio:  16.228885060814516
+Desvio padrão:  14.544206117495795
+Última medida:  7.937147651006713 ug/cm3, em  2025-04-14 00:00:00
 Dias acima da AQG (24h) ***:  57
 Máximo de dias consecutivos acima da AQG (24h):  9 
 
 VOC:
 Valor máximo:  137.7960361613352 , em  2024-11-21 00:00:00
-Valor médio:  94.42977531232377
-Desvio padrão:  14.978540123879284
-Última medida:  81.87924242424242 ug/cm3, em  2025-04-13 00:00:00
+Valor médio:  94.4780046158995
+Desvio padrão:  14.95652143668399
+Última medida:  105.05879194630872 ug/cm3, em  2025-04-14 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
 Valor máximo:  102.35555555555555 , em  2025-03-03 00:00:00
-Valor médio:  85.98962107766494
-Desvio padrão:  9.609953768448694
-Última medida:  81.87037037037037 ug/cm3, em  2025-04-13 00:00:00
+Valor médio:  85.96379632108257
+Desvio padrão:  9.606646301137651
+Última medida:  77.54697986577182 ug/cm3, em  2025-04-14 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
 Valor máximo:  63.58831710709318 , em  2024-05-09 00:00:00
-Valor médio:  46.5905420337151
-Desvio padrão:  7.476172607789473
-Última medida:  59.36868686868687 ug/cm3, em  2025-04-13 00:00:00
+Valor médio:  46.63467087995079
+Desvio padrão:  7.5076140107992995
+Última medida:  61.18456375838926 ug/cm3, em  2025-04-14 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Pressão:
 Valor máximo:  1008.4463055555553 , em  2024-08-25 00:00:00
-Valor médio:  992.5396140342518
-Desvio padrão:  4.583354308855102
-Última medida:  994.2980134680136 ug/cm3, em  2025-04-13 00:00:00
+Valor médio:  992.5498370249413
+Desvio padrão:  4.577866177561761
+Última medida:  995.1895302013422 ug/cm3, em  2025-04-14 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
