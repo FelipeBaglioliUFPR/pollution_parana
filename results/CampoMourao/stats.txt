@@ -1,64 +1,64 @@
 Municipio:  Campo Mourao 
 
-Sensores utilizados:  ['187777', '187803']
+Sensores utilizados:  ['187803', '187777']
 Data Inicial:  2024-05-06 00:00:00
 Data Final:  2025-03-09 00:00:00
 Dias totais:  307 days 00:00:00
 Dias validos:  307 days 00:00:00 
 
 PM1.0:
-Valor m·ximo:  92.1259678362573 , em  2024-09-14 00:00:00
-Valor mÈdio:  10.499603113361188
-Desvio padr„o:  12.529949211742583
-⁄ltima medida:  4.158325082508251 ug/cm3, em  2025-03-09 00:00:00
+Valor m√°ximo:  92.1259678362573 , em  2024-09-14 00:00:00
+Valor m√©dio:  10.499603113361188
+Desvio padr√£o:  12.529949211742583
+√öltima medida:  4.158325082508251 ug/cm3, em  2025-03-09 00:00:00
 Dias acima da AQG (24h) ***:  62
-M·ximo de dias consecutivos acima da AQG (24h):  18 
+M√°ximo de dias consecutivos acima da AQG (24h):  18 
 
 PM2.5:
-Valor m·ximo:  147.7033210891813 , em  2024-09-14 00:00:00
-Valor mÈdio:  13.784460328973628
-Desvio padr„o:  18.008098052667037
-⁄ltima medida:  4.966113861386138 ug/cm3, em  2025-03-09 00:00:00
+Valor m√°ximo:  147.7033210891813 , em  2024-09-14 00:00:00
+Valor m√©dio:  13.784460328973628
+Desvio padr√£o:  18.008098052667037
+√öltima medida:  4.966113861386138 ug/cm3, em  2025-03-09 00:00:00
 Dias acima da AQG (24h) ***:  76
-M·ximo de dias consecutivos acima da AQG (24h):  18 
+M√°ximo de dias consecutivos acima da AQG (24h):  18 
 
 PM10.0:
-Valor m·ximo:  170.15603929093567 , em  2024-09-14 00:00:00
-Valor mÈdio:  16.091988501876614
-Desvio padr„o:  21.20963347925164
-⁄ltima medida:  5.948580858085808 ug/cm3, em  2025-03-09 00:00:00
+Valor m√°ximo:  170.15603929093567 , em  2024-09-14 00:00:00
+Valor m√©dio:  16.091988501876614
+Desvio padr√£o:  21.20963347925164
+√öltima medida:  5.948580858085808 ug/cm3, em  2025-03-09 00:00:00
 Dias acima da AQG (24h) ***:  55
-M·ximo de dias consecutivos acima da AQG (24h):  18 
+M√°ximo de dias consecutivos acima da AQG (24h):  18 
 
 VOC:
-Valor m·ximo:  120.45469371754265 , em  2024-07-08 00:00:00
-Valor mÈdio:  87.20457277366916
-Desvio padr„o:  10.763388780155442
-⁄ltima medida:  84.25232673267327 ug/cm3, em  2025-03-09 00:00:00
+Valor m√°ximo:  120.45469371754265 , em  2024-07-08 00:00:00
+Valor m√©dio:  87.20457277366916
+Desvio padr√£o:  10.763388780155442
+√öltima medida:  84.25232673267327 ug/cm3, em  2025-03-09 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M·ximo de dias consecutivos acima da AQG (24h):  nan 
+M√°ximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
-Valor m·ximo:  94.56758484425848 , em  2024-11-27 00:00:00
-Valor mÈdio:  82.04374844320662
-Desvio padr„o:  7.569464339949453
-⁄ltima medida:  93.23762376237623 ug/cm3, em  2025-03-09 00:00:00
+Valor m√°ximo:  94.56758484425848 , em  2024-11-27 00:00:00
+Valor m√©dio:  82.04374844320662
+Desvio padr√£o:  7.569464339949453
+√öltima medida:  93.23762376237623 ug/cm3, em  2025-03-09 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M·ximo de dias consecutivos acima da AQG (24h):  nan 
+M√°ximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
-Valor m·ximo:  74.21345437616387 , em  2024-12-08 00:00:00
-Valor mÈdio:  46.120480309956214
-Desvio padr„o:  10.673504940356358
-⁄ltima medida:  37.06930693069307 ug/cm3, em  2025-03-09 00:00:00
+Valor m√°ximo:  74.21345437616387 , em  2024-12-08 00:00:00
+Valor m√©dio:  46.120480309956214
+Desvio padr√£o:  10.673504940356358
+√öltima medida:  37.06930693069307 ug/cm3, em  2025-03-09 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M·ximo de dias consecutivos acima da AQG (24h):  nan 
+M√°ximo de dias consecutivos acima da AQG (24h):  nan 
 
-Press„o:
-Valor m·ximo:  956.90525 , em  2024-08-25 00:00:00
-Valor mÈdio:  946.5226799319123
-Desvio padr„o:  3.641527241656736
-⁄ltima medida:  945.6379207920793 ug/cm3, em  2025-03-09 00:00:00
+Press√£o:
+Valor m√°ximo:  956.90525 , em  2024-08-25 00:00:00
+Valor m√©dio:  946.5226799319123
+Desvio padr√£o:  3.641527241656736
+√öltima medida:  945.6379207920793 ug/cm3, em  2025-03-09 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M·ximo de dias consecutivos acima da AQG (24h):  nan 
+M√°ximo de dias consecutivos acima da AQG (24h):  nan 
 
