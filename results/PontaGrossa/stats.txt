@@ -2,63 +2,63 @@ Municipio:  Ponta Grossa
 
 Sensores utilizados:  ['187773', '187799']
 Data Inicial:  2024-05-06 00:00:00
-Data Final:  2025-06-13 00:00:00
-Dias totais:  403 days 00:00:00
-Dias validos:  403 days 00:00:00 
+Data Final:  2025-06-17 00:00:00
+Dias totais:  407 days 00:00:00
+Dias validos:  407 days 00:00:00 
 
 PM1.0:
-Valor m√°ximo:  59.55381944444444 , em  2024-08-20 00:00:00
-Valor m√©dio:  9.464435381438596
-Desvio padr√£o:  9.312696093040083
-√öltima medida:  0.030269058295964126 ug/cm3, em  2025-06-13 00:00:00
+Valor m·ximo:  59.55381944444444 , em  2024-08-20 00:00:00
+Valor mÈdio:  9.463780779108422
+Desvio padr„o:  9.273945184512781
+⁄ltima medida:  14.66042105263158 ug/cm3, em  2025-06-17 00:00:00
 Dias acima da AQG (24h) ***:  63
-M√°ximo de dias consecutivos acima da AQG (24h):  8 
+M·ximo de dias consecutivos acima da AQG (24h):  8 
 
 PM2.5:
-Valor m√°ximo:  89.8429375 , em  2024-09-10 00:00:00
-Valor m√©dio:  13.114296083767039
-Desvio padr√£o:  14.166988500146177
-√öltima medida:  0.1047085201793722 ug/cm3, em  2025-06-13 00:00:00
-Dias acima da AQG (24h) ***:  110
-M√°ximo de dias consecutivos acima da AQG (24h):  17 
+Valor m·ximo:  89.8429375 , em  2024-09-10 00:00:00
+Valor mÈdio:  13.107068267317327
+Desvio padr„o:  14.106405940727402
+⁄ltima medida:  20.028 ug/cm3, em  2025-06-17 00:00:00
+Dias acima da AQG (24h) ***:  111
+M·ximo de dias consecutivos acima da AQG (24h):  17 
 
 PM10.0:
-Valor m√°ximo:  97.63466666666666 , em  2024-08-20 00:00:00
-Valor m√©dio:  14.696317777455947
-Desvio padr√£o:  16.139779953611825
-√öltima medida:  0.3273542600896861 ug/cm3, em  2025-06-13 00:00:00
+Valor m·ximo:  97.63466666666666 , em  2024-08-20 00:00:00
+Valor mÈdio:  14.684434214268279
+Desvio padr„o:  16.069495280443938
+⁄ltima medida:  21.648210526315793 ug/cm3, em  2025-06-17 00:00:00
 Dias acima da AQG (24h) ***:  48
-M√°ximo de dias consecutivos acima da AQG (24h):  8 
+M·ximo de dias consecutivos acima da AQG (24h):  8 
 
 VOC:
-Valor m√°ximo:  127.96681944444444 , em  2024-11-27 00:00:00
-Valor m√©dio:  86.5993774171251
-Desvio padr√£o:  12.115098678226412
-√öltima medida:  62.79596412556054 ug/cm3, em  2025-06-13 00:00:00
+Valor m·ximo:  127.96681944444444 , em  2024-11-27 00:00:00
+Valor mÈdio:  86.53327226239266
+Desvio padr„o:  12.109723413861303
+⁄ltima medida:  67.0357894736842 ug/cm3, em  2025-06-17 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M√°ximo de dias consecutivos acima da AQG (24h):  nan 
+M·ximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
-Valor m√°ximo:  93.50555555555556 , em  2025-03-02 00:00:00
-Valor m√©dio:  78.56591582479201
-Desvio padr√£o:  6.763434103797821
-√öltima medida:  64.347533632287 ug/cm3, em  2025-06-13 00:00:00
+Valor m·ximo:  93.50555555555556 , em  2025-03-02 00:00:00
+Valor mÈdio:  78.47950726625645
+Desvio padr„o:  6.7915516462555265
+⁄ltima medida:  73.1978947368421 ug/cm3, em  2025-06-17 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M√°ximo de dias consecutivos acima da AQG (24h):  nan 
+M·ximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
-Valor m√°ximo:  74.30694444444444 , em  2025-06-05 00:00:00
-Valor m√©dio:  52.652034850007034
-Desvio padr√£o:  8.893254340369063
-√öltima medida:  56.29596412556054 ug/cm3, em  2025-06-13 00:00:00
+Valor m·ximo:  74.30694444444444 , em  2025-06-05 00:00:00
+Valor mÈdio:  52.74818010891647
+Desvio padr„o:  8.905801364884226
+⁄ltima medida:  62.16421052631579 ug/cm3, em  2025-06-17 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M√°ximo de dias consecutivos acima da AQG (24h):  nan 
+M·ximo de dias consecutivos acima da AQG (24h):  nan 
 
-Press√£o:
-Valor m√°ximo:  921.0968055555555 , em  2024-07-16 00:00:00
-Valor m√©dio:  912.9947323943628
-Desvio padr√£o:  3.2982675530912196
-√öltima medida:  918.5412556053813 ug/cm3, em  2025-06-13 00:00:00
+Press„o:
+Valor m·ximo:  921.0968055555555 , em  2024-07-16 00:00:00
+Valor mÈdio:  913.0364770045493
+Desvio padr„o:  3.3048842636690603
+⁄ltima medida:  917.5380421052631 ug/cm3, em  2025-06-17 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M√°ximo de dias consecutivos acima da AQG (24h):  nan 
+M·ximo de dias consecutivos acima da AQG (24h):  nan 
 
