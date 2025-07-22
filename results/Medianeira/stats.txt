@@ -2,63 +2,63 @@ Municipio:  Medianeira
 
 Sensores utilizados:  ['187787']
 Data Inicial:  2024-05-23 00:00:00
-Data Final:  2025-07-04 00:00:00
-Dias totais:  407 days 00:00:00
-Dias validos:  407 days 00:00:00 
+Data Final:  2025-07-22 00:00:00
+Dias totais:  425 days 00:00:00
+Dias validos:  404 days 00:00:00 
 
 PM1.0:
-Valor m√°ximo:  75.0509192200557 , em  2024-09-13 00:00:00
-Valor m√©dio:  7.983436100341324
-Desvio padr√£o:  9.369073477933307
-√öltima medida:  7.275806451612904 ug/cm3, em  2025-07-04 00:00:00
+Valor m·ximo:  75.0509192200557 , em  2024-09-13 00:00:00
+Valor mÈdio:  7.987918270956203
+Desvio padr„o:  9.40171074874796
+⁄ltima medida:  nan ug/cm3, em  2025-07-22 00:00:00
 Dias acima da AQG (24h) ***:  43
-M√°ximo de dias consecutivos acima da AQG (24h):  10 
+M·ximo de dias consecutivos acima da AQG (24h):  10 
 
 PM2.5:
-Valor m√°ximo:  117.16601671309193 , em  2024-09-13 00:00:00
-Valor m√©dio:  10.708332402433975
-Desvio padr√£o:  13.869910995843457
-√öltima medida:  8.904608294930876 ug/cm3, em  2025-07-04 00:00:00
+Valor m·ximo:  117.16601671309193 , em  2024-09-13 00:00:00
+Valor mÈdio:  10.720169580069813
+Desvio padr„o:  13.91873900370099
+⁄ltima medida:  nan ug/cm3, em  2025-07-22 00:00:00
 Dias acima da AQG (24h) ***:  71
-M√°ximo de dias consecutivos acima da AQG (24h):  10 
+M·ximo de dias consecutivos acima da AQG (24h):  10 
 
 PM10.0:
-Valor m√°ximo:  128.29611420612812 , em  2024-09-13 00:00:00
-Valor m√©dio:  12.153642930764017
-Desvio padr√£o:  15.728191907913068
-√öltima medida:  9.36958525345622 ug/cm3, em  2025-07-04 00:00:00
+Valor m·ximo:  128.29611420612812 , em  2024-09-13 00:00:00
+Valor mÈdio:  12.172335576753355
+Desvio padr„o:  15.783125749177996
+⁄ltima medida:  nan ug/cm3, em  2025-07-22 00:00:00
 Dias acima da AQG (24h) ***:  39
-M√°ximo de dias consecutivos acima da AQG (24h):  10 
+M·ximo de dias consecutivos acima da AQG (24h):  10 
 
 VOC:
-Valor m√°ximo:  253.52057827926652 , em  2024-12-08 00:00:00
-Valor m√©dio:  122.69431984618413
-Desvio padr√£o:  29.94697412717481
-√öltima medida:  157.58064516129033 ug/cm3, em  2025-07-04 00:00:00
+Valor m·ximo:  253.52057827926652 , em  2024-12-08 00:00:00
+Valor mÈdio:  122.49358869459037
+Desvio padr„o:  29.985309014441306
+⁄ltima medida:  nan ug/cm3, em  2025-07-22 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M√°ximo de dias consecutivos acima da AQG (24h):  nan 
+M·ximo de dias consecutivos acima da AQG (24h):  nan 
 
 Temperatura:
-Valor m√°ximo:  102.04881450488145 , em  2025-03-03 00:00:00
-Valor m√©dio:  85.2983050995564
-Desvio padr√£o:  9.688537161335253
-√öltima medida:  69.09216589861751 ug/cm3, em  2025-07-04 00:00:00
+Valor m·ximo:  102.04881450488145 , em  2025-03-03 00:00:00
+Valor mÈdio:  85.42229142022987
+Desvio padr„o:  9.62392749952454
+⁄ltima medida:  nan ug/cm3, em  2025-07-22 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M√°ximo de dias consecutivos acima da AQG (24h):  nan 
+M·ximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
-Valor m√°ximo:  67.02256699576868 , em  2024-12-07 00:00:00
-Valor m√©dio:  45.27315069210594
-Desvio padr√£o:  10.144353198038267
-√öltima medida:  51.91013824884793 ug/cm3, em  2025-07-04 00:00:00
+Valor m·ximo:  67.02256699576868 , em  2024-12-07 00:00:00
+Valor mÈdio:  45.243893814597364
+Desvio padr„o:  10.175752422939393
+⁄ltima medida:  nan ug/cm3, em  2025-07-22 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M√°ximo de dias consecutivos acima da AQG (24h):  nan 
+M·ximo de dias consecutivos acima da AQG (24h):  nan 
 
-Press√£o:
-Valor m√°ximo:  978.7944027777777 , em  2024-08-25 00:00:00
-Valor m√©dio:  965.9884020216539
-Desvio padr√£o:  4.1009406223412945
-√öltima medida:  976.5389631336407 ug/cm3, em  2025-07-04 00:00:00
+Press„o:
+Valor m·ximo:  978.7944027777777 , em  2024-08-25 00:00:00
+Valor mÈdio:  965.8972073993615
+Desvio padr„o:  3.992038008675284
+⁄ltima medida:  nan ug/cm3, em  2025-07-22 00:00:00
 Dias acima da AQG (24h) ***:  nan
-M√°ximo de dias consecutivos acima da AQG (24h):  nan 
+M·ximo de dias consecutivos acima da AQG (24h):  nan 
 
