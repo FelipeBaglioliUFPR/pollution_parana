@@ -2,39 +2,39 @@ Municipio:  Paranavai
 
 Sensores utilizados:  ['187795']
 Data Inicial:  2024-05-06 00:00:00
-Data Final:  2025-10-27 00:00:00
-Dias totais:  539 days 00:00:00
-Dias validos:  243 days 00:00:00 
+Data Final:  2025-10-30 00:00:00
+Dias totais:  542 days 00:00:00
+Dias validos:  246 days 00:00:00 
 
 PM1.0:
 Valor máximo:  3622.2459798994973 , em  2025-05-29 00:00:00
-Valor médio:  1456.3463882081835
-Desvio padrão:  1579.918466506544
-Última medida:  3331.4797619047627 ug/cm3, em  2025-10-27 00:00:00
-Dias acima da AQG (24h) ***:  150
+Valor médio:  1479.1288923574803
+Desvio padrão:  1583.694624431031
+Última medida:  3331.712749003984 ug/cm3, em  2025-10-30 00:00:00
+Dias acima da AQG (24h) ***:  153
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM2.5:
 Valor máximo:  3622.2459798994973 , em  2025-05-29 00:00:00
-Valor médio:  1458.416743273947
-Desvio padrão:  1578.073674085889
-Última medida:  3331.4797619047627 ug/cm3, em  2025-10-27 00:00:00
-Dias acima da AQG (24h) ***:  154
+Valor médio:  1481.1741014102995
+Desvio padrão:  1581.8471333111117
+Última medida:  3331.712749003984 ug/cm3, em  2025-10-30 00:00:00
+Dias acima da AQG (24h) ***:  157
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 PM10.0:
 Valor máximo:  3622.2459798994973 , em  2025-05-29 00:00:00
-Valor médio:  1459.6528893744128
-Desvio padrão:  1577.0375985847754
-Última medida:  3331.4797619047627 ug/cm3, em  2025-10-27 00:00:00
-Dias acima da AQG (24h) ***:  142
+Valor médio:  1482.3952335905167
+Desvio padrão:  1580.8084949497227
+Última medida:  3331.712749003984 ug/cm3, em  2025-10-30 00:00:00
+Dias acima da AQG (24h) ***:  145
 Máximo de dias consecutivos acima da AQG (24h):  5 
 
 VOC:
 Valor máximo:  335.4081578947369 , em  2024-07-08 00:00:00
 Valor médio:  163.9997447462138
 Desvio padrão:  52.91350584566475
-Última medida:  nan ug/cm3, em  2025-10-27 00:00:00
+Última medida:  nan ug/cm3, em  2025-10-30 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
@@ -42,7 +42,7 @@ Temperatura:
 Valor máximo:  94.85461689587426 , em  2024-05-09 00:00:00
 Valor médio:  81.07374913717474
 Desvio padrão:  9.533739008749649
-Última medida:  nan ug/cm3, em  2025-10-27 00:00:00
+Última medida:  nan ug/cm3, em  2025-10-30 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
@@ -50,7 +50,7 @@ Umidade:
 Valor máximo:  76.87975951903807 , em  2024-05-27 00:00:00
 Valor médio:  45.402601546825494
 Desvio padrão:  12.917541752176644
-Última medida:  nan ug/cm3, em  2025-10-27 00:00:00
+Última medida:  nan ug/cm3, em  2025-10-30 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
@@ -58,7 +58,7 @@ Pressão:
 Valor máximo:  972.1920200000001 , em  2024-07-12 00:00:00
 Valor médio:  966.6783534757279
 Desvio padrão:  3.2501236431955043
-Última medida:  nan ug/cm3, em  2025-10-27 00:00:00
+Última medida:  nan ug/cm3, em  2025-10-30 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
