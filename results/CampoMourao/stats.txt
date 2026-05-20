@@ -4,36 +4,36 @@ Sensores utilizados:  ['187777', '187803']
 Data Inicial:  2024-05-06 00:00:00
 Data Final:  2025-03-09 00:00:00
 Dias totais:  307 days 00:00:00
-Dias validos:  307 days 00:00:00 
+Dias validos:  304 days 00:00:00 
 
 PM1.0:
 Valor máximo:  92.1259678362573 , em  2024-09-14 00:00:00
-Valor médio:  10.499603113361188
-Desvio padrão:  12.529949211742583
+Valor médio:  10.430162165953877
+Desvio padrão:  12.535014253729049
 Última medida:  4.158325082508251 ug/cm3, em  2025-03-09 00:00:00
-Dias acima da AQG (24h) ***:  62
+Dias acima da AQG (24h) ***:  61
 Máximo de dias consecutivos acima da AQG (24h):  18 
 
 PM2.5:
 Valor máximo:  147.7033210891813 , em  2024-09-14 00:00:00
-Valor médio:  13.784460328973628
-Desvio padrão:  18.008098052667037
+Valor médio:  13.69243983152596
+Desvio padrão:  18.06644911345628
 Última medida:  4.966113861386138 ug/cm3, em  2025-03-09 00:00:00
-Dias acima da AQG (24h) ***:  76
+Dias acima da AQG (24h) ***:  74
 Máximo de dias consecutivos acima da AQG (24h):  18 
 
 PM10.0:
 Valor máximo:  170.15603929093567 , em  2024-09-14 00:00:00
-Valor médio:  16.091988501876614
-Desvio padrão:  21.20963347925164
+Valor médio:  16.0060140731571
+Desvio padrão:  21.292652022982093
 Última medida:  5.948580858085808 ug/cm3, em  2025-03-09 00:00:00
-Dias acima da AQG (24h) ***:  55
+Dias acima da AQG (24h) ***:  53
 Máximo de dias consecutivos acima da AQG (24h):  18 
 
 VOC:
 Valor máximo:  120.45469371754265 , em  2024-07-08 00:00:00
-Valor médio:  87.20457277366916
-Desvio padrão:  10.763388780155442
+Valor médio:  87.09808581937845
+Desvio padrão:  10.61721073422593
 Última medida:  84.25232673267327 ug/cm3, em  2025-03-09 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
@@ -48,8 +48,8 @@ Máximo de dias consecutivos acima da AQG (24h):  nan
 
 Umidade:
 Valor máximo:  74.21345437616387 , em  2024-12-08 00:00:00
-Valor médio:  46.120480309956214
-Desvio padrão:  10.673504940356358
+Valor médio:  46.035092692321186
+Desvio padrão:  10.655434959345945
 Última medida:  37.06930693069307 ug/cm3, em  2025-03-09 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
