@@ -40,17 +40,17 @@ Máximo de dias consecutivos acima da AQG (24h):  nan
 
 Temperatura:
 Valor máximo:  93.525069637883 , em  2025-02-16 00:00:00
-Valor médio:  77.09985193229917
-Desvio padrão:  7.830457286379744
+Valor médio:  77.13796146155775
+Desvio padrão:  7.8293474256460005
 Última medida:  80.97345132743362 ug/cm3, em  2025-04-04 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
 Umidade:
 Valor máximo:  90.06896551724138 , em  2025-02-04 00:00:00
-Valor médio:  61.70465268836907
-Desvio padrão:  6.773352289363652
-Última medida:  72.75221238938053 ug/cm3, em  2025-04-04 00:00:00
+Valor médio:  61.598430329733475
+Desvio padrão:  6.716805810153007
+Última medida:  nan ug/cm3, em  2025-04-04 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
 
