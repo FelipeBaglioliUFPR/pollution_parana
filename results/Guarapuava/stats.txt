@@ -4,30 +4,30 @@ Sensores utilizados:  ['187823', '112']
 Data Inicial:  2023-11-25 00:00:00
 Data Final:  2025-06-23 00:00:00
 Dias totais:  576 days 00:00:00
-Dias validos:  383 days 00:00:00 
+Dias validos:  380 days 00:00:00 
 
 PM1.0:
 Valor máximo:  43.09335211267606 , em  2024-08-19 00:00:00
-Valor médio:  7.8496286718454025
-Desvio padrão:  5.488150615894313
-Última medida:  23.554596443228455 ug/cm3, em  2025-06-23 00:00:00
-Dias acima da AQG (24h) ***:  21
+Valor médio:  7.780079196446642
+Desvio padrão:  5.4301663551898
+Última medida:  nan ug/cm3, em  2025-06-23 00:00:00
+Dias acima da AQG (24h) ***:  19
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 PM2.5:
 Valor máximo:  72.12449541284403 , em  2024-09-05 00:00:00
-Valor médio:  10.868838057063718
-Desvio padrão:  8.462371660550177
-Última medida:  43.682393980848154 ug/cm3, em  2025-06-23 00:00:00
-Dias acima da AQG (24h) ***:  72
+Valor médio:  10.74523668428121
+Desvio padrão:  8.302655686155047
+Última medida:  nan ug/cm3, em  2025-06-23 00:00:00
+Dias acima da AQG (24h) ***:  70
 Máximo de dias consecutivos acima da AQG (24h):  3 
 
 PM10.0:
 Valor máximo:  83.92902140672783 , em  2024-09-05 00:00:00
-Valor médio:  12.613794944286518
-Desvio padrão:  10.104999797065245
-Última medida:  50.30560875512996 ug/cm3, em  2025-06-23 00:00:00
-Dias acima da AQG (24h) ***:  21
+Valor médio:  12.472854783816786
+Desvio padrão:  9.933208047412155
+Última medida:  nan ug/cm3, em  2025-06-23 00:00:00
+Dias acima da AQG (24h) ***:  19
 Máximo de dias consecutivos acima da AQG (24h):  2 
 
 VOC:
@@ -56,8 +56,8 @@ Máximo de dias consecutivos acima da AQG (24h):  nan
 
 Pressão:
 Valor máximo:  900.2952435064935 , em  2024-07-17 00:00:00
-Valor médio:  893.1260902815626
-Desvio padrão:  2.5812141354123037
+Valor médio:  893.0960920801086
+Desvio padrão:  2.5543128205702255
 Última medida:  886.5658549931601 ug/cm3, em  2025-06-23 00:00:00
 Dias acima da AQG (24h) ***:  nan
 Máximo de dias consecutivos acima da AQG (24h):  nan 
